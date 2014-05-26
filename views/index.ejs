@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/jxl.css">
+		<link rel="stylesheet" href="css/text-editor.css">
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+		<script src="js/text-editor.js"></script>
+		<script src="js/jxl.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<table class="spreadsheet-sheet">
+				<% for (var row = 0; row < 64; row++) { %>
+					<tr class="spreadsheet-row">
+						<% for (var col = 0; col < 64; col++) { %>
+							<td class="spreadsheet-cell"><spreadsheet-cell data-row="<%= row %>" data-column="<%= col %>"></spreadsheet-cell></td>
+						<% } %>
+					</tr>
+				<% } %>
+			</table>
+		</div>
+	</body>
+</html>
