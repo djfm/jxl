@@ -1,4 +1,22 @@
+var jxl;
+
 (function() {
+	var JXL = function() {
+		this.getWorkbook = function(name, cb) {
+			cb(new WorkbookModel());
+		};
+
+		this.tabClicked = function(event) {
+			var wb = $(event.target).closest('x-workbook').get(0);
+			wb.activateSheet(parseInt($(event.target).attr('data-index')));
+		};
+	};
+
+	jxl = new JXL();
+
+})();
+
+/*(function() {
 	function GridController() {
 		var my = this;
 
@@ -82,4 +100,4 @@
 			controller.keydown(event);
 		});
 	})
-})();
+})();*/

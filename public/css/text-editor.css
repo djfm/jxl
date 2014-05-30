@@ -1,3 +1,7 @@
 text-editor span.cursor {
 	color: #BBB;
 }
+text-editor {
+	display: block;
+	background-color: inherit;
+}

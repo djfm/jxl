@@ -1,0 +1,52 @@
+div.spreadsheet {
+	display: none;
+	position: relative;
+}
+
+div.spreadsheet.active {
+	display: block;
+}
+/*
+table.spreadsheet {
+	table-layout: fixed;
+	width: 100%;
+}
+
+table.spreadsheet td {
+	width: 60px;
+	height: 17px;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	margin: 0;
+	padding: 0;
+}*/
+
+div.spreadsheet-row {
+	width: 100%;
+	white-space: nowrap;
+}
+
+div.spreadsheet-cell {
+	width: 60px;
+	height: 17px;
+	overflow: hidden;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	display: inline-block;
+}
+/*
+spreadsheet-cell div.inner {
+	border: 1px solid #FFF;
+}
+
+spreadsheet-cell.focused div.inner {
+	border: 1px solid #AAA;
+}
+
+spreadsheet-cell.focused text-editor {
+	position: absolute;
+}
+
+spreadsheet-cell.selected div.inner {
+	border: 1px solid green;
+}*/

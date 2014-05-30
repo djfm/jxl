@@ -1,0 +1,19 @@
+<div class="workbook">
+	<div class="workbook-sheets-container">
+		<% for (var i = 0; i < workbook.sheetCount(); i++) { %>
+			<x-spreadsheet data-index="<%= workbook.getSheetByPosition(i).getIndex() %>"></x-spreadsheet>
+		<% } %>
+	</div>
+	<div class="workbook-tabs">
+		<table>
+			<tr>
+				<% for (var i = 0; i < workbook.sheetCount(); i++) { %>
+					<td class='<%= workbook.getSheetByPosition(i).isActive() ? 'active' : '' %>'
+						data-index="<%= workbook.getSheetByPosition(i).getIndex() %>"
+						onclick='jxl.tabClicked(event)'><%= workbook.getSheetByPosition(i).getName() %>
+					</td>
+				<% } %>
+			</tr>
+		</table>
+	</div>
+</div>

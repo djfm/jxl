@@ -2,40 +2,10 @@ body {
 	margin: 5px;
 }
 
-table.spreadsheet-sheet {
-	table-layout: fixed;
-	width: 100%;
-}
-
-table.spreadsheet-sheet td {
-	width: 60px;
-	height: 17px;
-	overflow: hidden;
-}
-
-div.spreadsheet-row {
-	white-space: nowrap;
-}
-
-td.spreadsheet-cell {
-	border: 1px solid #CCC;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
-
-spreadsheet-cell div.inner {
-	border: 1px solid #FFF;
-}
-
-spreadsheet-cell.focused div.inner {
-	border: 1px solid #AAA;
-}
-
-spreadsheet-cell.focused text-editor {
+div.selection-rectangle {
 	position: absolute;
-}
-
-spreadsheet-cell.selected div.inner {
-	border: 1px solid green;
+	z-index: 1000;
+	background-color: blue;
+	opacity: 0.2;
+	pointer-events: none;
 }

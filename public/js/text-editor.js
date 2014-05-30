@@ -1,4 +1,14 @@
 (function() {
+	var TextEditor = function() {
+		this.createdCallback = function() {
+			this.innerHTML = "&nbsp;";
+		};
+	};
+	TextEditor.prototype = Object.create(HTMLElement.prototype);
+	document.registerElement('text-editor', {prototype: new TextEditor()});
+})();
+
+/*(function() {
 	// TEP: short for TextEditor Prototype
 	var TEP = Object.create(HTMLElement.prototype);
 	var activeEditor = null;
@@ -100,4 +110,4 @@
 		'text-editor',
 		{prototype: TEP}
 	);
-})();
+})();*/
