@@ -4,10 +4,13 @@ function WorkbookModel(options) {
 
 	var sheets = [];
 	var activeSheetIndex;
+	var name;
+	var element;
 
 	if (options.data) {
 		this.load(options.data);
 	} else {
+		name = options.name;
 		for (var i = 0; i < 3; i++) {
 			sheets.push(new SpreadsheetModel({name: 'Sheet ' + i, index: i, workbook: this}));
 		}
@@ -43,5 +46,18 @@ function WorkbookModel(options) {
 
 	this.getActiveSheetIndex = function() {
 		return activeSheetIndex;
+	};
+
+	this.getName = function() {
+		return name;
+	};
+
+	this.setElement = function(elem) {
+		element = elem;
+		return this;
+	};
+
+	this.getElement = function() {
+		return element;
 	};
 }

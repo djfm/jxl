@@ -3,6 +3,7 @@ function SpreadsheetModel(options) {
 	var workbook;
 	var name;
 	var index;
+	var element;
 
 	var cells = {};
 	var rowCount = 64;
@@ -38,5 +39,18 @@ function SpreadsheetModel(options) {
 
 	this.getColCount = function() {
 		return colCount;
+	};
+
+	this.getWorkbookName = function() {
+		return workbook.getName();
+	};
+
+	this.setElement = function(elem) {
+		element = elem;
+		return this;
+	};
+
+	this.getElement = function() {
+		return element;
 	};
 }

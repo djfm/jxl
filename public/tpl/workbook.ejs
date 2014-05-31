@@ -1,7 +1,7 @@
 <div class="workbook">
 	<div class="workbook-sheets-container">
 		<% for (var i = 0; i < workbook.sheetCount(); i++) { %>
-			<x-spreadsheet data-index="<%= workbook.getSheetByPosition(i).getIndex() %>"></x-spreadsheet>
+			<x-spreadsheet data-workbook-name="<%= workbook.getName() %>" data-index="<%= workbook.getSheetByPosition(i).getIndex() %>"></x-spreadsheet>
 		<% } %>
 	</div>
 	<div class="workbook-tabs">

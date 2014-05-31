@@ -1,8 +1,47 @@
 (function() {
 	var TextEditor = function() {
 		this.createdCallback = function() {
-			this.innerHTML = "&nbsp;";
+			this.innerHTML = '<span class="cursor">|</span><span class="virtual char">&nbsp;</span>';
 		};
+
+		this.insert = function(text) {
+			for (var i = 0; i < text.length; i++) {
+				this.insertChar(text[i]);
+			}
+		};
+
+		this.insertChar = function(char) {
+			$('<span class="char">'+char+'</span>').insertBefore($(this).find('span.cursor'));
+		};
+
+		this.activate = function() {
+			var me = $(this);
+			me.addClass('active');
+			me.on('click.text-editor-internal', 'span.char', function(event) {
+				me.find('span.cursor').insertBefore(event.target);
+				event.stopPropagation();
+			});
+		};
+
+		this.deactivate = function() {
+			$(this).removeClass('active');
+			$(this).off('click.text-editor-internal');
+		};
+
+		this.backspace = function() {
+			$(this).find('span.cursor').prev('span.char').remove();
+		};
+
+		this.moveLeft = function() {
+			var cursor = $(this).find('span.cursor');
+			cursor.insertBefore(cursor.prev('span.char'));
+		};
+
+		this.moveRight = function() {
+			var cursor = $(this).find('span.cursor');
+			cursor.insertBefore(cursor.next('span.char').next('span.char'));
+		};
+
 	};
 	TextEditor.prototype = Object.create(HTMLElement.prototype);
 	document.registerElement('text-editor', {prototype: new TextEditor()});

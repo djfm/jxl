@@ -2,13 +2,13 @@
 	var SpreadsheetCell = function() {
 		this.createdCallback = function() {
 			this.innerHTML = "<text-editor></text-editor>";
-			this.spreadsheetElement = $(this).closest('x-spreadsheet').get(0);
-			this.spreadsheet = this.spreadsheetElement.spreadsheet;
+			this.workbook = jxl.getWorkbook(this.getAttribute('data-workbook-name'));
+			this.spreadsheet = this.workbook.getSheet(parseInt(this.getAttribute('data-spreadsheet-index')));
+			this.spreadsheetElement = this.spreadsheet.getElement();
+			this.editor = this.getElementsByTagName('text-editor')[0];
 
 			this.row = parseInt(this.getAttribute('data-row'));
 			this.col = parseInt(this.getAttribute('data-col'));
-
-			this.spreadsheetElement.registerCell(this);
 
 			var events = ['mousedown', 'mouseover', 'mouseup'];
 
@@ -25,16 +25,37 @@
 			for (var e = 0; e < events.length; e++) {
 				this.addEventListener(events[e], makeHandler(events[e]));
 			}
+			this.spreadsheetElement.registerCell(this);
 		};
 
-		this.attachedCallback = function() {
-
+		this.keydown = function(e) {
+			if (e.keyCode === 8) { // backspace
+				this.editor.backspace();
+				e.preventDefault();
+			}
+			else if (e.keyCode === 32) { // space
+				this.editor.insertChar('&nbsp;');
+				e.preventDefault();
+			}
+			else if (e.keyCode === 37) { // left
+				this.editor.moveLeft();
+				e.preventDefault();
+			}
+			else if (e.keyCode === 39) { // right
+				this.editor.moveRight();
+				e.preventDefault();
+			}
+			else if (e.keyCode === 13) { // return
+				e.preventDefault();
+			}
 		};
 
-		/*this.markSelected = function() {
-			$(this).addClass('selected');
-			console.log(this);
-		}*/
+		this.keypress = function(e){
+			if (e.which !== 0) {
+				var text = String.fromCharCode(e.which);
+				this.editor.insert(text);
+			}
+		};
 	};
 
 	SpreadsheetCell.prototype = Object.create(HTMLElement.prototype);

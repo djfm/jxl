@@ -2,8 +2,18 @@ var jxl;
 
 (function() {
 	var JXL = function() {
-		this.getWorkbook = function(name, cb) {
-			cb(new WorkbookModel());
+
+		var workbooks = {};
+
+		this.fetchWorkbook = function(name, cb) {
+			if (!workbooks[name]) {
+				workbooks[name] = new WorkbookModel({name: name});
+			}
+			cb(workbooks[name]);
+		};
+
+		this.getWorkbook = function(name) {
+			return workbooks[name];
 		};
 
 		this.tabClicked = function(event) {

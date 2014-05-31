@@ -25,15 +25,6 @@ div.spreadsheet-row {
 	width: 100%;
 	white-space: nowrap;
 }
-
-div.spreadsheet-cell {
-	width: 60px;
-	height: 17px;
-	overflow: hidden;
-	border-right: 1px solid #CCC;
-	border-bottom: 1px solid #CCC;
-	display: inline-block;
-}
 /*
 spreadsheet-cell div.inner {
 	border: 1px solid #FFF;

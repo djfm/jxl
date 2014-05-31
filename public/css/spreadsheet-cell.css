@@ -1,12 +1,37 @@
-spreadsheet-cell {
+div.spreadsheet-cell-container {
+	width: 60px;
+	overflow: hidden;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	display: inline-block;
 	-moz-user-select: -moz-none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+spreadsheet-cell {
 	cursor: default;
+	width: 100%;
 }
 
 spreadsheet-cell.selected {
-	background-color: #c2d2e3;
+	background-color: rgba(175, 218, 255, 0.74);
+}
+
+spreadsheet-cell.focused {
+	border: 2px solid blue;
+	margin-top: -2px;
+	position: absolute;
+	min-width: 60px;
+	width: auto;
+}
+
+spreadsheet-cell text-editor span.cursor {
+	display: none;
+}
+
+spreadsheet-cell.focused text-editor span.cursor {
+	display: inline-block;
 }

@@ -1,7 +1,16 @@
 text-editor span.cursor {
-	color: #BBB;
+	color: #444;
 }
 text-editor {
 	display: block;
 	background-color: inherit;
+}
+
+text-editor.active {
+	/*
+	-moz-user-select: -moz-auto;
+	-khtml-user-select: auto;
+	-webkit-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;*/
 }

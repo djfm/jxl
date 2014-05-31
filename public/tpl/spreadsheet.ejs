@@ -1,9 +1,7 @@
 <div class="spreadsheet<%= spreadsheet.isActive() ? ' active' : '' %>">
-	<table class="spreadsheet">
-		<% for (var row = 0; row < spreadsheet.getRowCount(); row++) { %>
-			<div class="spreadsheet-row">
-				<% for (var col = 0; col < spreadsheet.getColCount(); col++) { %><div class="spreadsheet-cell"><spreadsheet-cell data-row="<%=row%>" data-col="<%=col%>"></spreadsheet-cell></div><% } %>
-			</div>
-		<% } %>
-	</table>
+	<% for (var row = 0; row < spreadsheet.getRowCount(); row++) { %>
+		<div class="spreadsheet-row">
+			<% for (var col = 0; col < spreadsheet.getColCount(); col++) { %><div class="spreadsheet-cell-container"><spreadsheet-cell data-workbook-name="<%= spreadsheet.getWorkbookName() %>" data-spreadsheet-index="<%= spreadsheet.getIndex() %>" data-row="<%=row%>" data-col="<%=col%>"></spreadsheet-cell></div><% } %>
+		</div>
+	<% } %>
 </div>
