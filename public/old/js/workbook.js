@@ -11,38 +11,52 @@
 		};
 
 		this.canFocus = function(cell) {
-			return cell !== this._focusedCell;
+			return cell !== this._focusedCell && !this._formulaMode;
 		};
 
 		this.focusCell = function(cell) {
 			$('<span class="spacetaker">&nbsp;</span>').insertAfter($(cell));
 			cell.editor.activate();
 			$(cell).addClass('focused');
+			this._focusedCell = cell;
 		};
 
-		this.unFocusCell = function(cell) {
-			$(cell).parent().find('span.spacetaker').remove();
-			cell.editor.deactivate();
-			$(cell).removeClass('focused');
+		this.unFocusCell = function(cancel) {
+			$(this._focusedCell).parent().find('span.spacetaker').remove();
+			this._focusedCell.editor.deactivate(cancel);
+			$(this._focusedCell).removeClass('focused');
+			this._focusedCell = null;
+			this.setFormulaMode(false);
 		};
 
 		this.cellClicked = function(event, cell) {
 			if (event.button === 0) {
 				if (this.canFocus(cell)) {
 					if (this._focusedCell) {
-						this.unFocusCell(this._focusedCell);
-						this._focusedCell = null;
+						this.unFocusCell();
 					}
-
 					this.focusCell(cell);
-					this._focusedCell = cell;
 				}
 			}
 		};
 
-		this.keydown = function(event) {
+		this.setFormulaMode = function(on) {
+			this._formulaMode = on;
+		};
+
+		this.keydown = function(e) {
 			if (this._focusedCell) {
-				this._focusedCell.keydown(event);
+				if (e.keyCode === 13) { // return
+					e.preventDefault();
+					this.unFocusCell();
+				}
+				else if (e.keyCode === 27) { // escape
+					e.preventDefault();
+					this.unFocusCell(true);
+				}
+				else {
+					this._focusedCell.keydown(e);
+				}
 			}
 		};
 

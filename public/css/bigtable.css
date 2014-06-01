@@ -1,0 +1,24 @@
+div.bigtable {
+	border: 1px solid #ccc;
+}
+
+div.bigtable-container {
+	overflow: scroll;
+	max-height: 100%;
+}
+
+div.bigtable-filler {
+	position: relative;
+}
+
+div.bigtable-row {
+	position: absolute;
+	white-space: nowrap;
+}
+
+div.bigtable-cell {
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 100%;
+}

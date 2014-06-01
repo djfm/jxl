@@ -26,6 +26,12 @@
 				this.addEventListener(events[e], makeHandler(events[e]));
 			}
 			this.spreadsheetElement.registerCell(this);
+
+			this.editor.onchange = function(editor) {
+				var text = editor.getText();
+
+				me.workbook.getElement().setFormulaMode(text[0] === '=');
+			};
 		};
 
 		this.keydown = function(e) {
@@ -43,9 +49,6 @@
 			}
 			else if (e.keyCode === 39) { // right
 				this.editor.moveRight();
-				e.preventDefault();
-			}
-			else if (e.keyCode === 13) { // return
 				e.preventDefault();
 			}
 		};

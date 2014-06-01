@@ -1,13 +1,36 @@
 (function() {
 	var TextEditor = function() {
 		this.createdCallback = function() {
+			this.clear();
+		};
+
+		this.clear = function() {
 			this.innerHTML = '<span class="cursor">|</span><span class="virtual char">&nbsp;</span>';
+		};
+
+		this.changed = function() {
+			if (this.onchange) {
+				this.onchange(this);
+			}
 		};
 
 		this.insert = function(text) {
 			for (var i = 0; i < text.length; i++) {
 				this.insertChar(text[i]);
 			}
+			this.changed();
+		};
+
+		this.getText = function() {
+			var chars = $(this).find('span.char');
+			var text = '';
+			for (var i = 0; i < chars.length; i++) {
+				var c = $(chars[i]);
+				if (!c.hasClass('virtual')) {
+					text += c.text();
+				}
+			}
+			return text;
 		};
 
 		this.insertChar = function(char) {
@@ -15,6 +38,9 @@
 		};
 
 		this.activate = function() {
+
+			this._previousContent = this.innerHTML;
+
 			var me = $(this);
 			me.addClass('active');
 			me.on('click.text-editor-internal', 'span.char', function(event) {
@@ -23,13 +49,17 @@
 			});
 		};
 
-		this.deactivate = function() {
+		this.deactivate = function(restore) {
+			if (restore) {
+				this.innerHTML = this._previousContent;
+			}
 			$(this).removeClass('active');
 			$(this).off('click.text-editor-internal');
 		};
 
 		this.backspace = function() {
 			$(this).find('span.cursor').prev('span.char').remove();
+			this.changed();
 		};
 
 		this.moveLeft = function() {
