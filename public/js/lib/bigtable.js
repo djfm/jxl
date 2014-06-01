@@ -7,6 +7,8 @@
 		var defaultRowHeight = 20;
 		var defaultColWidth = 60;
 		var colWidths = [];
+		var gridContainer;
+		var gridLeft;
 		var my = this;
 
 		this.getRowCount = function() {
@@ -15,6 +17,24 @@
 
 		this.getColCount = function() {
 			return colCount;
+		};
+
+		this.getColWidth = function(col) {
+			return colWidths[col];
+		};
+
+		var colNameMapping = {'0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G',
+							  '7': 'H', '8': 'I', '9': 'J', 'a': 'K', 'b': 'L', 'c': 'M', 'd': 'N',
+							  'e': 'O', 'f': 'P', 'g': 'Q', 'h': 'R', 'i': 'S', 'j': 'T', 'k': 'U',
+							  'l': 'V', 'm': 'W', 'n': 'X', 'o': 'Y', 'p': 'Z'};
+
+		this.getColName = function(n) {
+			var str = n.toString(26);
+			var res = "";
+			for (var i = 0; i < str.length; i++) {
+				res += colNameMapping[str[i]];
+			}
+			return res;
 		};
 
 		this.getDefaultRowHeight = function() {
@@ -31,12 +51,17 @@
 
 		var specificRowHeights = {row: 10, height: 60, next: {row: 12, height: 100, next: null}};
 		this.computeRowTopAndHeight = function(n) {
+
+			if (typeof(n) !== "number") {
+				n = parseInt(n);
+			}
+
 			var top = 0;
 			var height = defaultRowHeight;
 			var row = 0;
 
 			var splitPoint = specificRowHeights;
-			while (splitPoint !== null) {
+			while (splitPoint) {
 				if (splitPoint.row > n) {
 					break;
 				} else {
@@ -59,11 +84,41 @@
 			return [top, height];
 		};
 
+		this.changeRowHeight = function(row, newHeight) {
+			if (specificRowHeights === null) {
+				specificRowHeights = {row: row, height: newHeight};
+			}
+			else {
+				var splitPoint = specificRowHeights;
+				while (splitPoint.row < row && splitPoint.next) {
+					splitPoint = splitPoint.next;
+				}
+				if (splitPoint.row === row) {
+					splitPoint.height = newHeight;
+				} else if (splitPoint.next) {
+					var next = {row: splitPoint.row, height: splitPoint.height, next: splitPoint.next};
+					splitPoint.row = row;
+					splitPoint.height = newHeight;
+					splitPoint.next = next;
+				} else {
+					splitPoint.next = {row: row, height: newHeight};
+				}
+			}
+
+			for (var i in renderedRows) {
+				if (parseInt(i) >= row) {
+					var dim = this.computeRowTopAndHeight(i);
+					renderedRows[i].css('top', dim[0] + 'px');
+					renderedRows[i].css('height', dim[1] + 'px');
+				}
+			}
+		};
+
 		this.computeRowNumberFromTop = function(h) {
 			var top = 0;
 			var row = 0;
 			var splitPoint = specificRowHeights;
-			while (splitPoint !== null) {
+			while (splitPoint) {
 
 				var regularUpTo = top + (splitPoint.row - row) * defaultRowHeight;
 
@@ -85,10 +140,8 @@
 
 		var renderRow = function(n, top, height) {
 			renderedRows[n] = null;
-			render('tpl/bigtable-row', {row: n, colWidths: colWidths}, function(rowHtml) {
+			render('tpl/bigtable-row', {row: n, top: top, height: height, colWidths: colWidths}, function(rowHtml) {
 				var row = $(rowHtml);
-				row.css('top', top);
-				row.css('height', height);
 				renderedRows[n] = row;
 				$(tableRoot).find('div.bigtable-filler').append(row);
 			});
@@ -103,11 +156,10 @@
 
 			updateLater = window.setTimeout(function() {
 				this.updateDisplay();
-			}.bind(this), 30);
+			}.bind(this), 100);
 		};
 
 		this.updateDisplay = function() {
-			console.log("updating diplay");
 			var container = $(tableRoot).find('div.bigtable-container');
 
 			var height = container.height();
@@ -117,7 +169,8 @@
 
 			var h = 0;
 			var row = firstRow;
-			while (h < height*1.5) {
+			// bring new rows into view
+			while (h < height*1.5 && row < rowCount) {
 				var dim = this.computeRowTopAndHeight(row);
 				if (!renderedRows.hasOwnProperty(row)) {
 					renderRow(row, dim[0], dim[1]);
@@ -125,15 +178,43 @@
 				h += dim[1];
 				row++;
 			}
+			// clean invisible rows
+			for (var i in renderedRows) {
+				i = parseInt(i);
+				if (i < firstRow || i > row) {
+					renderedRows[i].remove();
+					delete renderedRows[i];
+				}
+			}
+		};
+
+		this.scrollOnRowHandle = function(event) {
+			var row = parseInt($(event.target).closest('.bigtable-row').attr('data-row-number'));
+			var newHeight = Math.max(defaultRowHeight, Math.round(renderedRows[row].height() * (1 + (event.originalEvent.wheelDelta > 0 ? 1 : -1) * 0.1)));
+			this.changeRowHeight(row, newHeight);
+			event.preventDefault();
 		};
 
 		this.init = function() {
-			for (var i = 0; i < colCount; i++) {
-				colWidths.push(defaultColWidth);
-			}
 			this.willUpdateDisplay();
-			$(tableRoot).find('div.bigtable-container').scroll(this.willUpdateDisplay.bind(this));
+			gridContainer = $(tableRoot).find('div.bigtable-container');
+			gridLeft = gridContainer.scrollLeft();
+			gridContainer.scroll(this.scroll.bind(this));
+			$(tableRoot).on('mousewheel', '.row-handle', this.scrollOnRowHandle.bind(this));
 		};
+
+		this.scroll = function(event) {
+			if (gridContainer.scrollLeft() != gridLeft) {
+				gridLeft = gridContainer.scrollLeft();
+				$(tableRoot).find('div.bigtable-col-handles-container').scrollLeft(gridLeft);
+			} else {
+				this.willUpdateDisplay(event);
+			}
+		};
+
+		for (var i = 0; i < colCount; i++) {
+			colWidths.push(defaultColWidth);
+		}
 
 		render('tpl/bigtable', {table: this}, tableRoot, this.init.bind(this));
 	}
