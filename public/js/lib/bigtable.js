@@ -3,7 +3,7 @@
 	function BigTable(tableRoot) {
 
 		var rowCount = 1000000;
-		var colCount = 256;
+		var colCount = 64;
 		var defaultRowHeight = 20;
 		var defaultColWidth = 60;
 		var colWidths = [];
@@ -114,6 +114,12 @@
 			}
 		};
 
+		this.changeColWidth = function(col, newWidth) {
+			col = parseInt(col);
+			colWidths[col] = newWidth;
+			$(tableRoot).find('[data-col-number="' + col + '"]').css('width', newWidth);
+		};
+
 		this.computeRowNumberFromTop = function(h) {
 			var top = 0;
 			var row = 0;
@@ -195,12 +201,19 @@
 			event.preventDefault();
 		};
 
+		this.scrollOnColHandle = function(event) {
+			var newWidth = Math.round($(event.target).width() * (1 + (event.originalEvent.wheelDelta > 0 ? 1 : -1) * 0.1));
+			this.changeColWidth($(event.target).attr('data-col-number'), newWidth);
+			event.preventDefault();
+		};
+
 		this.init = function() {
 			this.willUpdateDisplay();
 			gridContainer = $(tableRoot).find('div.bigtable-container');
 			gridLeft = gridContainer.scrollLeft();
 			gridContainer.scroll(this.scroll.bind(this));
 			$(tableRoot).on('mousewheel', '.row-handle', this.scrollOnRowHandle.bind(this));
+			$(tableRoot).on('mousewheel', '.col-handle', this.scrollOnColHandle.bind(this));
 		};
 
 		this.scroll = function(event) {
