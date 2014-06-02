@@ -10,7 +10,7 @@
 		var gridContainer;
 		var gridLeft;
 		var specificRowHeightsChain;
-		var specificRowHeights;
+		var specificRowHeights = {};
 
 		var my = this;
 
@@ -52,6 +52,10 @@
 			return defaultRowHeight * rowCount;
 		};
 
+		this.getRowHeight = function(row) {
+			return specificRowHeights.hasOwnProperty(row) ? specificRowHeights[row] : defaultRowHeight;
+		};
+
 		this.computeRowTopAndHeight = function(n) {
 
 			if (typeof(n) !== "number") {
@@ -87,6 +91,9 @@
 		};
 
 		this.changeRowHeight = function(row, newHeight) {
+
+			specificRowHeights[row] = newHeight;
+
 			if (!specificRowHeightsChain) {
 				specificRowHeightsChain = {row: row, height: newHeight};
 			}
@@ -177,13 +184,18 @@
 
 			var h = 0;
 			var row = firstRow;
+
+			var dim = this.computeRowTopAndHeight(row);
+			var top = dim[0];
+
 			// bring new rows into view
 			while (h < height*1.5 && row < rowCount) {
-				var dim = this.computeRowTopAndHeight(row);
+				var row_height = this.getRowHeight(row);
 				if (!renderedRows.hasOwnProperty(row)) {
-					renderRow(row, dim[0], dim[1]);
+					renderRow(row, top, row_height);
 				}
-				h += dim[1];
+				top += row_height;
+				h += row_height;
 				row++;
 			}
 			// clean invisible rows
