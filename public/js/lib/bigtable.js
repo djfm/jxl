@@ -9,6 +9,9 @@
 		var colWidths = [];
 		var gridContainer;
 		var gridLeft;
+		var specificRowHeightsChain;
+		var specificRowHeights;
+
 		var my = this;
 
 		this.getRowCount = function() {
@@ -49,7 +52,6 @@
 			return defaultRowHeight * rowCount;
 		};
 
-		var specificRowHeights = {row: 10, height: 60, next: {row: 12, height: 100, next: null}};
 		this.computeRowTopAndHeight = function(n) {
 
 			if (typeof(n) !== "number") {
@@ -60,7 +62,7 @@
 			var height = defaultRowHeight;
 			var row = 0;
 
-			var splitPoint = specificRowHeights;
+			var splitPoint = specificRowHeightsChain;
 			while (splitPoint) {
 				if (splitPoint.row > n) {
 					break;
@@ -85,11 +87,11 @@
 		};
 
 		this.changeRowHeight = function(row, newHeight) {
-			if (specificRowHeights === null) {
-				specificRowHeights = {row: row, height: newHeight};
+			if (!specificRowHeightsChain) {
+				specificRowHeightsChain = {row: row, height: newHeight};
 			}
 			else {
-				var splitPoint = specificRowHeights;
+				var splitPoint = specificRowHeightsChain;
 				while (splitPoint.row < row && splitPoint.next) {
 					splitPoint = splitPoint.next;
 				}
@@ -123,7 +125,7 @@
 		this.computeRowNumberFromTop = function(h) {
 			var top = 0;
 			var row = 0;
-			var splitPoint = specificRowHeights;
+			var splitPoint = specificRowHeightsChain;
 			while (splitPoint) {
 
 				var regularUpTo = top + (splitPoint.row - row) * defaultRowHeight;

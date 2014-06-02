@@ -1,5 +1,6 @@
 div.bigtable {
 	border: 1px solid #ccc;
+	border-bottom: 0px;
 }
 
 div.bigtable-container {
@@ -46,5 +47,6 @@ div.bigtable-col-handles-container {
 	overflow: hidden;
 }
 
-div.bigtable-col-handles-container div.bigtable-cell {
+div.bigtable-col-handles-container div.row-handle {
+	border-bottom: 4px solid #ccc;
 }

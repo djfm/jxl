@@ -1,5 +1,11 @@
 <div class="bigtable-col-handles-container">
-	<div class="bigtable-cell row-handle">&nbsp;</div><% for (var i = 0; i < table.getColCount(); i++) { %><div class="bigtable-cell col-handle" data-col-number="<%= i %>" style="width: <%= table.getColWidth(i) %>px"><%= table.getColName(i) %></div><% } %><div class="bigtable-cell" style="width:100px">&nbsp;</div>
+	<div class="bigtable-cell row-handle">&nbsp;</div><!--
+	--><% for (var i = 0; i < table.getColCount(); i++) { %><!--
+		 --><div class="bigtable-cell col-handle" data-col-number="<%= i %>" style="width: <%= table.getColWidth(i) %>px">
+				<%= table.getColName(i) %>
+			</div><!--
+	--><% } %><!--
+ --><div class="bigtable-cell" style="width:100px">&nbsp;</div>
 </div>
 <div class="bigtable-container">
 	<div class="bigtable-filler" style="height: <%= table.getHeight() %>px;">
