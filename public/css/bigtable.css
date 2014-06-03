@@ -51,8 +51,13 @@ div.bigtable-cell {
 	font-size: small;
 }
 
-div.bigtable-col-handles-container table .row-handle {
+div.bigtable-col-handles-container table td.row-handle {
+	width: 70px;
+}
+
+div.bigtable-col-handles-container table td.row-handle div.bigtable-cell {
 	border-bottom: 4px solid #ccc;
+	border-right: 4px solid #ccc;
 }
 
 div.bigtable-col-handles-container .bigtable-cell {
