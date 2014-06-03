@@ -1,6 +1,14 @@
 div.bigtable {
-	border: 1px solid #ccc;
 	border-bottom: 0px;
+}
+
+div.bigtable-col-handles-container {
+	overflow: hidden;
+}
+
+div.bigtable-col-handles-container table {
+	table-layout: fixed;
+	width: 100%;
 }
 
 div.bigtable-container {
@@ -15,38 +23,38 @@ div.bigtable-filler {
 div.bigtable-row {
 	position: absolute;
 	white-space: nowrap;
+	display: flex;
 }
 
 div.bigtable-cell {
-	display: inline-block;
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	height: 100%;
 }
 
-div.bigtable-cell.row-handle {
+.bigtable-cell.row-handle {
 	width: 70px;
 	background-color: #eee;
 	color: #666;
 	font-weight: bold;
 	border-right: 4px solid #ccc;
 	cursor: pointer;
+	font-size: small;
 }
 
-div.bigtable-cell.col-handle {
+.bigtable-cell.col-handle {
 	background-color: #eee;
 	color: #666;
 	font-weight: bold;
 	border-bottom: 4px solid #ccc;
 	cursor: pointer;
+	font-size: small;
 }
 
-div.bigtable-col-handles-container {
-	height: 22px;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-div.bigtable-col-handles-container div.row-handle {
+div.bigtable-col-handles-container table .row-handle {
 	border-bottom: 4px solid #ccc;
+}
+
+div.bigtable-col-handles-container .bigtable-cell {
+	border-right: 1px solid #ccc;
 }
