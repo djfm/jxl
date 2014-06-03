@@ -1,3 +1,6 @@
 <div class="bigtable-row" data-row-number="<%= row %>" style="height: <%= height %>px; top: <%= top %>px">
-	<div class="bigtable-cell row-handle"><%= row %></div><% for (var col = 0; col < colWidths.length; col++) { %><div class="bigtable-cell" style="width: <%= colWidths[col] %>px" data-col-number="<%= col %>">&nbsp;</div><% } %>
+	<div class="bigtable-cell row-handle"><%= row %></div>
+	<% for (var col = 0; col < colWidths.length; col++) { %>
+		<div class="bigtable-cell" style="width: <%= colWidths[col] %>px" data-col-number="<%= col %>">&nbsp;</div>
+	<% } %>
 </div>

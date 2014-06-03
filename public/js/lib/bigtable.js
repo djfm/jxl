@@ -1,8 +1,7 @@
 (function(){
-
 	function BigTable(tableRoot) {
 
-		var rowCount = 1000000;
+		var rowCount = 250000;
 		var colCount = 64;
 		var defaultRowHeight = 20;
 		var defaultColWidth = 60;
@@ -92,6 +91,8 @@
 
 		this.changeRowHeight = function(row, newHeight) {
 
+			var deltaHeight = newHeight - this.getRowHeight(row);
+
 			specificRowHeights[row] = newHeight;
 
 			if (!specificRowHeightsChain) {
@@ -114,11 +115,10 @@
 				}
 			}
 
+			renderedRows[row].css('height', newHeight);
 			for (var i in renderedRows) {
-				if (parseInt(i) >= row) {
-					var dim = this.computeRowTopAndHeight(i);
-					renderedRows[i].css('top', dim[0] + 'px');
-					renderedRows[i].css('height', dim[1] + 'px');
+				if (parseInt(i) > parseInt(row)) {
+					renderedRows[i].css('top', parseInt(renderedRows[i].css('top'), 10) + deltaHeight);
 				}
 			}
 		};
