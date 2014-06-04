@@ -158,8 +158,13 @@
 			render('tpl/bigtable-row', {row: n, top: top, height: height, colWidths: colWidths}, function(rowHtml) {
 				var row = $(rowHtml);
 				renderedRows[n] = row;
-				$(tableRoot).find('div.bigtable-filler').append(row);
+				$(tableRoot).find('div.bigtable-cells').append(row);
 			});
+			var handle = $('<div class="bigtable-row-handle bigtable-fixed-width">' + n + '</div>');
+			handle.css('top', top);
+			handle.css('height', height);
+			handle.appendTo($(tableRoot).find('div.bigtable-row-handles'));
+			console.log(handle);
 		};
 
 		var updateLater;
@@ -175,7 +180,7 @@
 		};
 
 		this.updateDisplay = function() {
-			var container = $(tableRoot).find('div.bigtable-container');
+			var container = $(tableRoot).find('div.bigtable-cells-container');
 
 			var height = container.height();
 
@@ -223,7 +228,7 @@
 
 		this.init = function() {
 			this.willUpdateDisplay();
-			gridContainer = $(tableRoot).find('div.bigtable-container');
+			gridContainer = $(tableRoot).find('div.bigtable-cells-container');
 			gridLeft = gridContainer.scrollLeft();
 			gridContainer.scroll(this.scroll.bind(this));
 			$(tableRoot).on('mousewheel', '.row-handle', this.scrollOnRowHandle.bind(this));
@@ -235,6 +240,7 @@
 				gridLeft = gridContainer.scrollLeft();
 				$(tableRoot).find('div.bigtable-col-handles-container').scrollLeft(gridLeft);
 			} else {
+				$(tableRoot).find('div.bigtable-row-handles-container').scrollTop($(tableRoot).find('div.bigtable-cells-container').scrollTop());
 				this.willUpdateDisplay(event);
 			}
 		};

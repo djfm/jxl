@@ -1,28 +1,68 @@
-div.bigtable {
-	border-bottom: 0px;
+.bigtable-fixed-width {
+	width: 70px;
+}
+
+div.bigtable-top-left {
+	float: left;
+	background-color: #ccc;
+	border-bottom: 4px solid #ccc;
 }
 
 div.bigtable-col-handles-container {
 	overflow: hidden;
 }
 
-div.bigtable-col-handles-container table {
-	table-layout: fixed;
-	width: 100%;
+div.bigtable-col-handles-container-2 {
+	position: relative;
+	height: 24px;
 }
 
-div.bigtable-container {
+div.bigtable-col-handles {
+	display: flex;
+	position: absolute;
+}
+
+div.bigtable-row-handles-container {
+	overflow: hidden;
+	float: left;
+	height: 100%;
+}
+
+div.bigtable-col-handle {
+	height: 24px;
+	border-right: 1px solid #ccc;
+	border-bottom: 4px solid #ccc;
+}
+
+div.bigtable-col-handle, div.bigtable-row-handle {
+	background-color: #eee;
+	color: #333;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 2px;
+}
+
+div.bigtable-cells-container {
 	overflow: scroll;
 	height: 100%;
 }
 
-div.bigtable-filler {
+div.bigtable-cells {
 	position: relative;
+}
+
+div.bigtable-row-handles {
+	position: relative;
+}
+
+div.bigtable-row-handle {
+	position: absolute;
+	border-bottom: 1px solid #ccc;
+	border-right: 4px solid #ccc;
 }
 
 div.bigtable-row {
 	position: absolute;
-	white-space: nowrap;
 	display: flex;
 }
 
@@ -32,16 +72,6 @@ div.bigtable-cell {
 	height: 100%;
 }
 
-.bigtable-cell.row-handle {
-	width: 70px;
-	background-color: #eee;
-	color: #666;
-	font-weight: bold;
-	border-right: 4px solid #ccc;
-	cursor: pointer;
-	font-size: small;
-}
-
 .bigtable-cell.col-handle {
 	background-color: #eee;
 	color: #666;
@@ -49,17 +79,4 @@ div.bigtable-cell {
 	border-bottom: 4px solid #ccc;
 	cursor: pointer;
 	font-size: small;
-}
-
-div.bigtable-col-handles-container table td.row-handle {
-	width: 70px;
-}
-
-div.bigtable-col-handles-container table td.row-handle div.bigtable-cell {
-	border-bottom: 4px solid #ccc;
-	border-right: 4px solid #ccc;
-}
-
-div.bigtable-col-handles-container .bigtable-cell {
-	border-right: 1px solid #ccc;
 }

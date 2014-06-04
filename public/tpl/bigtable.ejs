@@ -1,15 +1,23 @@
+<div class="bigtable-fixed-width bigtable-top-left">&nbsp;</div>
 <div class="bigtable-col-handles-container">
-	<table>
-		<tr>
-			<td class="row-handle"><div class="bigtable-cell row-handle">&nbsp;</div></td>
+	<div class="bigtable-col-handles-container-2">
+		<div class="bigtable-col-handles">
 			<% for (var i = 0; i < table.getColCount(); i++) { %>
-				<td style="width: <%= table.getColWidth(i) %>px"><div class="bigtable-cell col-handle"><%= table.getColName(i) %></div></td>
+				<div class="bigtable-col-handle" style="width: <%= table.getColWidth(i) %>px"><%= table.getColName(i) %></div>
 			<% } %>
-			<td style="width: 100px"><div class="bigtable-cell col-handle">&nbsp;</div></td>
-		</tr>
-	</table>
+			<div class="bigtable-col-handle bigtable-fixed-width">&nbsp;</div>
+		</div>
+	</div>
 </div>
-<div class="bigtable-container">
-	<div class="bigtable-filler" style="height: <%= table.getHeight() %>px;">
+
+<div class="bigtable-body">
+	<div class="bigtable-row-handles-container">
+		<div class="bigtable-row-handles bigtable-fixed-width" style="height: <%= table.getHeight() %>px;">
+		</div>
+	</div>
+
+	<div class="bigtable-cells-container">
+		<div class="bigtable-cells" style="height: <%= table.getHeight() %>px;">
+		</div>
 	</div>
 </div>
