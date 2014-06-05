@@ -10,6 +10,8 @@
 		var gridLeft;
 		var specificRowHeightsChain;
 		var specificRowHeights = {};
+		var renderedRows = {};
+		var renderedRowHandles = {};
 
 		var my = this;
 
@@ -116,9 +118,12 @@
 			}
 
 			renderedRows[row].css('height', newHeight);
+			renderedRowHandles[row].css('height', newHeight);
 			for (var i in renderedRows) {
 				if (parseInt(i) > parseInt(row)) {
-					renderedRows[i].css('top', parseInt(renderedRows[i].css('top'), 10) + deltaHeight);
+					var top = parseInt(renderedRows[i].css('top'), 10) + deltaHeight;
+					renderedRows[i].css('top', top);
+					renderedRowHandles[i].css('top', top);
 				}
 			}
 		};
@@ -151,8 +156,6 @@
 			return Math.floor(row + (h-top) / defaultRowHeight);
 		};
 
-		var renderedRows = {};
-
 		var renderRow = function(n, top, height) {
 			renderedRows[n] = null;
 			render('tpl/bigtable-row', {row: n, top: top, height: height, colWidths: colWidths}, function(rowHtml) {
@@ -160,11 +163,11 @@
 				renderedRows[n] = row;
 				$(tableRoot).find('div.bigtable-cells').append(row);
 			});
-			var handle = $('<div class="bigtable-row-handle bigtable-fixed-width">' + n + '</div>');
+			var handle = $('<div class="bigtable-row-handle bigtable-fixed-width" data-row-number="' + n + '">' + n + '<div class="resizer">&nbsp;</div></div>');
 			handle.css('top', top);
 			handle.css('height', height);
 			handle.appendTo($(tableRoot).find('div.bigtable-row-handles'));
-			console.log(handle);
+			renderedRowHandles[n] = handle;
 		};
 
 		var updateLater;
@@ -208,13 +211,15 @@
 				i = parseInt(i);
 				if (i < firstRow || i > row) {
 					renderedRows[i].remove();
+					renderedRowHandles[i].remove();
 					delete renderedRows[i];
+					delete renderedRowHandles[i];
 				}
 			}
 		};
 
 		this.scrollOnRowHandle = function(event) {
-			var row = parseInt($(event.target).closest('.bigtable-row').attr('data-row-number'));
+			var row = parseInt($(event.target).attr('data-row-number'));
 			var newHeight = Math.max(defaultRowHeight, Math.round(renderedRows[row].height() * (1 + (event.originalEvent.wheelDelta > 0 ? 1 : -1) * 0.1)));
 			this.changeRowHeight(row, newHeight);
 			event.preventDefault();
@@ -226,13 +231,38 @@
 			event.preventDefault();
 		};
 
+		var rowResizeStart;
+		var originalRowHeight;
+		var rowBeingResized;
+		var rowHandleBeingResized;
+		this.startRowResize = function(event) {
+			rowResizeStart = event.pageY;
+			rowHandleBeingResized = $(event.target).closest('[data-row-number]');
+			rowBeingResized = parseInt(rowHandleBeingResized.attr('data-row-number'));
+			originalRowHeight = parseInt(renderedRows[rowBeingResized].css('height'), 10);
+
+			$(document).on('mousemove.resizing-row', function(e) {
+				var newHeight = Math.max(defaultRowHeight, originalRowHeight + e.pageY - rowResizeStart);
+				my.changeRowHeight(rowBeingResized, newHeight);
+			});
+
+			$(document).on('mouseup', function(e) {
+				$(document).off('mousemove.resizing-row');
+				e.preventDefault();
+			});
+
+			event.preventDefault();
+		};
+
 		this.init = function() {
 			this.willUpdateDisplay();
 			gridContainer = $(tableRoot).find('div.bigtable-cells-container');
 			gridLeft = gridContainer.scrollLeft();
 			gridContainer.scroll(this.scroll.bind(this));
-			$(tableRoot).on('mousewheel', '.row-handle', this.scrollOnRowHandle.bind(this));
-			$(tableRoot).on('mousewheel', '.col-handle', this.scrollOnColHandle.bind(this));
+			$(tableRoot).on('mousewheel', '.bigtable-row-handle', this.scrollOnRowHandle.bind(this));
+			$(tableRoot).on('mousewheel', '.bigtable-col-handle', this.scrollOnColHandle.bind(this));
+
+			$(tableRoot).on('mousedown', '.bigtable-row-handle .resizer', this.startRowResize.bind(this));
 		};
 
 		this.scroll = function(event) {

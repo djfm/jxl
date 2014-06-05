@@ -61,6 +61,22 @@ div.bigtable-row-handle {
 	border-right: 4px solid #ccc;
 }
 
+div.bigtable-row-handle div.resizer {
+	height: 4px;
+	margin-right: -2px;
+	margin-left: -2px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div.bigtable-row-handle:hover div.resizer {
+	background-color: #ccc;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	cursor: ns-resize;
+}
+
 div.bigtable-row {
 	position: absolute;
 	display: flex;
