@@ -226,7 +226,7 @@
 		};
 
 		this.scrollOnColHandle = function(event) {
-			var newWidth = Math.round($(event.target).width() * (1 + (event.originalEvent.wheelDelta > 0 ? 1 : -1) * 0.1));
+			var newWidth = Math.round(parseInt($(event.target).css('width'), 10) * (1 + (event.originalEvent.wheelDelta > 0 ? 1 : -1) * 0.1));
 			this.changeColWidth($(event.target).attr('data-col-number'), newWidth);
 			event.preventDefault();
 		};
