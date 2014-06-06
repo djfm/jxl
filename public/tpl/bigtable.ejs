@@ -3,7 +3,7 @@
 	<div class="bigtable-col-handles-container-2">
 		<div class="bigtable-col-handles">
 			<% for (var i = 0; i < table.getColCount(); i++) { %>
-				<div class="bigtable-col-handle" style="width: <%= table.getColWidth(i) %>px" data-col-number="<%= i %>"><%= table.getColName(i) %></div>
+				<div class="bigtable-col-handle" style="width: <%= table.getColWidth(i) %>px" data-col-number="<%= i %>"><%= table.getColName(i) %><div class="resizer">&nbsp;</div></div>
 			<% } %>
 			<div class="bigtable-col-handle bigtable-fixed-width">&nbsp;</div>
 		</div>

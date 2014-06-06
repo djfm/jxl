@@ -231,23 +231,60 @@
 			event.preventDefault();
 		};
 
-		var rowResizeStart;
-		var originalRowHeight;
-		var rowBeingResized;
-		var rowHandleBeingResized;
+		var rowResize = {};
 		this.startRowResize = function(event) {
-			rowResizeStart = event.pageY;
-			rowHandleBeingResized = $(event.target).closest('[data-row-number]');
-			rowBeingResized = parseInt(rowHandleBeingResized.attr('data-row-number'));
-			originalRowHeight = parseInt(renderedRows[rowBeingResized].css('height'), 10);
+			rowResize = {};
+			rowResize.start = event.pageY;
+			rowResize.handle = $(event.target).closest('[data-row-number]');
+			rowResize.number = parseInt(rowResize.handle.attr('data-row-number'));
+			rowResize.lastHeight = rowResize.originalHeight = parseInt(renderedRows[rowResize.number].css('height'), 10);
+			rowResize.handle.addClass('resizing');
+
+			$('body').css('cursor', 'ns-resize');
 
 			$(document).on('mousemove.resizing-row', function(e) {
-				var newHeight = Math.max(defaultRowHeight, originalRowHeight + e.pageY - rowResizeStart);
-				my.changeRowHeight(rowBeingResized, newHeight);
+				var newHeight = Math.max(defaultRowHeight, rowResize.originalHeight + e.pageY - rowResize.start);
+				if (Math.abs(newHeight - rowResize.lastHeight) >= 1) {
+					my.changeRowHeight(rowResize.number, newHeight);
+					rowResize.lastHeight = newHeight;
+				}
 			});
+
 
 			$(document).on('mouseup', function(e) {
 				$(document).off('mousemove.resizing-row');
+				rowResize.handle.removeClass('resizing');
+				$('body').css('cursor', 'default');
+				e.preventDefault();
+			});
+
+			event.preventDefault();
+		};
+
+		var colResize = {};
+		this.startColResize = function(event) {
+			colResize = {};
+			colResize.start = event.pageX;
+			colResize.handle = $(event.target).closest('[data-col-number]');
+			colResize.number = parseInt(colResize.handle.attr('data-col-number'));
+			colResize.lastWidth = colResize.originalWidth = parseInt(colResize.handle.css('width'), 10);
+			colResize.handle.addClass('resizing');
+
+			$('body').css('cursor', 'ew-resize');
+
+			$(document).on('mousemove.resizing-col', function(e) {
+				var newWidth = Math.max(defaultColWidth, colResize.originalWidth + e.pageX - colResize.start);
+				if (Math.abs(newWidth - colResize.lastWidth) >= 1) {
+					my.changeColWidth(colResize.number, newWidth);
+					colResize.lastWidth = newWidth;
+				}
+			});
+
+
+			$(document).on('mouseup', function(e) {
+				$(document).off('mousemove.resizing-col');
+				colResize.handle.removeClass('resizing');
+				$('body').css('cursor', 'default');
 				e.preventDefault();
 			});
 
@@ -263,6 +300,7 @@
 			$(tableRoot).on('mousewheel', '.bigtable-col-handle', this.scrollOnColHandle.bind(this));
 
 			$(tableRoot).on('mousedown', '.bigtable-row-handle .resizer', this.startRowResize.bind(this));
+			$(tableRoot).on('mousedown', '.bigtable-col-handle .resizer', this.startColResize.bind(this));
 		};
 
 		this.scroll = function(event) {

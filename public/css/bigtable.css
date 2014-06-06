@@ -61,6 +61,21 @@ div.bigtable-row-handle {
 	border-right: 4px solid #ccc;
 }
 
+div.bigtable-col-handle div.resizer {
+	width: 4px;
+	float: right;
+	margin-top: -2px;
+	margin-right: -2px;
+	height: 21px;
+}
+
+div.bigtable-col-handle div.resizer:hover, div.bigtable-col-handle.resizing div.resizer {
+	background-color: #ccc;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	cursor: ew-resize;
+}
+
 div.bigtable-row-handle div.resizer {
 	height: 4px;
 	margin-right: -2px;
@@ -70,7 +85,7 @@ div.bigtable-row-handle div.resizer {
 	width: 100%;
 }
 
-div.bigtable-row-handle:hover div.resizer {
+div.bigtable-row-handle:hover div.resizer, div.bigtable-row-handle.resizing div.resizer {
 	background-color: #ccc;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
