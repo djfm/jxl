@@ -1,0 +1,22 @@
+div.workbook div.bigtable[data-active="false"] {
+	display: none;
+}
+
+div.worksheet-switcher {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+div.worksheet-handle {
+	width: 90px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 5px;
+	cursor: pointer;
+}
+
+div.worksheet-handle:not(:first-child) {
+	border-left: 0px;
+}

@@ -2,6 +2,10 @@
 	width: 70px;
 }
 
+[data-col-number] {
+	width: 70px;
+}
+
 div.bigtable-top-left {
 	float: left;
 	background-color: #ccc;
