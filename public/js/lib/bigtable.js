@@ -317,10 +317,16 @@ function BigTable(tableRoot) {
 		var start = relativeCellCoords(startCell);
 		var end = start;
 
+		if(this.onCellClicked) {
+			this.onCellClicked(event, startRow, startCol);
+		}
+
 		if (!selecting && (!this.canStartSelectionAt || this.canStartSelectionAt(startRow, startCol))) {
 			selecting = true;
 
 			var selectionRectangle;
+			var row;
+			var col;
 
 			var updateSelectionRectangle = function (a, b) {
 				var top = Math.min(a.miny, b.miny);
@@ -352,8 +358,8 @@ function BigTable(tableRoot) {
 
 			$(tableRoot).on('mouseover.selecting', 'div.bigtable-cell', function(e) {
 				var cell = $(e.target);
-				var row = parseInt(cell.attr('data-col-number'));
-				var col = parseInt(cell.closest('div.bigtable-row').attr('data-row-number'));
+				row = parseInt(cell.attr('data-col-number'));
+				col = parseInt(cell.closest('div.bigtable-row').attr('data-row-number'));
 				if (my.onPreselect) {
 					my.onPreselect(Math.min(startRow, row), Math.min(startCol, col), Math.max(startRow, row), Math.max(startCol, col));
 				}
