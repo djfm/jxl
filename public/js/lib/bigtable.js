@@ -162,6 +162,9 @@ function BigTable(tableRoot) {
 			var row = $(rowHtml);
 			renderedRows[n] = row;
 			$(tableRoot).find('div.bigtable-cells').append(row);
+			if (my.onRowRendered) {
+				my.onRowRendered(n, row.find('div.bigtable-cell').toArray());
+			}
 		});
 		var handle = $('<div class="bigtable-row-handle bigtable-fixed-width" data-row-number="' + n + '">' + n + '<div class="resizer">&nbsp;</div></div>');
 		handle.css('top', top);
@@ -210,6 +213,9 @@ function BigTable(tableRoot) {
 		for (var i in renderedRows) {
 			i = parseInt(i);
 			if (i < firstRow || i > row) {
+				if (my.onRowDisappeared) {
+					my.onRowDisappeared(i, renderedRows[i].find('div.bigtable-cell').toArray());
+				}
 				renderedRows[i].remove();
 				renderedRowHandles[i].remove();
 				delete renderedRows[i];
@@ -291,6 +297,80 @@ function BigTable(tableRoot) {
 		event.preventDefault();
 	};
 
+
+	function relativeCellCoords(cell) {
+		var r = $(tableRoot).find('div.bigtable-cells').get(0).getBoundingClientRect();
+		var c = cell.get(0).getBoundingClientRect();
+		return {
+			minx: c.left - r.left,
+			miny: c.top - r.top,
+			maxx: c.left - r.left + parseInt(cell.css('width'), 10),
+			maxy: c.top - r.top + parseInt(cell.css('height'), 10)
+		};
+	}
+
+	var selecting = false;
+	this.mousedownOnCell = function(event) {
+		var startCell = $(event.target);
+		var startRow = parseInt(startCell.attr('data-col-number'));
+		var startCol = parseInt(startCell.closest('div.bigtable-row').attr('data-row-number'));
+		var start = relativeCellCoords(startCell);
+		var end = start;
+
+		if (!selecting && (!this.canStartSelectionAt || this.canStartSelectionAt(startRow, startCol))) {
+			selecting = true;
+
+			var selectionRectangle;
+
+			var updateSelectionRectangle = function (a, b) {
+				var top = Math.min(a.miny, b.miny);
+				var left = Math.min(a.minx, b.minx);
+				var width = Math.max(a.maxx, b.maxx) - left;
+				var height = Math.max(a.maxy, b.maxy) - top;
+
+				if (!selectionRectangle) {
+					selectionRectangle = $('<div class="selection-rectangle">&nbsp;</div>');
+					$(tableRoot).find('div.bigtable-cells').prepend(selectionRectangle);
+				}
+
+				selectionRectangle.css('top', top - 1);
+				selectionRectangle.css('left', left - 1);
+				selectionRectangle.css('width', width + 1);
+				selectionRectangle.css('height', height + 1);
+			};
+
+			var removeSelectionRectangle = function() {
+				selectionRectangle.remove();
+				selectionRectangle = null;
+			};
+
+			if (my.onPreselect) {
+				my.onPreselect(startRow, startCol, startRow, startCol);
+			}
+
+			updateSelectionRectangle(start, end);
+
+			$(tableRoot).on('mouseover.selecting', 'div.bigtable-cell', function(e) {
+				var cell = $(e.target);
+				var row = parseInt(cell.attr('data-col-number'));
+				var col = parseInt(cell.closest('div.bigtable-row').attr('data-row-number'));
+				if (my.onPreselect) {
+					my.onPreselect(Math.min(startRow, row), Math.min(startCol, col), Math.max(startRow, row), Math.max(startCol, col));
+				}
+				updateSelectionRectangle(start, relativeCellCoords(cell));
+			});
+			$(tableRoot).on('mouseup.selecting', 'div.bigtable-cell', function(e) {
+				$(tableRoot).off('mouseup.selecting');
+				$(tableRoot).off('mouseover.selecting');
+				selecting = false;
+				removeSelectionRectangle();
+				if (my.onCommitSelection) {
+					my.onCommitSelection(Math.min(startRow, row), Math.min(startCol, col), Math.max(startRow, row), Math.max(startCol, col));
+				}
+			});
+		}
+	};
+
 	this.init = function() {
 		this.willUpdateDisplay();
 		gridContainer = $(tableRoot).find('div.bigtable-cells-container');
@@ -302,7 +382,7 @@ function BigTable(tableRoot) {
 		$(tableRoot).on('mousedown', '.bigtable-row-handle .resizer', this.startRowResize.bind(this));
 		$(tableRoot).on('mousedown', '.bigtable-col-handle .resizer', this.startColResize.bind(this));
 
-
+		$(tableRoot).on('mousedown', 'div.bigtable-cell', this.mousedownOnCell.bind(this));
 	};
 
 	this.scroll = function(event) {

@@ -105,6 +105,14 @@ div.bigtable-cell {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	height: 100%;
+
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	cursor: default;
 }
 
 .bigtable-cell.col-handle {
@@ -114,4 +122,12 @@ div.bigtable-cell {
 	border-bottom: 4px solid #ccc;
 	cursor: pointer;
 	font-size: small;
+}
+
+div.selection-rectangle {
+	position: absolute;
+	z-index: 2000;
+	background-color: rgba(0,0,255,0.05);
+	pointer-events: none;
+	border: 1px solid #CCF;
 }

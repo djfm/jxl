@@ -15,6 +15,12 @@ div.worksheet-handle {
 	border: 1px solid #ccc;
 	padding: 5px;
 	cursor: pointer;
+	font-weight: bold;
+}
+
+div.worksheet-handle[data-active="true"] {
+	background-color: #444;
+	color: orange;
 }
 
 div.worksheet-handle:not(:first-child) {
