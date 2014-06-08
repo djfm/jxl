@@ -105,6 +105,8 @@ div.bigtable-cell {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	height: 100%;
+	overflow: hidden;
+	background-color: white;
 
 	-moz-user-select: -moz-none;
 	-khtml-user-select: none;

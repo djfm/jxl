@@ -1,3 +1,7 @@
+div.workbook {
+	outline: none;
+}
+
 div.workbook div.bigtable[data-active="false"] {
 	display: none;
 }
@@ -25,4 +29,30 @@ div.worksheet-handle[data-active="true"] {
 
 div.worksheet-handle:not(:first-child) {
 	border-left: 0px;
+}
+
+div.bigtable-cell.focused {
+	background-color: rgba(0,0,255,0.04);
+	overflow: visible;
+	white-space: nowrap;
+}
+
+div.bigtable-cell span.cursor {
+	color: #444;
+	display: none;
+}
+
+div.bigtable-cell.active {
+	background-color: #efe;
+}
+
+div.bigtable-cell.active div.inner {
+	position: absolute;
+	background-color: #efe;
+	height: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+div.bigtable-cell.active div.inner > span.cursor {
+	display: inline-block;
 }
