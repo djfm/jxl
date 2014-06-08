@@ -56,6 +56,7 @@ function TextEditor(element) {
 		$element.on('click.text-editor-internal', 'span.char', function(event) {
 			$element.find('span.cursor').insertBefore(event.target);
 			event.stopPropagation();
+			event.preventDefault();
 		});
 	};
 
