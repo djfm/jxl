@@ -37,9 +37,7 @@ div.bigtable-cell.focused {
 	white-space: nowrap;
 }
 
-div.bigtable-cell span.cursor {
-	color: #444;
-	display: none;
+div.bigtable-cell div.inner > span.cursor {
 }
 
 div.bigtable-cell.active {
@@ -53,6 +51,10 @@ div.bigtable-cell.active div.inner {
 	border-bottom: 1px solid #ccc;
 }
 
+div.bigtable-cell.active div.inner > span.char {
+	border-left: 1px solid #efe;
+}
+
 div.bigtable-cell.active div.inner > span.cursor {
-	display: inline-block;
+	border-left: 1px solid #ccc;
 }

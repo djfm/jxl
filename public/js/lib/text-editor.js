@@ -2,7 +2,7 @@ function TextEditor(element) {
 	var activeSelector;
 
 	this.clear = function() {
-		element.innerHTML = '<span class="cursor">|</span><span class="virtual char">&nbsp;</span>';
+		element.innerHTML = '<span class="virtual char cursor">&nbsp;</span>';
 	};
 
 	this.init = function(text) {
@@ -45,7 +45,6 @@ function TextEditor(element) {
 
 	this.activate = function(setActiveSelector) {
 		this._previousContent = this.innerHTML;
-
 		var $element = $(element);
 		if (setActiveSelector) {
 			activeSelector = setActiveSelector;
@@ -54,7 +53,8 @@ function TextEditor(element) {
 			$element.addClass('active');
 		}
 		$element.on('click.text-editor-internal', 'span.char', function(event) {
-			$element.find('span.cursor').insertBefore(event.target);
+			$element.find('span.cursor').removeClass('cursor');
+			$(event.target).addClass('cursor');
 			event.stopPropagation();
 			event.preventDefault();
 		});
@@ -80,11 +80,13 @@ function TextEditor(element) {
 
 	this.moveLeft = function() {
 		var cursor = $(element).find('span.cursor');
-		cursor.insertBefore(cursor.prev('span.char'));
+		cursor.removeClass('cursor');
+		cursor.prev('span.char').addClass('cursor');
 	};
 
 	this.moveRight = function() {
 		var cursor = $(element).find('span.cursor');
-		cursor.insertBefore(cursor.next('span.char').next('span.char'));
+		cursor.removeClass('cursor');
+		cursor.next('span.char').addClass('cursor');
 	};
 }

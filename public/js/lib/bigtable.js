@@ -92,8 +92,6 @@ function BigTable(tableRoot) {
 	};
 
 	this.changeRowHeight = function(row, newHeight) {
-		var toChange = gridContainer.find('[data-row-number]');
-		toChange.css('display', 'none');
 		var deltaHeight = newHeight - this.getRowHeight(row);
 
 		specificRowHeights[row] = newHeight;
@@ -118,8 +116,8 @@ function BigTable(tableRoot) {
 			}
 		}
 
-		renderedRows[row].css('height', newHeight);
-		renderedRowHandles[row].css('height', newHeight);
+		/*renderedRows[row].css('height', newHeight);
+		renderedRowHandles[row].css('height', newHeight);*/
 		for (var i in renderedRows) {
 			if (parseInt(i) > parseInt(row)) {
 				var top = parseInt(renderedRows[i].css('top'), 10) + deltaHeight;
@@ -127,7 +125,6 @@ function BigTable(tableRoot) {
 				renderedRowHandles[i].css('top', top);
 			}
 		}
-		toChange.css('display', 'flex');
 	};
 
 	this.changeColWidth = function(col, newWidth) {
