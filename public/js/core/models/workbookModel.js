@@ -77,4 +77,8 @@ function WorkbookModel(data) {
 			this.getWorksheet(locks.keyboard.by).keyboardEvent(eventType, event);
 		}
 	};
+
+	this.getName = function() {
+		return data.name;
+	};
 }

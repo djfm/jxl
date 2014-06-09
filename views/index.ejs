@@ -3,25 +3,25 @@
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
-		<link rel="stylesheet" href="css/bigtable.css">
-		<link rel="stylesheet" href="css/workbook.css">
-		<link rel="stylesheet" href="css/jxl.css">
+		<link rel="stylesheet" href="/css/bigtable.css">
+		<link rel="stylesheet" href="/css/workbook.css">
+		<link rel="stylesheet" href="/css/jxl.css">
 
 		<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-		<script src="vendor/js/ejs.js"></script>
+		<script src="/vendor/js/ejs.js"></script>
 
-		<script src="js/util.js"></script>
-		<script src="js/lib/bigtable.js"></script>
-		<script src="js/lib/text-editor.js"></script>
-		<script src="js/core/models/workbookModel.js"></script>
-		<script src="js/core/models/worksheetModel.js"></script>
-		<script src="js/core/models/cellModel.js"></script>
-		<script src="js/core/workbook.js"></script>
-		<script src="js/core/jxl.js"></script>
+		<script src="/js/util.js"></script>
+		<script src="/js/lib/bigtable.js"></script>
+		<script src="/js/lib/text-editor.js"></script>
+		<script src="/js/core/models/workbookModel.js"></script>
+		<script src="/js/core/models/worksheetModel.js"></script>
+		<script src="/js/core/models/cellModel.js"></script>
+		<script src="/js/core/workbook.js"></script>
+		<script src="/js/core/jxl.js"></script>
 	</head>
 	<body>
-		<div class='workbook'></div>
+		<div class='workbook' data-workbook-name="<%= workbookName %>"></div>
 	</body>
 </html>

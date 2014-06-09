@@ -6,23 +6,6 @@ var jxl;
 
 		var workbooks = {};
 
-		var defaultWorkbook = {
-			name: 'default',
-			worksheets: {
-				0: {
-					cells: {}
-				},
-				1: {
-					cells: {}
-				},
-				2: {
-					cells: {}
-				}
-			},
-			worksheetsOrder: [0, 1, 2],
-			activeWorksheet: 0
-		};
-
 		this.init = function() {
 			$('div.workbook').each(function(i, div) {
 				new Workbook(div);
@@ -30,10 +13,21 @@ var jxl;
 		};
 
 		this.fetchWorkbook = function(name, cb) {
-			if (name === 'default') {
-				var workbook = new WorkbookModel(defaultWorkbook);
-				workbooks[name] = workbook;
-				cb(workbook);
+			$.get('/workbooks/' + name + '/data', function(resp) {
+					var workbook = new WorkbookModel(resp);
+					workbooks[name] = workbook;
+					cb(workbook);
+			});
+		};
+
+		this.commit = function() {
+			if (arguments[0] === 'cellValue') {
+				var book = arguments[1];
+				var sheet = arguments[2];
+				var row = arguments[3];
+				var col = arguments[4];
+				var value = arguments[5];
+				workbooks[book].getWorksheet(sheet).getCellModel(row, col).setValue(value);
 			}
 		};
 	}

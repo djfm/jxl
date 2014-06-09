@@ -20,7 +20,7 @@ var render = (function(){
 			if (cache[template]) {
 				handleTemplate(cache[template]);
 			} else {
-				$.get(template + '.ejs').then(function(resp) {
+				$.get('/' + template + '.ejs').then(function(resp) {
 					cache[template] = resp;
 					handleTemplate(resp);
 				});

@@ -1,0 +1,957 @@
+ID,Photo,Name,Reference,Category,Base Price,Final Price,Quantity,Status
+197,http://www.artesa-creations.com/img/p/7/2/7/727.jpg,Chèque Cadeau 20 €,KDO_20e,Nos Coffrets & Chèques cadeaux,20,20,80,1
+196,http://www.artesa-creations.com/img/p/7/2/3/723.jpg,Chèque Cadeau 10 €,KDO_10e,Nos Coffrets & Chèques cadeaux,10,10,80,1
+198,http://www.artesa-creations.com/img/p/7/2/8/728.jpg,Chèque Cadeau 30 €,KDO_30e,Nos Coffrets & Chèques cadeaux,30,30,20,1
+199,http://www.artesa-creations.com/img/p/7/7/2/772.jpg,Chèque Cadeau 50 €,KDO_50e,Nos Coffrets & Chèques cadeaux,50,50,20,1
+1499,http://www.artesa-creations.com/img/p/3/7/7/1/3771.jpg,Ballotins Dragées Jaune Citron,AC_BALcitron,Mariage,1.55,1.55,9,1
+1497,http://www.artesa-creations.com/img/p/3/7/6/8/3768.jpg,Ballotins Dragées Rouge et Noir,AC_BALrougenoir,Mariage,1.55,1.55,9,1
+1498,http://www.artesa-creations.com/img/p/3/7/7/0/3770.jpg,Ballotins Dragées Turquoise,AC_BALtur,Mariage,1.55,1.55,9,1
+1444,http://www.artesa-creations.com/img/p/3/7/6/7/3767.jpg,Ballotins Dragées Chocolat Anis,AC_DRAGchocoAnis,Mariage,1.55,1.55,9,1
+19,http://www.artesa-creations.com/img/p/2/0/8/208.jpg,Pochette Amandine,PO001,Sacs - Pochettes,12,12,7,1
+932,http://www.artesa-creations.com/img/p/2/6/9/5/2695.jpg,Rond de Serviette Bordeaux et Or,CB_rondBOR,Chantal B,6.5,6.5,6,1
+933,http://www.artesa-creations.com/img/p/2/6/9/7/2697.jpg,Rond de Serviette Chocolat et Cuivre,CB_rondChoc,Chantal B,6.5,6.5,6,1
+974,http://www.artesa-creations.com/img/p/2/7/8/0/2780.jpg,Pic à chignon dentelle bleue - coiffure mariage,CM_PICdent,Mariage,12,12,6,1
+1440,http://www.artesa-creations.com/img/p/3/6/5/8/3658.jpg,Collier Plumes d'Ange,ART_COLplume,Bijoux de créateurs,25.5,25.5,6,1
+1075,http://www.artesa-creations.com/img/p/2/9/8/5/2985.jpg,Bracelet Rose Rouge et dentelle,CM_BRAbor,Accessoires de mode,6,6,6,1
+1448,http://www.artesa-creations.com/img/p/3/6/7/0/3670.jpg,Pochette Cuir Rouge,UN_pochROUGE,Catégories,39.8,39.8,5,1
+1441,http://www.artesa-creations.com/img/p/3/6/6/2/3662.jpg,Collier Billes Dorées Sautoir,ART_SAUTboule,Colliers,20.4,20.4,5,1
+1438,http://www.artesa-creations.com/img/p/3/6/5/6/3656.jpg,Collier Géométrique Tubes colorés,ART_cravate,Bijoux de créateurs,34,34,5,1
+602,http://www.artesa-creations.com/img/p/1/9/2/9/1929.jpg,Collier Cercle d'Argent - Plaqué Argent,MAG_col,Bijoux de créateurs,26,26,5,1
+173,http://www.artesa-creations.com/img/p/6/1/4/614.jpg,Sac carré Bouquet de Roses,TOUT_sac,Accessoires de mode,29,29,5,1
+376,http://www.artesa-creations.com/img/p/1/3/0/6/1306.jpg,Chouchous Fleurs,CC_chouF,Accessoires de mode,6,6,5,1
+174,http://www.artesa-creations.com/img/p/6/1/8/618.jpg,Pochette Bouquet de Roses,Tout_pochette,Accessoires de mode,16,15.2,4,1
+639,http://www.artesa-creations.com/img/p/2/0/4/3/2043.jpg,Bague Mécanismes Résine,ELE_BAGmeca,Bijoux de créateurs,27,25,4,1
+757,http://www.artesa-creations.com/img/p/2/3/1/5/2315.jpg,Jarretière Anis et Fleur Fushia,CB_JARaniFU,Jarretière de mariée,18.7,18.7,4,1
+1076,http://www.artesa-creations.com/img/p/2/9/8/7/2987.jpg,Bracelet Fleur Rose et dentelle,CM_BRArose,Pour ELLE,5,5,4,1
+1070,http://www.artesa-creations.com/img/p/2/9/7/6/2976.jpg,Barrette Papillons Rose Pastel,CM_PINpap,Accessoires de mode,4.25,4.25,4,1
+952,http://www.artesa-creations.com/img/p/2/7/3/0/2730.jpg,Bracelet Chocolat Lilas Argent,CC-BRAchoc,Bijoux de créateurs,20,20,4,1
+1485,http://www.artesa-creations.com/img/p/3/7/4/6/3746.jpg,Boucles d'oreilles Disque Blanc point argent,GRE_BOlentBL,Boucles d'oreilles,41.65,41.65,4,1
+1482,http://www.artesa-creations.com/img/p/3/7/4/1/3741.jpg,Clous d'oreilles Papillon Lilas,GRE_BOpap,Bijoux de créateurs,13,13,4,1
+1071,http://www.artesa-creations.com/img/p/2/9/7/8/2978.jpg,Barrettes Rose Rouge et dentelle,CM_PINbor,Roses,10,10,4,1
+600,http://www.artesa-creations.com/img/p/1/9/2/8/1928.jpg,Boucles d'oreilles Cercle d'Argent - Plaqué Argent,MAG_bo,Mode Baroque,30,30,4,1
+1447,http://www.artesa-creations.com/img/p/3/6/6/9/3669.jpg,Boucles d'oreilles Fleurs d'été,CA_BO3739,Champêtre - Nature,8.5,8.5,4,1
+113,http://www.artesa-creations.com/img/p/3/9/9/399.jpg,Sac Elise,2025,Sacs - Pochettes,36,30,3,1
+1240,http://www.artesa-creations.com/img/p/3/2/7/5/3275.jpg,Jarretière Coquillage thème mer,CB_JARmer,Jarretière de mariée,20.4,20.4,3,1
+21,http://www.artesa-creations.com/img/p/2/0/3/203.jpg,Sac Faustine,SC002,Sarah,25,23,3,1
+492,http://www.artesa-creations.com/img/p/1/6/6/6/1666.jpg,Boucles d'oreilles Cristal Topaze,WAM_BOambre,Bijoux de mariée,15,15,3,1
+1469,http://www.artesa-creations.com/img/p/3/7/1/5/3715.jpg,Boucles d'oreilles Feuilles Mordorées,CA_BO3305,Bijoux de créateurs,8.5,8.5,3,1
+1463,http://www.artesa-creations.com/img/p/3/7/0/4/3704.jpg,Bracelet Chaine dorée & charms,CA_BRA9963,Bijoux de créateurs,22.5,22.5,3,1
+1457,http://www.artesa-creations.com/img/p/3/6/9/5/3695.jpg,Pochette Cuir Bleu Nuit,UN_pochmarine,Accessoires de mode,39.8,39.8,3,1
+1525,http://www.artesa-creations.com/img/p/3/8/0/4/3804.jpg,Boucles d'oreilles Baroques Cristal et petit noeud,AC_BObaroque,Catégories,20,20,3,1
+1513,http://www.artesa-creations.com/img/p/3/7/9/1/3791.jpg,Bracelet Zip Or,AC_BRAzip,Bijoux de créateurs,22,22,3,1
+1284,http://www.artesa-creations.com/img/p/3/6/6/7/3667.jpg,Boutonnière Rose rose broche,HD_BOUTroseR,Boutonnière - broche,16,16,3,1
+13,http://www.artesa-creations.com/img/p/1/9/2/192.jpg,Sautoir Printemps ,BE010,Be! Créations,69,69,3,1
+1470,http://www.artesa-creations.com/img/p/3/7/1/6/3716.jpg,Boucles D'oreilles Chaines Bleues,CA_BO3531,Bijoux de créateurs,8,8,3,1
+1461,http://www.artesa-creations.com/img/p/3/7/0/0/3700.jpg,Sautoir Chocolat Perles Bleutées,CA_SAUT2093,Bijoux de créateurs,10.5,10.5,3,1
+1455,http://www.artesa-creations.com/img/p/3/6/9/3/3693.jpg,Pochette Cuir Noir couture blanche,UN_pochNoir,Accessoires de mode,39.8,39.8,3,1
+238,http://www.artesa-creations.com/img/p/8/8/7/887.jpg,Bracelets - Mitaines Rose Poudré,IN&V_mitainesROSES,Accessoires de mode,20,16,3,1
+406,http://www.artesa-creations.com/img/p/2/3/6/6/2366.jpg,"Epingle 'Oui, je le Veux !'",CC_pincOUI,Mariage,9.5,9.5,3,1
+810,http://www.artesa-creations.com/img/p/2/4/3/0/2430.jpg,Headband Fleurs Noir bandeau perlé,CB_BANnoir,Accessoires de mode,13,13,3,1
+1050,http://www.artesa-creations.com/img/p/2/9/3/1/2931.jpg,Toque Noire Fleur Blanche - chapeau a plume,CA_Toque,Accessoires de mode,18,18,3,1
+1045,http://www.artesa-creations.com/img/p/3/1/0/2/3102.jpg,Bracelet chaines argentées multirang,AC_BRAchaines,Bijoux de créateurs,22,22,3,1
+1412,http://www.artesa-creations.com/img/p/3/5/9/2/3592.jpg,Bracelet Neon Skull,AC_BRAskull,Bijoux de créateurs,12,12,3,1
+1468,http://www.artesa-creations.com/img/p/3/7/1/2/3712.jpg,Collier Tour Eiffel d'Argent & Cristal,CA_COL2130,Sautoirs,10.5,10.5,3,1
+1462,http://www.artesa-creations.com/img/p/3/7/0/3/3703.jpg,Boucles d'oreilles Perles Bleutées,CA_BO3701,Boucles d'oreilles,6,6,3,1
+1459,http://www.artesa-creations.com/img/p/3/6/9/8/3698.jpg,Boucles d'oreilles Coquillage et chaines dorées,CA_BO3870,Boucles d'oreilles,12,12,3,1
+774,http://www.artesa-creations.com/img/p/3/0/6/5/3065.jpg,Jarretière Dentelle Blanche Fleurs Turquoise,CB_JARfTur,Jarretière de mariée,17.85,17.85,3,1
+989,http://www.artesa-creations.com/img/p/2/8/0/9/2809.jpg,Jarretière Fleurs Bordeaux,CB_JARfBor,Jarretière de mariée,20.4,20.4,3,1
+1456,http://www.artesa-creations.com/img/p/3/6/9/0/3690.jpg,Pochette Cuir Beige et bleu pétrole,UN_pochbeige,Accessoires de mode,39.8,39.8,3,1
+1453,http://www.artesa-creations.com/img/p/3/6/8/4/3684.jpg,Pochette Cuir Orange pompon Rose,UN_pochOran,Accessoires de mode,39.8,39.8,3,1
+221,http://www.artesa-creations.com/img/p/8/2/6/826.jpg,Sautoir Quartz Rose,BE_sautoirquartzrose,Bijoux de créateurs,35,35,3,1
+202,http://www.artesa-creations.com/img/p/7/3/5/735.jpg,Bracelet Eclats de Lune,BE_bralune,Bijoux de créateurs,16,16,3,1
+656,http://www.artesa-creations.com/img/p/2/0/8/7/2087.jpg,Collier Turquoise médaillon résine,ELE_sautTUR,Bijoux de créateurs,30,30,3,1
+1154,http://www.artesa-creations.com/img/p/3/1/2/1/3121.jpg,Jarretière Dentelle Blanche et Perles Nacrées,CB_JARperleBL,Jarretière de mariée,15.3,15.3,2,1
+1348,http://www.artesa-creations.com/img/p/3/4/6/1/3461.jpg,Boucles d'oreilles Cristal Doré,AC_BOcrisOR,Bijoux de mariée,15,15,2,1
+1150,http://www.artesa-creations.com/img/p/3/1/2/0/3120.jpg,Boucles d'oreilles Perle et Estampe dorée,AC_BOfiliORblanc,Bijoux de créateurs,18,18,2,1
+794,http://www.artesa-creations.com/img/p/2/3/9/1/2391.jpg,Coussin d'alliances Papillon d'Argent,CB_COUpapARG,Mariage,42.5,42.5,2,1
+728,http://www.artesa-creations.com/img/p/3/4/4/0/3440.jpg,Coussin d'alliances Ivoire et Fleurs Bordeaux,CB_COUivFlBor,Mariage,42.5,42.5,2,1
+1147,http://www.artesa-creations.com/img/p/3/1/4/7/3147.jpg,Jarretière Clé de Sol dentelle Blanche,CB_JARcle,Jarretière de mariée,20.4,20.4,2,1
+1144,http://www.artesa-creations.com/img/p/3/1/1/5/3115.jpg,Collier Plume de Paon Sautoir chaine dorée,AC_COLpaon,Bijoux de créateurs,15,15,2,1
+1267,http://www.artesa-creations.com/img/p/3/3/0/8/3308.jpg,Ras de Cou Chocolat Turquoise Fleurs et Plumes ,CB_RASchocTur,Bijoux de créateurs,25,25,2,1
+855,http://www.artesa-creations.com/img/p/2/5/1/7/2517.jpg,Headband bandeau Tresse Noir et Or,AC_BANnOR,Accessoires de mode,12,12,2,1
+1336,http://www.artesa-creations.com/img/p/3/4/3/4/3434.jpg,Fibule Lotus Rose - Epingle à cravate,TP_FibRose,Bijoux de créateurs,14,14,2,1
+948,http://www.artesa-creations.com/img/p/2/7/4/2/2742.jpg,Boutonnière Fleur Chocolat Fushia - plume et soie,CB_BOUTfuchoc,Mariage,9,9,2,1
+1416,http://www.artesa-creations.com/img/p/3/6/0/5/3605.jpg,Bracelet multirang noir et laiton,AC_BRAmanchette,Bijoux de créateurs,20,20,2,1
+1484,http://www.artesa-creations.com/img/p/3/7/4/4/3744.jpg,Boucles d'oreilles Disque Rouge point argent,GRE_BOlentROU,Boucles d'oreilles,41.65,41.65,2,1
+1264,http://www.artesa-creations.com/img/p/3/3/0/4/3304.jpg,Tiare Papillon et Cristal Prune,WAM_TIAREpapPrune,Papillon,60,60,2,1
+9,http://www.artesa-creations.com/img/p/1/6/9/169.jpg,Sautoir Pacifique,BE009,Sautoirs,69,69,2,1
+715,http://www.artesa-creations.com/img/p/2/2/2/1/2221.jpg,Boucles d'oreilles Perles d'eau douce,SB_BOorchi,Bijoux de créateurs,15,15,2,1
+939,http://www.artesa-creations.com/img/p/2/7/1/1/2711.jpg,Bracelet Perle et OR,LO_BRAsq,Bijoux de créateurs,32,32,2,1
+1008,http://www.artesa-creations.com/img/p/2/8/4/9/2849.jpg,Coussin d'alliances Chocolat Arabesques Or,CB_COUchocoOR,Mariage,28.9,28.9,2,1
+1472,http://www.artesa-creations.com/img/p/3/7/1/8/3718.jpg,Bracelet Fleurs Bleues et Lilas,CA_BRA9994,Bijoux de créateurs,16,16,2,1
+1327,http://www.artesa-creations.com/img/p/3/4/1/5/3415.jpg,Bandeau Chocolat Fleur Cuivrée,AC_BANchocOran,Mariage,30,30,2,1
+999,http://www.artesa-creations.com/img/p/2/8/3/3/2833.jpg,Collier théière Sautoir Tea Time,WAM_COLthe,Bijoux de créateurs,32,32,2,1
+838,http://www.artesa-creations.com/img/p/2/4/7/9/2479.jpg,Fibule Fleur de Lotus - Noir et Or,TP_BOboheOR,Bijoux de créateurs,14,14,2,1
+996,http://www.artesa-creations.com/img/p/2/8/2/8/2828.jpg,Bracelet Bague Quartz Rose Cabochon,WAM_BRAbagcam,Bijoux de créateurs,35,35,2,1
+921,http://www.artesa-creations.com/img/p/2/6/8/1/2681.jpg,Collier Perle d'eau douce et Or,LO_COLp,Loshy,32,32,2,1
+781,http://www.artesa-creations.com/img/p/2/3/6/7/2367.jpg,Boucles d'oreilles Fleurs roses et perles,SB_BOflrose,Bijoux de créateurs,20,20,2,1
+1460,http://www.artesa-creations.com/img/p/3/6/9/9/3699.jpg,Boucles d'oreilles Fleurs Roses,CA_BO3266,Boucles d'oreilles,14,14,2,1
+1103,http://www.artesa-creations.com/img/p/3/0/4/0/3040.jpg,Bibi Dentelle Rose coiffure,CM_bibiRose,Coiffure Mariage,17,17,2,1
+687,http://www.artesa-creations.com/img/p/2/6/5/2/2652.jpg,Pic à Chignon Perle Blanche,CC_PICblanc,Mariage,7.5,7.5,2,1
+1312,http://www.artesa-creations.com/img/p/3/3/8/6/3386.jpg,Bandeaux Orchidées Fushia et cristaux,CB_BANorchi,Coiffure - Tête,22,22,2,1
+778,http://www.artesa-creations.com/img/p/2/4/8/3/2483.jpg,Collier Fleur Blanche et perles - ras de cou,Sabe_RASporcel,Bijoux de créateurs,25,25,2,1
+990,http://www.artesa-creations.com/img/p/2/8/1/4/2814.jpg,Collier Perles d'Argent Multirangs mariage,AC_COLmulitArg,Bijoux de mariée,22,22,2,1
+1094,http://www.artesa-creations.com/img/p/3/0/2/0/3020.jpg,Boucles d'oreilles Etoile et Perle Noire,TP_BOetoilePerl,Bijoux de créateurs,15,15,2,1
+1180,http://www.artesa-creations.com/img/p/3/5/4/1/3541.jpg,Bracelets Mitaines Dentelle noire,CB_MITnoir,Accessoires de mode,13,13,2,1
+908,http://www.artesa-creations.com/img/p/2/6/5/0/2650.jpg,Headband Fleurs Chocolat et perles Bronze,CB_BANchoc,Accessoires de mode,20,20,2,1
+769,http://www.artesa-creations.com/img/p/2/7/3/6/2736.jpg,Pic à Chignon Perle Chocolat,CC_PICchoc,Mariage,7.5,7.5,2,1
+1091,http://www.artesa-creations.com/img/p/3/0/1/3/3013.jpg,Collier lacet Fleur de Corail Rouge - laiton,AC_COLcorail,Tenue de Soirée,25,25,2,1
+1300,http://www.artesa-creations.com/img/p/3/3/6/4/3364.jpg,Tour de cou Volute Bleue,AI_COLbleu,Bijoux de créateurs,25.5,25.5,2,1
+218,http://www.artesa-creations.com/img/p/8/1/7/817.jpg,Sautoir Caramel,BE_sautoircaramel,Bijoux de créateurs,35,35,2,1
+1371,http://www.artesa-creations.com/img/p/3/5/2/0/3520.jpg,Boucles d'oreilles Cristal & Perle laiton,AC_BOcristal,Bijoux de mariée,15,15,2,1
+1516,http://www.artesa-creations.com/img/p/3/7/9/6/3796.jpg,Boucles d'oreilles Rouge Points d'Argent,GRE_BOrondR,Boucles d'oreilles,29.75,29.75,2,1
+661,http://www.artesa-creations.com/img/p/2/1/0/5/2105.jpg,Collier trio de perles dorées,LO_trio,Bijoux de créateurs,38,38,2,1
+203,http://www.artesa-creations.com/img/p/7/3/7/737.jpg,Bague Améthyste,BE_bagamethyste,Bijoux de créateurs,15,15,2,1
+900,http://www.artesa-creations.com/img/p/2/6/2/3/2623.jpg,Bague Romance - dentelle taupe et perles chocolat,AC_BAGrom,Bijoux de créateurs,11,11,2,1
+1364,http://www.artesa-creations.com/img/p/3/5/0/5/3505.jpg,Ras de cou dentelle Noire et perles,AC_COLnoir,Colliers,22,22,2,1
+978,http://www.artesa-creations.com/img/p/2/7/8/6/2786.jpg,Boutonnière Fleur Rouge Plume Noire,HD_BOUTrougePnoir,Mariage,14.5,14.5,2,1
+1084,http://www.artesa-creations.com/img/p/3/0/0/4/3004.jpg,Jarretière Ruban et velours Bleu Turquoise,CB_JARveloursTUR,Jarretière de mariée,18.7,18.7,2,1
+441,http://www.artesa-creations.com/img/p/1/5/2/3/1523.jpg,Epingle à chignon Coeur Léger,CC_pinCoeur,Mariage,9,9,2,1
+1159,http://www.artesa-creations.com/img/p/3/1/3/5/3135.jpg,Bracelet Rococo Strass blanc argent,AC_BRAstrass,Bijoux de créateurs,15,15,2,1
+737,http://www.artesa-creations.com/img/p/2/2/8/1/2281.jpg,Bracelet Bague Camée Améthyste,WAM_BRAbagcam,Bijoux de créateurs,30,30,2,1
+1432,http://www.artesa-creations.com/img/p/3/6/3/1/3631.jpg,Bracelet Cordon & Perles Turquoise elastique noir,MAN_BRAnoirTUR,Bijoux de créateurs,11.05,11.05,2,1
+1064,http://www.artesa-creations.com/img/p/2/9/6/5/2965.jpg,Collier Noeud Cuir Argent,AC_COLnoeudArg,Bijoux de créateurs,16,16,2,1
+1156,http://www.artesa-creations.com/img/p/3/1/3/1/3131.jpg,Collier Fleur et Perles - Estampe dorée,AC_COLestampe,Bijoux de créateurs,25,25,2,1
+871,http://www.artesa-creations.com/img/p/2/5/5/9/2559.jpg,Bandeau élastique Rose Blanc plume noire - Headband fleur,HC_BANrose,Accessoires de mode,16.5,16.5,2,1
+961,http://www.artesa-creations.com/img/p/2/7/6/4/2764.jpg,Collier Papillon Orange et Chocolat - perles bronze,CB_COLpapOran,Mariage,29,29,2,1
+1429,http://www.artesa-creations.com/img/p/3/6/4/2/3642.jpg,Bracelet Perle et Cristal de Roche plaqué Or,MAN_BRAperleEAU,Mariage,29.75,29.75,2,1
+1056,http://www.artesa-creations.com/img/p/2/9/4/8/2948.jpg,Coussin d'alliances Baroque Noir et Blanc Dentelle,CB_COUbaroque,Mariage,33.5,33.5,2,1
+640,http://www.artesa-creations.com/img/p/2/0/4/7/2047.jpg,Bague Rétro Portrait Bleu,ELE_BAGbleu,Bijoux de créateurs,19,19,2,1
+1278,http://www.artesa-creations.com/img/p/3/3/3/8/3338.jpg,Boîte à dons Cinema Camera Noire Pailletée,CB_BTcamNOIRPAIL,Urne - boîte à dons,64,64,2,1
+1049,http://www.artesa-creations.com/img/p/2/9/2/9/2929.jpg,Bibi Dentelle Chocolat Fleur Bleue,CM_bibichocTur,Accessoires de mode,25,25,2,1
+792,http://www.artesa-creations.com/img/p/2/3/8/7/2387.jpg,Livre d'Or Versailles - Prune et Argent,CC_LOversPrune,Mariage,40.5,40.5,2,1
+1423,http://www.artesa-creations.com/img/p/3/6/2/3/3623.jpg,Jarretière Cinema Pellicule & Clap,CB_JARpelliculeCLAP,Jarretière de mariée,22.95,22.95,2,1
+1491,http://www.artesa-creations.com/img/p/3/7/5/6/3756.jpg,Boucles d'oreilles Cage Rouge,GRE_BOcagerouge,Boucles d'oreilles,53.55,53.55,2,1
+859,http://www.artesa-creations.com/img/p/2/5/3/5/2535.jpg,Collier ras de cou Cerles d'Argent,AC_COLarg,Catégories,22,22,2,1
+1340,http://www.artesa-creations.com/img/p/3/4/4/9/3449.jpg,Bracelet Libellule Noire,HD_BRAlib,Bijoux de créateurs,25,23,2,1
+856,http://www.artesa-creations.com/img/p/2/5/2/1/2521.jpg,Peigne doré Fleur Blanche,CB_PEIor,Coiffure - Tête,9,9,2,1
+1139,http://www.artesa-creations.com/img/p/3/1/0/3/3103.jpg,Bracelet multirang Chaine et Perles nacrées,AC_BRAmultiperle,Bijoux de créateurs,18,18,2,1
+1012,http://www.artesa-creations.com/img/p/2/8/7/1/2871.jpg,Boucles d'oreilles Petite Fleur,,Bijoux de créateurs,15,15,2,1
+509,http://www.artesa-creations.com/img/p/1/7/1/5/1715.jpg,Jarretière Fleurs d'Argent,CB_JARgris,Jarretière de mariée,20.4,20.4,2,1
+713,http://www.artesa-creations.com/img/p/2/2/1/6/2216.jpg,Bracelet Orchidée Orange,SB_BRAorchi,Bijoux de créateurs,23,23,2,1
+1406,http://www.artesa-creations.com/img/p/3/5/8/2/3582.jpg,Boutons de Manchette Carrés ,AC_BOUTONScarre,Accessoires de mode,14,14,2,1
+1538,http://www.artesa-creations.com/img/p/3/8/3/6/3836.jpg,Collier Goutte de Cristal plaqué or,MAN_COLcristal,Mariage,32.3,32.3,2,1
+609,http://www.artesa-creations.com/img/p/1/9/5/9/1959.jpg,Ras de cou trois rangs,HD_COLtrio,Bijoux de créateurs,39,39,2,1
+694,http://www.artesa-creations.com/img/p/2/1/8/5/2185.jpg,Jarretière Dentelle Bleue Pétrole et Velours Chocolat,CB_JARchocPetrol,Jarretière de mariée,20.4,20.4,2,1
+1535,http://www.artesa-creations.com/img/p/3/8/3/1/3831.jpg,Bracelet Cordon Perle Noire reflets Bleutés,MAN_BRAperleNoire,Catégories,11.05,11.05,2,1
+691,http://www.artesa-creations.com/img/p/2/1/7/6/2176.jpg,Coussin d'alliances Dentelle noire et Fleurs dorées,CB_COUdentN,Mariage,37.4,37.4,2,1
+1316,http://www.artesa-creations.com/img/p/3/4/0/3/3403.jpg,Tour de cou Fleur Blanche & Turquoise,AI_COLfleurBLC,Bijoux de créateurs,25.5,25.5,2,1
+1104,http://www.artesa-creations.com/img/p/3/0/4/1/3041.jpg,Barrettes Rose et dentelle,CM_PINrose,Roses,4.25,4.25,2,1
+424,http://www.artesa-creations.com/img/p/1/4/7/5/1475.jpg,Livre d'Or Orchidée lin,CC_LOorchi,Mariage,39,39,2,1
+994,http://www.artesa-creations.com/img/p/2/8/2/5/2825.jpg,Collier Cristal multirang argenté,AC_COLcristal,Bijoux de mariée,19,19,2,1
+915,http://www.artesa-creations.com/img/p/2/6/6/2/2662.jpg,Boucles d'Oreilles Fleur Turquoise en soie,CB_BOtur,Catégories,18,18,2,1
+991,http://www.artesa-creations.com/img/p/2/9/5/9/2959.jpg,Tiare Hirondelle Plaqué Argent,WAM_TiarHiron,Bijoux de créateurs,65,65,2,1
+257,http://www.artesa-creations.com/img/p/9/3/3/933.jpg,Boîte à Thé & Tisanes,CC_boitecTHE,Catégories,38,38,2,1
+1452,http://www.artesa-creations.com/img/p/3/6/8/0/3680.jpg,Collier Fleurs d'été strass,CA_COL2164,Bijoux de créateurs,10.5,10.5,2,1
+1092,http://www.artesa-creations.com/img/p/3/0/1/6/3016.jpg,Boucles d'oreilles Fleur de Corail Rouge - laiton,AC_BOcorail,Tenue de Soirée,10,10,2,1
+1520,http://www.artesa-creations.com/img/p/3/7/9/8/3798.jpg,Sautoir Noir et Or multirang,AC_SAUTornoir,Bijoux de créateurs,35,35,2,1
+1301,http://www.artesa-creations.com/img/p/3/3/6/6/3366.jpg,Tour de cou Volute Anis,AI_COLanis,Colliers,25.5,25.5,2,1
+219,http://www.artesa-creations.com/img/p/8/1/9/819.jpg,Collier laine & pompons,IN&V_collier,Bijoux de créateurs,33,33,2,1
+906,http://www.artesa-creations.com/img/p/2/6/4/0/2640.jpg,Collier Fleurs et Plumes Bordeaux,CB_COLborpl,Bijoux de créateurs,25,25,2,1
+1517,http://www.artesa-creations.com/img/p/3/7/9/7/3797.jpg,Bracelet Multirang bleu et Or,AC_BRAtuOR,Bijoux de créateurs,18,18,2,1
+1446,http://www.artesa-creations.com/img/p/3/6/6/8/3668.jpg,Boucles d'oreilles Noeud Marin,BO_CA3950,Bijoux de créateurs,8,8,2,1
+1514,http://www.artesa-creations.com/img/p/3/7/9/4/3794.jpg,Bracelet Orange et Fushia,AC_BRAorange,Bijoux de créateurs,16,16,2,1
+658,http://www.artesa-creations.com/img/p/2/0/9/1/2091.jpg,Bague Sortilège Bordeaux,ELE_BAGsorti,Bijoux de créateurs,23,23,2,1
+201,http://www.artesa-creations.com/img/p/7/3/2/732.jpg,Bague Eclats de Lune,BE_baglune,Bijoux de créateurs,15,15,2,1
+895,http://www.artesa-creations.com/img/p/2/6/1/3/2613.jpg,Pochette Ivoire arabesques Chocolat - sac baguette soie,CB_POCHivoire,Accessoires de mode,39,39,2,1
+755,http://www.artesa-creations.com/img/p/2/3/1/3/2313.jpg,Boucles d'oreilles Fleur d'Argent,AC_BOflARG,Bijoux de créateurs,17,17,2,1
+1168,http://www.artesa-creations.com/img/p/3/1/5/0/3150.jpg,Collier Fleurs Dorées - ras de cou strass,AC_COLflOR,Colliers,29,29,2,1
+655,http://www.artesa-creations.com/img/p/2/0/8/3/2083.jpg,Collier long Volutes bronze - sautoir,ELE_sautVOL,Bijoux de créateurs,30,30,2,1
+397,http://www.artesa-creations.com/img/p/1/3/7/2/1372.jpg,Coussin mariage Fleurs d'été,CB_couscotonanis,Mariage,40.8,40.8,2,1
+442,http://www.artesa-creations.com/img/p/1/5/2/5/1525.jpg,Boutonnière Coeur Précieux,CC_boutCP,Mariage,15,15,2,1
+1433,http://www.artesa-creations.com/img/p/3/6/3/3/3633.jpg,Bracelet Aventurine cordon Moutarde,MAN_BRAjauneAV,Catégories,11.05,11.05,2,1
+439,http://www.artesa-creations.com/img/p/1/9/7/7/1977.jpg,Boutonnière Perles & Passion,CC_boutpp,Mariage,12,12,2,1
+962,http://www.artesa-creations.com/img/p/2/7/5/6/2756.jpg,Epingle Fleur Fushia Violine,CB_PINfu,Coiffure - Tête,4.5,4.5,2,1
+1152,http://www.artesa-creations.com/img/p/3/4/7/3/3473.jpg,Livre d'or Baroque Rouge et Noir,CC_LObaroque,Mariage,38.5,38.5,2,1
+641,http://www.artesa-creations.com/img/p/2/0/5/0/2050.jpg,Bague Rétro Carrée Vintage,ELE_BAGrose,Bijoux de créateurs,19,19,2,1
+866,http://www.artesa-creations.com/img/p/2/5/6/1/2561.jpg,Boucles d'Oreilles Plume verte et perles,AC_BOplume,Catégories,16,16,2,1
+959,http://www.artesa-creations.com/img/p/2/7/5/5/2755.jpg,Jarretière dentelle ivoire Papillon Turquoise noeud chocolat,CB_JARpapTUR,Jarretière de mariée,18.7,18.7,2,1
+1492,http://www.artesa-creations.com/img/p/3/7/5/7/3757.jpg,Boucles d'oreilles Cage Blanche,GRE_BOcageBL,Boucles d'oreilles,53.55,53.55,2,1
+860,http://www.artesa-creations.com/img/p/2/9/6/0/2960.jpg,Collier pendentif Baroque et perles noires,HD_COLbaroque,Bijoux de créateurs,37,37,2,1
+1020,http://www.artesa-creations.com/img/p/2/9/0/3/2903.jpg,Boucles d'oreilles Turquoise nacre et perle,HD_BOturGD,Bijoux de créateurs,21,21,2,1
+1489,http://www.artesa-creations.com/img/p/3/7/4/8/3748.jpg,Boucles d'oreilles Perle Turquoise point argent,GRE_BOrond,Boucles d'oreilles,29.75,29.75,2,1
+1143,http://www.artesa-creations.com/img/p/3/1/1/3/3113.jpg,Bracelet multirang Chaîne Argent Cordon noir,AC_BRAchaineDaim,Bijoux de créateurs,18,18,2,1
+1243,http://www.artesa-creations.com/img/p/3/2/7/8/3278.jpg,Urne Baroque Dentelle Noire,CB_BTbaroque,Urne - boîte à dons,45,45,2,1
+1270,http://www.artesa-creations.com/img/p/3/3/1/7/3317.jpg,Ras de cou Papillon de nuit Dentelle noire & or,CB_COLdentPAPnoir,Mariage,25,25,2,1
+1266,http://www.artesa-creations.com/img/p/3/3/0/7/3307.jpg,Ras de Cou Fleurs et Plumes Noir Fushia,CB_COLnoirfush,Bijoux de créateurs,25,25,2,1
+1335,http://www.artesa-creations.com/img/p/3/4/3/5/3435.jpg,Boucles d'oreilles Etoiles Fillantes Noir et Or,TP_BOetoileChaine,Bijoux de créateurs,22,22,2,1
+1483,http://www.artesa-creations.com/img/p/3/7/4/3/3743.jpg,Boucles d'oreilles Disque Turquoise point argent,GRE_BOlentTUR,Boucles d'oreilles,41.65,41.65,2,1
+849,http://www.artesa-creations.com/img/p/2/5/0/4/2504.jpg,Boucles d'oreilles Cube Multicolors origami,TP_BOtaraCmulti,Bijoux de créateurs,14,14,2,1
+714,http://www.artesa-creations.com/img/p/2/2/1/9/2219.jpg,Collier Lacet Orchidée Orange & Perles,SB_BRAorchi,Bijoux de créateurs,38,38,2,1
+1332,http://www.artesa-creations.com/img/p/3/4/4/2/3442.jpg,Collier Goutte de Cristal,HD_COLgoutBL,Bijoux de créateurs,20,20,2,1
+1471,http://www.artesa-creations.com/img/p/3/7/1/7/3717.jpg,Boucles Oreilles Tour Eiffel Paris,CA_BO3510,Bijoux de créateurs,10.5,10.5,2,1
+1115,http://www.artesa-creations.com/img/p/3/0/7/3/3073.jpg,Collier Fleur Ivoire - ras de cou dentelle et plume,AC_COLchampagne,Colliers,22,22,2,1
+1326,http://www.artesa-creations.com/img/p/3/4/1/3/3413.jpg,Jarretière dentelle Chocolat Fleurs Turquoise,CB_JARchocFlTUR,Jarretière de mariée,18.7,18.7,2,1
+840,http://www.artesa-creations.com/img/p/2/4/8/4/2484.jpg,Boucles d'Oreilles Cristal Bronze et Orange,AC_BOorange,Catégories,10,10,2,1
+695,http://www.artesa-creations.com/img/p/2/2/6/8/2268.jpg,Pic à Chignon Perle Rose,CC_PICrose,Mariage,7.5,7.5,2,1
+1323,http://www.artesa-creations.com/img/p/3/4/1/7/3417.jpg,Headband Tresse Daim Noir,AC_BANtressnoir,Coiffure - Tête,12,12,2,1
+998,http://www.artesa-creations.com/img/p/2/8/3/2/2832.jpg,Collier Estampe laiton Bambi Sautoir,WAM_COLbambi,Bijoux de créateurs,32,32,2,1
+1465,http://www.artesa-creations.com/img/p/3/7/0/7/3707.jpg,Boucles d'oreilles Fleurs Bleues,CA_BO3266bleu,Boucles d'oreilles,14,14,2,1
+607,http://www.artesa-creations.com/img/p/1/9/5/1/1951.jpg,Collier Fleurs Chocolat Turquoise,CB_Colnoir,Bijoux de mariée,28,28,2,1
+1105,http://www.artesa-creations.com/img/p/3/0/4/6/3046.jpg,Diadème Fleurs Blanches et Perles dorées,AC_BANdore,Accessoires de mode,19,19,2,1
+995,http://www.artesa-creations.com/img/p/2/8/2/6/2826.jpg,Collier Eclats de Cristal,AC_COLcubeCris,Bijoux de mariée,19,19,2,1
+1524,http://www.artesa-creations.com/img/p/3/8/0/3/3803.jpg,Multirang Corail Exotique,CA_BRAcorail,Bijoux de créateurs,22,22,2,1
+825,http://www.artesa-creations.com/img/p/2/4/6/3/2463.jpg,Boucles d'Oreilles Fleur de Corail et Turquoise,,Catégories,15,15,2,1
+910,http://www.artesa-creations.com/img/p/2/6/5/5/2655.jpg,Collier Orchidée Bordeaux et Plume,CB_COLorchiR,Bijoux de créateurs,28,28,2,1
+907,http://www.artesa-creations.com/img/p/2/6/4/6/2646.jpg,Bandeau Fleurs et Plumes Bordeaux,CB_BANbor,Accessoires de mode,18,18,2,1
+1450,http://www.artesa-creations.com/img/p/3/6/7/4/3674.jpg,Collier Fleurs Rose et Chaine dorée,CA_COL1411,Bijoux de créateurs,32.5,32.5,2,1
+1370,http://www.artesa-creations.com/img/p/3/5/1/8/3518.jpg,Boucles d'oreilles Améthyste et cristal,WAM_BOvertVio,Bijoux de mariée,17,17,2,1
+1512,http://www.artesa-creations.com/img/p/3/7/8/9/3789.jpg,Bracelet Multirang Anis Nacre et Chaines,AC_BRAnacreVERT,Bijoux de créateurs,18,18,2,1
+1360,http://www.artesa-creations.com/img/p/3/5/0/1/3501.jpg,Peigne Petit Oiseau Blanc irisé,HD_PEIoiseau,Coiffure - Tête,13.6,13.6,2,1
+750,http://www.artesa-creations.com/img/p/3/4/5/5/3455.jpg,Sautoir Toupie Dorée,WAM_COLpelli,Bijoux de créateurs,34,34,2,1
+1434,http://www.artesa-creations.com/img/p/3/6/4/4/3644.jpg,Bracelet Etoile & Cristal de Roche cordon rouge,MAN_BRArougeEtoile,Etoiles,11.05,11.05,2,1
+1069,http://www.artesa-creations.com/img/p/2/9/7/4/2974.jpg,Bibi Dentelle Blanche et Cristaux,CM_bibiNB,Accessoires de mode,27,27,2,1
+543,http://www.artesa-creations.com/img/p/1/7/8/8/1788.jpg,Livre d'Or Chocolat Fleur de Soie Anis,CC_LOsoieAnis,Mariage,35.5,35.5,2,1
+1256,http://www.artesa-creations.com/img/p/3/4/2/6/3426.jpg,Tiare Papillon Argenté Cristal,WAM_TIAREpapCRISTAL,Bijoux de mariée,60,60,2,1
+645,http://www.artesa-creations.com/img/p/2/0/9/8/2098.jpg,Bouquet Ivoire et Bordeaux,HD_BOUQsaum,Mariage,44.2,44.2,1,1
+875,http://www.artesa-creations.com/img/p/2/6/0/5/2605.jpg,Foulard Chocolat Arabesques Blanches- mousseline de soie,CB_FOUaraCHOC,Accessoires de mode,49,49,1,1
+963,http://www.artesa-creations.com/img/p/2/7/6/1/2761.jpg,Etole Blanche et turquoise Mousseline de soie peinte,CB_FOUetolTUR,Chantal B,57.8,57.8,1,1
+1431,http://www.artesa-creations.com/img/p/3/6/3/7/3637.jpg,Collier Perle Baroque plaqué Or,MAN_COLperleBAR,Mariage,32.3,32.3,1,1
+1063,http://www.artesa-creations.com/img/p/2/9/6/3/2963.jpg,Jarretière Fleurs Chocolat & Doré,CB_JARchocOR,Jarretière de mariée,22.1,22.1,1,1
+437,http://www.artesa-creations.com/img/p/1/5/1/4/1514.jpg,Boutonnière Coeur Léger,CC_boutcoeur,Mariage,15,15,1,1
+540,http://www.artesa-creations.com/img/p/1/9/6/0/1960.jpg,Ras de cou trois rangs argent,HD_COLtrioArg,Bijoux de créateurs,37.5,37.5,1,1
+797,http://www.artesa-creations.com/img/p/2/4/0/2/2402.jpg,Barrette Pompon Tulle Blanc Pailletté,HD_barPom,Accessoires de mode,15,15,1,1
+642,http://www.artesa-creations.com/img/p/2/0/5/3/2053.jpg,Bague Rétro Pin'Up,ELE_BAGpinup,Bijoux de créateurs,19,19,1,1
+1280,http://www.artesa-creations.com/img/p/3/3/4/0/3340.jpg,Bibi Dentelle et Plume Ivoire,HC_BIBIrond,Mariage,49,49,1,1
+870,http://www.artesa-creations.com/img/p/2/5/5/8/2558.jpg,Faire-part naissance / carte Etoile,CC_CARTEskate,Créations Enfants,4.75,4.75,1,1
+731,http://www.artesa-creations.com/img/p/2/2/4/4/2244.jpg,Coussin d'alliances Orchidée Rose Pâle,CB_COUorchidée,Mariage,42.5,42.5,1,1
+1428,http://www.artesa-creations.com/img/p/3/6/4/5/3645.jpg,Collier Perle et cristal de Roche plaqué Or,MAN_COLperleEAU,Mariage,32.3,32.3,1,1
+1496,http://www.artesa-creations.com/img/p/3/7/6/6/3766.jpg,Pic Fleur et papillon fushia,HD_PICrose,Coiffure - Tête,6.8,6.8,1,1
+536,http://www.artesa-creations.com/img/p/1/7/8/5/1785.jpg,Bibi Fleurs & plume ivoire,HD_bibiplum,Coiffure - Tête,49.5,49.5,1,1
+1277,http://www.artesa-creations.com/img/p/3/3/3/7/3337.jpg,Porte nom Macarons Chocolat Framboise,HD_PORTmacafram,Mariage,12,12,1,1
+864,http://www.artesa-creations.com/img/p/2/5/4/9/2549.jpg,Foulard Kaki et Orange - mousseline de soie,CB_FOUkaki,Accessoires de mode,50,50,1,1
+1345,http://www.artesa-creations.com/img/p/3/4/5/7/3457.jpg,Boucles d'oreilles Goutte Cristal,HD_BOgoutteCRI,Bijoux de créateurs,15,15,1,1
+957,http://www.artesa-creations.com/img/p/2/7/5/2/2752.jpg,Coussin d'alliances Satin Bordeaux Plume noire,CB_couPLborN,Mariage,37.4,37.4,1,1
+1048,http://www.artesa-creations.com/img/p/2/9/2/7/2927.jpg,Bibi Dentelle Blanche et Cristaux,CM_bibiNB,Accessoires de mode,25,25,1,1
+1493,http://www.artesa-creations.com/img/p/3/7/6/0/3760.jpg,Bracelet Perles Bleues Argentées,HD_BRAceramgris,Bracelets,28,28,1,1
+1247,http://www.artesa-creations.com/img/p/3/4/1/9/3419.jpg,Faire-part Macarons,AC_FPmacaron,Faire-Part & Cartes,2.3,2.3,1,1
+791,http://www.artesa-creations.com/img/p/2/3/8/5/2385.jpg,Coffret d'Alliances Amour de Nacre Bordeaux,CC_BTAnacrBOR,Mariage,39.5,39.5,1,1
+1274,http://www.artesa-creations.com/img/p/3/3/2/8/3328.jpg,Porte nom Macarons Chocolat,HD_PORTmacaChoc,Mariage,12,12,1,1
+861,http://www.artesa-creations.com/img/p/2/5/4/3/2543.jpg,Bourse Satin blanc Fleurs Fushia,CB_BOUflFush,Mariage,55,55,1,1
+1342,http://www.artesa-creations.com/img/p/3/7/8/6/3786.jpg,Rond de Serviette Pompon Bronze et plume,BD_RONDbronze,Mariage,5,5,1,1
+1031,http://www.artesa-creations.com/img/p/2/9/0/0/2900.jpg,"Foulard Eclairs Anis, Kaki et Fushia etole mousseline de soie",CB_FOUkaki,Accessoires de mode,50,50,1,1
+1490,http://www.artesa-creations.com/img/p/3/7/5/4/3754.jpg,Boucles d'oreilles Cage Turquoise,GRE_BOcageTUR,Boucles d'oreilles,53.55,53.55,1,1
+1244,http://www.artesa-creations.com/img/p/3/2/8/0/3280.jpg,Bouquet de Fleurs Dorées,HD_BOUQborOR,Mariage,142.8,142.8,1,1
+788,http://www.artesa-creations.com/img/p/2/3/8/2/2382.jpg,Coussin d'alliances Fleurs Parme et satin ivoire,CB_COUsoielilas,Mariage,43.35,43.35,1,1
+1271,http://www.artesa-creations.com/img/p/3/3/6/9/3369.jpg,Collier Dentelle de Calais ivoire,HC_COLlarge,Bijoux de créateurs,47,47,1,1
+1339,http://www.artesa-creations.com/img/p/3/4/4/1/3441.jpg,Collier Macaron Café crème,HD_COLmacaCafe,Bijoux de créateurs,25.5,25.5,1,1
+951,http://www.artesa-creations.com/img/p/2/7/3/9/2739.jpg,Livre d'or Ivoire Chocolat Anis & Nacre,CC_LOharChoAni,Mariage,39.5,39.5,1,1
+1419,http://www.artesa-creations.com/img/p/3/6/1/7/3617.jpg,Broche Fleur de Soie Parfumable ,SY_BARfleur,Accessoires de mode,22.1,22.1,1,1
+1017,http://www.artesa-creations.com/img/p/2/8/6/9/2869.jpg,Boucles d'oreilles Turquoise nacre et perle,HD_BOturpt,Bijoux de créateurs,19,19,1,1
+517,http://www.artesa-creations.com/img/p/1/7/4/0/1740.jpg,Bibi Fleurs Dorées coiffure,HD_bibiFdore,Hélène Delacour,55.5,55.5,1,1
+628,http://www.artesa-creations.com/img/p/2/0/1/9/2019.jpg,Bouquet de Lys Blanc et Anis,HD_BOUQvert,Mariage,69.5,69.5,1,1
+1014,http://www.artesa-creations.com/img/p/2/8/6/0/2860.jpg,Bouquet Baroque Noir Blanc Bijoux Or,HD_BOUQbijou,Mariage,68,68,1,1
+1138,http://www.artesa-creations.com/img/p/3/1/0/1/3101.jpg,Jarretière Rose Vert Anis dentelle ivoire,CB_JARroseanis,Jarretière de mariée,16.15,16.15,1,1
+1237,http://www.artesa-creations.com/img/p/3/2/7/0/3270.jpg,Boucles d'oreilles Goutte Nacrée - Bianca,MAX_BO,Bijoux de créateurs,12,12,1,1
+850,http://www.artesa-creations.com/img/p/2/5/0/5/2505.jpg,Ras de Cou Tulipe multicolore - collier Origami,TP_RAStulimulti,Bijoux de créateurs,24,24,1,1
+1480,http://www.artesa-creations.com/img/p/3/7/3/4/3734.jpg,Livre de naissance Montgolfière,CC_LPAmont,Créations Enfants,39,39,1,1
+1134,http://www.artesa-creations.com/img/p/3/0/9/2/3092.jpg,Coussin d'alliances Baroque Noir et Fushia,CB_COUrock,Mariage,42.5,42.5,1,1
+502,http://www.artesa-creations.com/img/p/1/6/8/9/1689.jpg,Bourse Satin blanc Fleurs Noires,CB_BOUN&B,Mariage,47,47,1,1
+1230,http://www.artesa-creations.com/img/p/3/2/6/1/3261.jpg,Marque Place invité Papillon d'Argent,HD_MPpap,Mariage,7.5,7.5,1,1
+711,http://www.artesa-creations.com/img/p/2/2/6/3/2263.jpg,Serre-Tête Papillon Turquoise,HC_coifpapTur,Accessoires de mode,24,24,1,1
+1330,http://www.artesa-creations.com/img/p/3/4/2/9/3429.jpg,Serre Tête Fleur Givrée,HD_SerreFlgivre,Coiffure - Tête,25.5,25.5,1,1
+350,http://www.artesa-creations.com/img/p/1/2/1/0/1210.jpg,Coussin d'alliances Fleurs turquoises et cristaux,CB_COUflTUR,Mariage,33.15,33.15,1,1
+1409,http://www.artesa-creations.com/img/p/3/5/8/7/3587.jpg,Tiare Cuivrée Bohème Perles Blanche,AC_TIAcuivre,Mariage,24,24,1,1
+1224,http://www.artesa-creations.com/img/p/3/2/5/1/3251.jpg,Boutonnière Fleur Ivoire et Perles,HD_BOUTfleur,Pour LUI,16,16,1,1
+847,http://www.artesa-creations.com/img/p/2/5/0/2/2502.jpg,Boucles d'oreilles Tulipe Noire et Or,TP_BOboheOR,Bijoux de créateurs,16,16,1,1
+1405,http://www.artesa-creations.com/img/p/3/5/8/0/3580.jpg,Bracelet multirang noir Tête de Mort,AC_BRAnoir,Bijoux de créateurs,19,19,1,1
+1219,http://www.artesa-creations.com/img/p/3/2/4/4/3244.jpg,Bouton de manchette macarons chocolat,HD_BOUTmacachoc,Boutonnière - broche,15,15,1,1
+615,http://www.artesa-creations.com/img/p/1/9/8/7/1987.jpg,Coussin Arabesques Argent & Strass,CB_couSTRASS,Mariage,47.6,47.6,1,1
+844,http://www.artesa-creations.com/img/p/2/4/9/2/2492.jpg,Livre de naissance / Album bébé Garçon Skate,CC_LPAskate,Créations Enfants,37,37,1,1
+1402,http://www.artesa-creations.com/img/p/3/5/7/6/3576.jpg,Headband Chaine Dorée,AC_tiareor,Mariage,20,20,1,1
+1113,http://www.artesa-creations.com/img/p/3/0/6/3/3063.jpg,Boucles d'oreilles Fushia Perles,TP_BOfushia,Bijoux de créateurs,18,18,1,1
+488,http://www.artesa-creations.com/img/p/1/6/5/2/1652.jpg,Urne Coeur de Papillon Vert anis,CC-BTcoeur V,Mariage,53,53,1,1
+612,http://www.artesa-creations.com/img/p/1/9/7/3/1973.jpg,Coussin d'alliances Fleur de Cristal Turquoise,CB_couFLtur,Mariage,34.85,34.85,1,1
+841,http://www.artesa-creations.com/img/p/2/4/8/5/2485.jpg,Boîte CD souvenirs de mariage Chocolat,CC_BTCDchoco,Mariage,32,32,1,1
+696,http://www.artesa-creations.com/img/p/2/2/5/8/2258.jpg,Ras de Cou Perles d'Argent,HD_RASarg,Bijoux de créateurs,38,38,1,1
+929,http://www.artesa-creations.com/img/p/2/6/9/2/2692.jpg,Marque Place invité Ivoire et Bordeaux,CC_MQP01,Mariage,5,5,1,1
+1537,http://www.artesa-creations.com/img/p/3/8/3/5/3835.jpg,Boucles d'oreilles Perle Noire plaqué or,MAN_BOperleNOIRE,Catégories,25.5,25.5,1,1
+608,http://www.artesa-creations.com/img/p/1/9/5/3/1953.jpg,Coussin d'alliances Papillon Lilas,CB_PAPlilas,Mariage,42.5,42.5,1,1
+1321,http://www.artesa-creations.com/img/p/3/4/1/0/3410.jpg,Pochette Etoiles Dorées,BD_POCHor,Accessoires de mode,34,34,1,1
+784,http://www.artesa-creations.com/img/p/2/3/7/2/2372.jpg,Collier ras de cou Pompon pailleté,HD_COLpom,Bijoux de créateurs,27,27,1,1
+1534,http://www.artesa-creations.com/img/p/3/8/2/8/3828.jpg,Journal Intime Rouge et Gris,CC_JIrouge,Papeterie,39.95,39.95,1,1
+835,http://www.artesa-creations.com/img/p/2/4/7/4/2474.jpg,Boucles d'oreilles Bohème Dorée - origami,TP_BOboheOR,Bijoux de créateurs,21,21,1,1
+1315,http://www.artesa-creations.com/img/p/3/4/0/1/3401.jpg,Tour de cou Fleur Bleue & Argent,AI_COLfleurTUR,Bijoux de créateurs,25.5,25.5,1,1
+1392,http://www.artesa-creations.com/img/p/3/5/6/4/3564.jpg,Barettes Fleurs Turquoise et Plumes x2,CB_BARtur,Coiffure Mariage,25,25,1,1
+427,http://www.artesa-creations.com/img/p/1/4/8/1/1481.jpg,Jarretière 3 Fleurs Anis Chocolat,CB_JARchocAni,Jarretière de mariée,17,17,1,1
+479,http://www.artesa-creations.com/img/p/1/6/3/0/1630.jpg,Coussin d'alliances Fleurs Chocolat,CB_couORGchoc,Mariage,42.5,42.5,1,1
+832,http://www.artesa-creations.com/img/p/2/4/6/5/2465.jpg,Ras de Cou Tulipe Noire et Or - collier Origami,TP_RAStulinoir,Bijoux de créateurs,24,24,1,1
+917,http://www.artesa-creations.com/img/p/2/6/7/1/2671.jpg,Mitaine Rosace Nacrée - coton blanc crocheté,CC_MITperle,Mariage,43,43,1,1
+1389,http://www.artesa-creations.com/img/p/3/5/5/5/3555.jpg,Livre d'or Flocon d'hiver ruban turquoise,GA_LOflocon,Mariage,50,50,1,1
+423,http://www.artesa-creations.com/img/p/1/4/6/7/1467.jpg,Boîte à dons Orchidée,CC_BTorchi,Mariage,49.5,49.5,1,1
+993,http://www.artesa-creations.com/img/p/2/8/2/4/2824.jpg,Boutonniere Chocolat Turquoise Perle et Plume,HD_BOUTbouBleu,Boutonnière - broche,12,12,1,1
+1100,http://www.artesa-creations.com/img/p/3/0/4/7/3047.jpg,Bouquet Demoiselle d'honneur Oiseau et papillons blancs,HD_BOUQdhoiseau,Mariage,40.8,40.8,1,1
+1528,http://www.artesa-creations.com/img/p/3/8/1/0/3810.jpg,Urne Arabesques Dorées ivoire,CC_BTaraOR,Urne - boîte à dons,55,55,1,1
+593,http://www.artesa-creations.com/img/p/1/8/9/8/1898.jpg,Boite a dons Coeur Précieux urne mariage lin,CC_BTprecieux,Mariage,49.3,49.3,1,1
+829,http://www.artesa-creations.com/img/p/2/4/5/6/2456.jpg,Boucles d'oreilles Nénuphare Blanc Argent,TP_BOnenu,Bijoux de créateurs,24,24,1,1
+1309,http://www.artesa-creations.com/img/p/3/7/4/7/3747.jpg,Rond de Serviette Orchidée Blanche,HD_rondorchi,Hélène Delacour,8.5,8.5,1,1
+914,http://www.artesa-creations.com/img/p/2/6/7/2/2672.jpg,Album bébé / Livre Fleur Rose Chocolat naissance,CC_LPArose,Créations Enfants,39.95,39.95,1,1
+1386,http://www.artesa-creations.com/img/p/3/5/4/3/3543.jpg,Livre d'or Ivoire et plume bordeaux,CC-LOplumBOR,Album - Livre d'or,41,41,1,1
+1183,http://www.artesa-creations.com/img/p/3/1/8/4/3184.jpg,Marque Place invité Chocolat Turquoise,HD_MPchoctur,Mariage,5.95,5.95,1,1
+580,http://www.artesa-creations.com/img/p/2/8/8/1/2881.jpg,Bracelet cordon noir Perle Blanche,AC_BRAperle,Bijoux de créateurs,10,10,1,1
+826,http://www.artesa-creations.com/img/p/2/4/8/0/2480.jpg,Bracelet Bague Eclat de Feu,AC_BRAbagOran,Bijoux de créateurs,18,18,1,1
+679,http://www.artesa-creations.com/img/p/2/1/4/9/2149.jpg,Livre d'Or Chocolat Fleur de Soie Turquoise,CC_LOsoieTUR,Mariage,35.5,35.5,1,1
+1306,http://www.artesa-creations.com/img/p/3/3/7/6/3376.jpg,Bague Macaron Café au Lait,HD_BAGmacacafe,Bagues,15,15,1,1
+249,http://www.artesa-creations.com/img/p/1/5/3/8/1538.jpg,Collier Fleur Noire,HD_fleurNoire_COL,Bijoux de créateurs,39,39,1,1
+911,http://www.artesa-creations.com/img/p/2/6/6/1/2661.jpg,Collier Square pierre de lune et OR,LO_COLsq,Bijoux de créateurs,40,40,1,1
+772,http://www.artesa-creations.com/img/p/2/3/5/0/2350.jpg,Jarretière Dentelle Ivoire plume et perles bronze,CB_JARperle,Mariage,20.4,20.4,1,1
+573,http://www.artesa-creations.com/img/p/1/8/5/6/1856.jpg,Collier Papilon Noir,WAM_COLpap,Bijoux de créateurs,29,29,1,1
+823,http://www.artesa-creations.com/img/p/2/4/4/9/2449.jpg,Coussin d'alliances Blanc Papillon Chocolat Turquoise,CB_COUpapchoctur,Mariage,47.6,47.6,1,1
+674,http://www.artesa-creations.com/img/p/2/1/3/8/2138.jpg,Livre d'Or Versailles - Blanc et Argent,CC_LOvers,Mariage,40.5,40.5,1,1
+1303,http://www.artesa-creations.com/img/p/3/3/8/3/3383.jpg,Serre Tête Fleur Lilas Parme,LD_SERRElilas,Accessoires de mode,28.5,28.5,1,1
+225,http://www.artesa-creations.com/img/p/8/3/8/838.jpg,Col Echarpe Col d'hiver,IN&V_col,Accessoires de mode,48,48,1,1
+1377,http://www.artesa-creations.com/img/p/3/5/6/9/3569.jpg,Centre de Table Feuilles d'Automne,HD_DECOautomne,Mariage,32.3,32.3,1,1
+1451,http://www.artesa-creations.com/img/p/3/6/7/7/3677.jpg,Pochette Cuir Brun pompon turquoise,UN_pochCHOC,Chocolat Turquoise,39.8,39.8,1,1
+1522,http://www.artesa-creations.com/img/p/3/8/0/0/3800.jpg,Bracelet perles rouges breloque & cordon,AC_BRArouge,Bijoux de créateurs,16,16,1,1
+565,http://www.artesa-creations.com/img/p/1/8/3/6/1836.jpg,Coussin d'alliances Lierre Nature,CB_COULierre,Mariage,39.1,39.1,1,1
+820,http://www.artesa-creations.com/img/p/2/4/4/3/2443.jpg,Barrette Fleurs Violine Dentelle et perles,AC_BARviolet,Accessoires de mode,8,8,1,1
+670,http://www.artesa-creations.com/img/p/2/2/6/7/2267.jpg,Epingle à cheveux Perles & Passion Chocolat,CC_pinPPchoco,Mariage,11,11,1,1
+1087,http://www.artesa-creations.com/img/p/3/4/3/3/3433.jpg,Jarretière Flocon d'Argent Dentelle Neige,CB_JARflocon,Jarretière de mariée,22.1,22.1,1,1
+1177,http://www.artesa-creations.com/img/p/3/1/7/1/3171.jpg,Bouquet Fleur Turquoise,HD_BOUQfleurARG,Bouquet de mariée,37.5,37.5,1,1
+815,http://www.artesa-creations.com/img/p/2/4/2/7/2427.jpg,Bracelet Pompon Satin Blanc,HD_BRApomsat,Accessoires de mode,23,23,1,1
+1297,http://www.artesa-creations.com/img/p/3/3/5/5/3355.jpg,Stylo fantaisie Noir Points Argent,CC_STYnoir,Papeterie,5.9,5.9,1,1
+402,http://www.artesa-creations.com/img/p/1/3/8/6/1386.jpg,Coussin d'alliances Coeur Chantilly,CB_coeurchantilly,Mariage,57.8,57.8,1,1
+455,http://www.artesa-creations.com/img/p/1/5/5/8/1558.jpg,Mitaines Gris Souris,HD_MTgris,Accessoires de mode,25.5,25.5,1,1
+1170,http://www.artesa-creations.com/img/p/3/1/5/5/3155.jpg,Coussin d'alliances Ivoire Arabesques Chocolat,CB_COUaraChoc,Mariage,39.1,39.1,1,1
+1294,http://www.artesa-creations.com/img/p/3/3/9/3/3393.jpg,Collier Gouttes Turquoise ras de cou,HD_RASgoutteTUR,Bijoux de créateurs,20,20,1,1
+894,http://www.artesa-creations.com/img/p/2/6/0/4/2604.jpg,Faire-part naissance Animaux de la Jungle,CC_CARTEjun,Créations Enfants,4.75,4.75,1,1
+754,http://www.artesa-creations.com/img/p/2/3/1/2/2312.jpg,Boucles d'oreilles Rose Blanche et cristal,AC_BOroseBL,Bijoux de créateurs,15,15,1,1
+1361,http://www.artesa-creations.com/img/p/3/5/0/2/3502.jpg,Coussin d'alliances Palme D'or Cannes Cinema,CB_COUpalm,Mariage,30,30,1,1
+399,http://www.artesa-creations.com/img/p/1/4/3/0/1430.jpg,Collier Black Flower,TMV_COL10,Bijoux de créateurs,59,59,1,1
+451,http://www.artesa-creations.com/img/p/1/5/4/0/1540.jpg,Sautoir Papillon de Nuit,HD_Sautpap,Bijoux de créateurs,45,45,1,1
+1167,http://www.artesa-creations.com/img/p/3/1/4/9/3149.jpg,Coussin d'alliances Poker Jeu de Cartes,CB_COUpoker,Mariage,59.5,59.5,1,1
+1263,http://www.artesa-creations.com/img/p/3/4/7/1/3471.jpg,Epingle Papillon Vieil Or - tiare bijou de cheveux,WAM_pinpap,Bijoux de mariée,27.5,27.5,1,1
+809,http://www.artesa-creations.com/img/p/2/4/2/0/2420.jpg,Collier 3 rangs Perles Roses Irisées,HD_COL3rgRose,Bijoux de créateurs,39,39,1,1
+653,http://www.artesa-creations.com/img/p/2/0/7/9/2079.jpg,Livre d'or Harmonie Prune satin blanc,CC-LOmoussPru,Album - Livre d'or,39.95,39.95,1,1
+890,http://www.artesa-creations.com/img/p/2/5/9/6/2596.jpg,Ras de Cou Fleur de Lotus multicolore,TP_RASLotusMulti,Bijoux de créateurs,27,27,1,1
+751,http://www.artesa-creations.com/img/p/2/3/1/0/2310.jpg,"Stylo fantaisie Ivoire et Or - 'Oui, je le veux !'",CC_STYptOR,Papeterie,5.9,5.9,1,1
+1358,http://www.artesa-creations.com/img/p/3/4/9/8/3498.jpg,Peigne Rose Baroque et plume,HD_PEInb,Accessoires de mode,10.2,10.2,1,1
+970,http://www.artesa-creations.com/img/p/2/7/7/0/2770.jpg,Collier Fleur de Nacre et Cristal Ocre Orange,PM_COLoran,Bijoux de créateurs,46,46,1,1
+1073,http://www.artesa-creations.com/img/p/2/9/8/3/2983.jpg,Etui à lunettes turquoise papillons rouges,TP_etuiBLEU,Accessoires de mode,28.9,28.9,1,1
+1507,http://www.artesa-creations.com/img/p/3/7/8/2/3782.jpg,Clip de Chaussures Noeuds Noir & Or,HD_clipnoirDouble,Pour ELLE,23.8,23.8,1,1
+1163,http://www.artesa-creations.com/img/p/3/1/3/8/3138.jpg,Tiare Fleurs Dorées et Perles - headband,AC_TIAREfleur,Mariage,28,28,1,1
+1260,http://www.artesa-creations.com/img/p/3/2/9/1/3291.jpg,Couronne de Fleurs Rouges,HD_BANrouge,Coiffure Mariage,17,17,1,1
+741,http://www.artesa-creations.com/img/p/2/2/9/1/2291.jpg,Livre d'or Coeur Anis points argent,CC-LOcoeurAnisV2,Album - Livre d'or,36.5,36.5,1,1
+1355,http://www.artesa-creations.com/img/p/3/4/9/2/3492.jpg,Faire-part Violine et Perle Nacrée,DO_FPvio,Papeterie,5.65,5.65,1,1
+967,http://www.artesa-creations.com/img/p/3/4/7/2/3472.jpg,Urne Table de Poker thème Las Vegas,CB_BTpocker,Urne - boîte à dons,58,58,1,1
+1435,http://www.artesa-creations.com/img/p/3/6/3/0/3630.jpg,Bracelet trio de Perles cordon gris,MAN_BRAgrisPerle,Bijoux de créateurs,11.05,11.05,1,1
+1503,http://www.artesa-creations.com/img/p/3/7/7/7/3777.jpg,Collier perles Anis ras de cou céramique,HD_COLceramANIS,Colliers,39,39,1,1
+1257,http://www.artesa-creations.com/img/p/3/2/9/6/3296.jpg,Bouquet Glamour Lilas Rose,HD_BOUQlilas,Lilas Parme,76.5,76.5,1,1
+801,http://www.artesa-creations.com/img/p/2/4/0/9/2409.jpg,Boutonnière Rose Blanche Plume Noire,HD_BROplrose,Mariage,14,14,1,1
+176,http://www.artesa-creations.com/img/p/6/2/4/624.jpg,Boîte à dons Amour de Nacre,CCBT-02,Mariage,42,42,1,1
+1352,http://www.artesa-creations.com/img/p/3/4/8/5/3485.jpg,Marque place invité Anis Noeud Choco,DO_MPchocAnis,Mariage,1.3,1.3,1,1
+964,http://www.artesa-creations.com/img/p/2/7/5/8/2758.jpg,Etole Ivoire Arabesques Chocolat Mousseline de soie,CB_FOUetolaraCHOC,Chantal B,65,65,1,1
+1500,http://www.artesa-creations.com/img/p/3/7/7/2/3772.jpg,Porte Chéquier Noir Fleurs Rouges,TP_portFLrouge,Accessoires de mode,20.5,20.5,1,1
+438,http://www.artesa-creations.com/img/p/2/3/4/1/2341.jpg,Urne boîte à dons Coeur Léger,CC_BTnichoir,Mariage,52,52,1,1
+1254,http://www.artesa-creations.com/img/p/3/2/8/5/3285.jpg,Serre Tête Papillon et Cristaux,HD_BANpap,Coiffure Mariage,29,29,1,1
+798,http://www.artesa-creations.com/img/p/2/4/0/4/2404.jpg,Headband Fleur Blanche & Strass Argent,AC_BANflstrass,Accessoires de mode,20,20,1,1
+1281,http://www.artesa-creations.com/img/p/3/3/5/9/3359.jpg,Bibi Noeud Ivoire,HC_BIBInoeud,Mariage,39,39,1,1
+732,http://www.artesa-creations.com/img/p/2/2/7/0/2270.jpg,Coussin d'alliances Arabesques Noires Satin Blanc,CB_COUaraNoir,Mariage,34,34,1,1
+140,http://www.artesa-creations.com/img/p/4/8/1/481.jpg,Cadre photo Floralie,CC-CBB-01,Créations Enfants,36,29,1,1
+865,http://www.artesa-creations.com/img/p/2/5/4/7/2547.jpg,Foulard Violine Vagues Lilas Parme - mousseline de soie peinte,CB_FOUvagLilas,Accessoires de mode,49,49,1,1
+375,http://www.artesa-creations.com/img/p/1/3/1/3/1313.jpg,Boucles Libellule d'Argent,HD_BOlibAG,Bijoux de créateurs,18,18,1,1
+958,http://www.artesa-creations.com/img/p/2/7/5/1/2751.jpg,Coussin de mariage Etoile de Neige Blanc et Argent,CB_COUflocon,Coussin d'alliance,32.3,32.3,1,1
+1426,http://www.artesa-creations.com/img/p/3/6/4/8/3648.jpg,Collier Etoile Dorée Plaqué Or & Nacre,MAN_COLetoile,Mariage,32.3,32.3,1,1
+534,http://www.artesa-creations.com/img/p/1/9/5/6/1956.jpg,Bibi Fleurs Chocolat,HD_bibiFchoc,Accessoires de mode,52.5,52.5,1,1
+1275,http://www.artesa-creations.com/img/p/3/3/2/9/3329.jpg,Kit de Voyage Gris Pois Cuivrés,BD_KITetoileOR,Accessoires de mode,51,51,1,1
+115,http://www.artesa-creations.com/img/p/4/0/6/406.jpg,Boucles d'oreilles Perles de Neige,strata-BOneige,Catégories,29,29,1,1
+862,http://www.artesa-creations.com/img/p/2/9/0/6/2906.jpg,Boucles d'oreilles Baroques - perles noires,HD_BObaroque,Bijoux de créateurs,25,25,1,1
+726,http://www.artesa-creations.com/img/p/2/2/6/2/2262.jpg,Headband Bibi Noeud Argent,HD_bibiNeuArg,Coiffure - Tête,43,43,1,1
+371,http://www.artesa-creations.com/img/p/1/4/2/6/1426.jpg,Collier Libellules d'Argent,HD_COLlibAg,Bijoux de créateurs,40,40,1,1
+529,http://www.artesa-creations.com/img/p/1/7/6/5/1765.jpg,Boucles d'oreilles Fleurs Cuivrées,HD_BOcuivre,Bijoux de créateurs,21,21,1,1
+1272,http://www.artesa-creations.com/img/p/3/3/2/3/3323.jpg,Jarretière Saumon Dentelle et Fleurs,CB_JARsaumon,Mariage,20.4,20.4,1,1
+723,http://www.artesa-creations.com/img/p/2/2/5/9/2259.jpg,Collier Rose d'Argent,HD_COLroseARG,Bijoux de créateurs,40,40,1,1
+1420,http://www.artesa-creations.com/img/p/3/6/1/4/3614.jpg,Headband Estampe argent et sphère à parfumer,SY_head,Bijoux de créateurs,37.4,37.4,1,1
+1019,http://www.artesa-creations.com/img/p/2/8/8/4/2884.jpg,Collier Papillon de Nacre,AC_COLpapOR,Bijoux de créateurs,22,22,1,1
+523,http://www.artesa-creations.com/img/p/1/7/5/6/1756.jpg,Bague Fleur Cuivrée,HD_BAGcuivre,Bijoux de créateurs,16,16,1,1
+1241,http://www.artesa-creations.com/img/p/3/2/7/6/3276.jpg,Jarretière dentelle Noire Noeud Fushia,CB_JARnoirfush,Jarretière de mariée,19.55,19.55,1,1
+1269,http://www.artesa-creations.com/img/p/3/3/1/1/3311.jpg,Boutons de manchette Blanc Argent Strass,HD_BOUTONbl,Pour LUI,18,18,1,1
+720,http://www.artesa-creations.com/img/p/2/2/2/7/2227.jpg,Bibi serre tête Gris Perle et Argent,HD_bibipoisargent,Coiffure - Tête,47,47,1,1
+1337,http://www.artesa-creations.com/img/p/3/4/3/8/3438.jpg,Jarretière Papillon anis dentelle blanche,CB_JARpapAnis,Jarretière de mariée,18.7,18.7,1,1
+949,http://www.artesa-creations.com/img/p/2/7/2/6/2726.jpg,Livre d'Or Flocon Argent thème hiver,CC_LOflo,Mariage,35.5,35.5,1,1
+1015,http://www.artesa-creations.com/img/p/2/8/8/0/2880.jpg,Bouquet Rose Blanche Romantique,HD_BOUQroseG,Mariage,71.4,71.4,1,1
+625,http://www.artesa-creations.com/img/p/2/0/1/2/2012.jpg,Collier Etoiles Argentées,HD_COLetoile,Bijoux de créateurs,36,36,1,1
+1334,http://www.artesa-creations.com/img/p/3/4/3/6/3436.jpg,Boucles d'oreilles Fleurs Bleues Perlées,TP_BOfushiaMulti,Bijoux de créateurs,18,18,1,1
+1414,http://www.artesa-creations.com/img/p/3/5/9/8/3598.jpg,Bracelet Orchidées Ivoire,HD_BRAorchi,Bracelets,22.1,22.1,1,1
+1136,http://www.artesa-creations.com/img/p/3/0/9/4/3094.jpg,Bouquet Theme Mer Coquillage Bleu ivoire,HD_BOUQmer,Mariage,64.6,64.6,1,1
+1331,http://www.artesa-creations.com/img/p/3/4/3/1/3431.jpg,Ras de Cou Dentelle Or et perles,HD_COLdentOR,Pour ELLE,20,20,1,1
+1410,http://www.artesa-creations.com/img/p/3/5/8/8/3588.jpg,Mitaines Noir et Blanc Strass manchettes,CB_MITnoeudnoir,Accessoires de mode,25.5,25.5,1,1
+1127,http://www.artesa-creations.com/img/p/3/0/8/1/3081.jpg,Coussin d'alliances Ivoire Dentelle Noire et Or,CB_COUivoireOR,Mariage,25.5,25.5,1,1
+497,http://www.artesa-creations.com/img/p/1/6/7/5/1675.jpg,Livre d'or Coeur de Papillon Vert Anis,CC-LOpapV,Album - Livre d'or,36.5,36.5,1,1
+848,http://www.artesa-creations.com/img/p/2/5/0/3/2503.jpg,Boucles d'oreilles Cube Rouge et Blanc,TP_BOtaraCrouge,Bijoux de créateurs,14,14,1,1
+937,http://www.artesa-creations.com/img/p/2/7/0/8/2708.jpg,Mini bouquet de table Papillon Blanc - marque place,HD_DECOrouge,Mariage,25,25,1,1
+1117,http://www.artesa-creations.com/img/p/3/0/6/6/3066.jpg,Coussin d'alliances Fleurs Turquoise satin blanc,CB_COUorgTUR,Mariage,42.5,42.5,1,1
+494,http://www.artesa-creations.com/img/p/1/6/8/6/1686.jpg,Collier Lune d'Ambre,WAM_COLlune,Bijoux de créateurs,53,53,1,1
+845,http://www.artesa-creations.com/img/p/2/4/9/5/2495.jpg,Livre de naissance / Album Animaux de la Savane,CC_LPAlion,Créations Enfants,39,39,1,1
+1328,http://www.artesa-creations.com/img/p/3/4/2/2/3422.jpg,Boucles d'oreilles Perle Noire Fleur dorée,AC_BOfiliNOIR,Bijoux de créateurs,18,18,1,1
+348,http://www.artesa-creations.com/img/p/1/1/9/9/1199.jpg,Album Coeur de Pois Turquoise,CC-ApoisT,Mariage,42,42,1,1
+1403,http://www.artesa-creations.com/img/p/3/5/9/1/3591.jpg,Urne Coffre au trésors malle en bois,CB_BTcoffrePTbois,Urne - boîte à dons,75,75,1,1
+1003,http://www.artesa-creations.com/img/p/2/8/4/3/2843.jpg,Bracelet Bronze Perles Nacrées,WAM_BRAbron,Bijoux de créateurs,16.5,16.5,1,1
+613,http://www.artesa-creations.com/img/p/1/9/7/8/1978.jpg,Coussin d'alliances Bordeaux & Arabesques Dorées,CB_COUaraBOR,Mariage,39.1,39.1,1,1
+930,http://www.artesa-creations.com/img/p/2/6/9/3/2693.jpg,Jarretière Rose d'Hiver - crochet et perles,CC_JARbl,Jarretière de mariée,40,40,1,1
+1467,http://www.artesa-creations.com/img/p/3/7/1/0/3710.jpg,Livre d'or Orchidée Bordeaux & Argent,CC_LOorchiBOR,Album - Livre d'or,39.5,39.5,1,1
+1199,http://www.artesa-creations.com/img/p/3/6/6/6/3666.jpg,Collier Fleur Blanc et Perles Nacrées,TB_COLorch,Mariage,30.5,30.5,1,1
+839,http://www.artesa-creations.com/img/p/2/4/8/2/2482.jpg,Boucles d'oreilles Bohème Turquoise et Or - origami,TP_BOboheTUR,Bijoux de créateurs,21,21,1,1
+1322,http://www.artesa-creations.com/img/p/3/4/6/5/3465.jpg,Clip de Chaussures Noeuds Argentés,HD_clipNoeudARG,Bijoux de créateurs,21,21,1,1
+1464,http://www.artesa-creations.com/img/p/3/7/0/6/3706.jpg,Bracelet Etoile de Nacre plaqué Or,MAN_BRAetoile,Mariage,29.75,29.75,1,1
+280,http://www.artesa-creations.com/img/p/9/9/5/995.jpg,Foulard Alizé,CB_foulardAlize,Chantal B,52.7,52.7,1,1
+922,http://www.artesa-creations.com/img/p/2/6/8/3/2683.jpg,Foulard Calliopée Rouge Noir et Or,CB_FOUrougenoir,Chantal B,52,52,1,1
+782,http://www.artesa-creations.com/img/p/2/3/6/8/2368.jpg,Mini Bourse à Dragée satin Ivoire et Chocolat,CB_dragChoco,Mariage,7.9,7.9,1,1
+480,http://www.artesa-creations.com/img/p/1/6/3/3/1633.jpg,Coussin d'alliances Fleurs de Nacre,CB_RECnacre,Mariage,45,45,1,1
+1532,http://www.artesa-creations.com/img/p/3/8/2/3/3823.jpg,Journal Intime Noeud Rose et Pois,CC_JInoeudrose,Papeterie,39.95,39.95,1,1
+833,http://www.artesa-creations.com/img/p/2/4/6/7/2467.jpg,Sautoir lacet à nouer Tulipe Noire et Or - bijou Origami,TP_SAUTtulinoir,Bijoux de créateurs,34,34,1,1
+688,http://www.artesa-creations.com/img/p/2/1/7/0/2170.jpg,Bracelet Fleur de Cristal,CC_BRAcristal,Bijoux de créateurs,15,15,1,1
+474,http://www.artesa-creations.com/img/p/1/6/0/6/1606.jpg,Coussin d'alliances Fleurs Dorées,CB_COUfldore,Mariage,42.5,42.5,1,1
+830,http://www.artesa-creations.com/img/p/2/4/5/8/2458.jpg,Boucles d'oreilles Cube Noir et Or,TP_BOtaraCnoir,Bijoux de créateurs,14,14,1,1
+1458,http://www.artesa-creations.com/img/p/3/6/9/7/3697.jpg,Boucles D'oreilles Perle plaqué Or,MAN_BOperlesimple,Catégories,25.5,25.5,1,1
+1098,http://www.artesa-creations.com/img/p/3/0/3/0/3030.jpg,Collier Arc en Ciel - ras de cou cristal,AC_COLrac,Bijoux de créateurs,12,12,1,1
+469,http://www.artesa-creations.com/img/p/1/5/9/7/1597.jpg,Livre d'or Framboise & Anis,CC-LOanisfram,Album - Livre d'or,39.5,39.5,1,1
+1185,http://www.artesa-creations.com/img/p/3/1/9/1/3191.jpg,Livre d'or Dentelle Baroque noir et blanc A4,CB_LObaroque,Mariage,39,39,1,1
+773,http://www.artesa-creations.com/img/p/2/3/4/5/2345.jpg,Coussin d'alliances Violet papillon fushia,CB_COUvioPAP,Mariage,42.5,42.5,1,1
+1095,http://www.artesa-creations.com/img/p/3/0/2/1/3021.jpg,Boucles d'oreilles Tulipe Rose Fushia,TP_BOtulipRose,Bijoux de créateurs,16,16,1,1
+1523,http://www.artesa-creations.com/img/p/3/8/0/1/3801.jpg,Jarretière Dentelle Noire Noeud Rose,CB_JARnoireRose,Jarretière de mariée,18.7,18.7,1,1
+824,http://www.artesa-creations.com/img/p/2/4/5/0/2450.jpg,Bracelet Bohème - Breloques turquoise et rouge,,Bijoux de créateurs,18,18,1,1
+1304,http://www.artesa-creations.com/img/p/3/3/7/3/3373.jpg,Serre Tête Diadème Dentelle,HC_diademe,Mariage,49,49,1,1
+770,http://www.artesa-creations.com/img/p/2/3/7/7/2377.jpg,Jarretière Papillon d'Argent & dentelle blanche,CB_JARpapArg,Mariage,20.4,20.4,1,1
+1381,http://www.artesa-creations.com/img/p/3/5/3/7/3537.jpg,Coussin d'alliances Chocolat et Fleurs Rose,CB_COUsatChocFush,Mariage,33.15,33.15,1,1
+985,http://www.artesa-creations.com/img/p/3/4/7/6/3476.jpg,Coussin d'alliances Cinema Clap et bobine,CB_COUcine,Mariage,36.5,36.5,1,1
+566,http://www.artesa-creations.com/img/p/2/5/1/5/2515.jpg,Sac cabat Rouge & Noir,CB_SACchineR,Accessoires de mode,45,45,1,1
+821,http://www.artesa-creations.com/img/p/2/4/4/4/2444.jpg,Etole Blanche Feuilles de Lierre - foulard en soie peinte,CB_FOUlierre,Accessoires de mode,57,57,1,1
+671,http://www.artesa-creations.com/img/p/2/1/3/3/2133.jpg,Jarretière Dentelle Bordeaux Fleurs Dorées,CB_JARborOR,Jarretière de mariée,20.4,20.4,1,1
+766,http://www.artesa-creations.com/img/p/2/3/3/7/2337.jpg,Coussin d'alliances satin blanc plissé turquoise,CB_COUplissTUR,Mariage,44.2,44.2,1,1
+1372,http://www.artesa-creations.com/img/p/3/5/2/2/3522.jpg,Boucles d'oreilles Fleurs Noires Porcelaine,HD_BOfleurnoire,Boucles d'oreilles,20.4,20.4,1,1
+982,http://www.artesa-creations.com/img/p/2/8/0/0/2800.jpg,Urne Bobine de Film theme Cinema,CB_BTbobine,Urne - boîte à dons,65,65,1,1
+1449,http://www.artesa-creations.com/img/p/3/6/7/3/3673.jpg,Bracelet Noeud Marin,CA_BRA9811,Catégories,8.5,8.5,1,1
+1178,http://www.artesa-creations.com/img/p/3/1/7/3/3173.jpg,Bouquet Fleur Rose Fushia,HD_BOUQfleurFUSH,Bouquet de mariée,37.5,37.5,1,1
+816,http://www.artesa-creations.com/img/p/2/4/2/9/2429.jpg,Collier Fleur Blanche - ras de cou,HD_COLflBlanc,Bijoux de créateurs,25,25,1,1
+901,http://www.artesa-creations.com/img/p/2/6/2/7/2627.jpg,Mini Bourse à Dragée Chocolat et Ivoire,CB_DARchoIv,Catégories,11,11,1,1
+1368,http://www.artesa-creations.com/img/p/3/5/6/8/3568.jpg,Bouquet Noir et Blanc Perles et Papillons Blancs,HD_BOUQperleBL,Mariage,63,63,1,1
+1085,http://www.artesa-creations.com/img/p/3/0/3/1/3031.jpg,Jarretière baroque Dentelle Noire Noeud Blanc,CB_JARbaroque,Jarretière de mariée,19.55,19.55,1,1
+459,http://www.artesa-creations.com/img/p/1/5/6/4/1564.jpg,Livre d'or Satin Chocolat & Anis,CC-LOsatChocAnis,Album - Livre d'or,36.21,36.21,1,1
+1175,http://www.artesa-creations.com/img/p/3/1/6/7/3167.jpg,Bouquet Fleur d'Argent,HD_BOUQfleurARG,Bouquet de mariée,37.5,37.5,1,1
+813,http://www.artesa-creations.com/img/p/2/4/2/2/2422.jpg,Livre d'or Harmonie Noir et Rose Fushia,CC-LOharmNF,Album - Livre d'or,39.95,39.95,1,1
+976,http://www.artesa-creations.com/img/p/2/7/8/4/2784.jpg,Boutonnière Rose Beige plume chocolat et perles,HD_BROplrose,Mariage,14,14,1,1
+1443,http://www.artesa-creations.com/img/p/3/6/6/3/3663.jpg,Urne Tour Eiffel Boite mariage Paris,CB_BTeiffel,Mariage,139,139,1,1
+453,http://www.artesa-creations.com/img/p/1/5/4/8/1548.jpg,Coussin d'alliances Papillon Fushia,CB_COUpapFUSH,Mariage,43.5,43.5,1,1
+1359,http://www.artesa-creations.com/img/p/3/5/0/6/3506.jpg,Gants Satin Noir et Fushia mitaines,CB_MITrosenoir,Accessoires de mode,37.4,37.4,1,1
+971,http://www.artesa-creations.com/img/p/2/7/7/3/2773.jpg,Collier Fleur de Nacre et Cristal Rose Bonbon,PM_COLrose,Bijoux de créateurs,46,46,1,1
+1074,http://www.artesa-creations.com/img/p/2/9/9/8/2998.jpg,Etui à lunette Rouge et Blanc,TP_ETUIrouge,Accessoires de mode,28.9,28.9,1,1
+1508,http://www.artesa-creations.com/img/p/3/7/8/5/3785.jpg,Clip de Chaussures Noeuds Argent Strass,HD_clipArgDouble,Pour ELLE,23.8,23.8,1,1
+1261,http://www.artesa-creations.com/img/p/3/6/1/1/3611.jpg,Couronne de Fleurs Rose,HD_BANrose,Coiffure - Tête,20,20,1,1
+806,http://www.artesa-creations.com/img/p/2/4/1/2/2412.jpg,Coussin d'alliances Fleurs Bordeaux Satin blanc,CB_COUflBOR,Mariage,33.15,33.15,1,1
+650,http://www.artesa-creations.com/img/p/2/0/7/7/2077.jpg,Jarretière Dentelle Rouge et Fleurs Cerise,CB_JARcerise,Jarretière de mariée,20.4,20.4,1,1
+1288,http://www.artesa-creations.com/img/p/3/3/4/9/3349.jpg,Bibi Goutte de Dentelle & Plume Ivoire,HC_BIBIgouttePl,Mariage,49,49,1,1
+742,http://www.artesa-creations.com/img/p/2/2/9/3/2293.jpg,Headband Fleurs Dorées et satin blanc,CB_BANor,Accessoires de mode,20,20,1,1
+968,http://www.artesa-creations.com/img/p/2/7/8/1/2781.jpg,Collier Noeud à la Violette Liberty,AC_COLnoeudVio,Bijoux de créateurs,18,18,1,1
+1160,http://www.artesa-creations.com/img/p/3/1/2/9/3129.jpg,Collier Feuilles de Lierre ras de cou,CB_COLlierre,Bijoux de créateurs,29,29,1,1
+546,http://www.artesa-creations.com/img/p/1/7/9/5/1795.jpg,Coussin Chocolat Fleur Turquoise,CB_couChoctur,Mariage,40.8,40.8,1,1
+1258,http://www.artesa-creations.com/img/p/3/2/8/9/3289.jpg,Urne Etoile Strass en noir et blanc,CB_BTstrass,Blanc Argent,39,39,1,1
+647,http://www.artesa-creations.com/img/p/2/0/7/0/2070.jpg,Coussin d'alliances Fleurs Rouge Cerise,CB_COUorgRouge,Mariage,42.5,42.5,1,1
+885,http://www.artesa-creations.com/img/p/2/5/8/9/2589.jpg,Collier Nénuphare Blanc Argent,TP_BOnenuA,Bijoux de créateurs,30,30,1,1
+738,http://www.artesa-creations.com/img/p/2/2/8/4/2284.jpg,Livre d'or Harmonie Ivoire et Bordeaux,CC-LOmoussBOR,Album - Livre d'or,39.95,39.95,1,1
+1353,http://www.artesa-creations.com/img/p/3/4/8/7/3487.jpg,Faire-part Anis Noeud Chocolat,DO_FPchocAnis,Papeterie,5.65,5.65,1,1
+1068,http://www.artesa-creations.com/img/p/2/9/7/2/2972.jpg,Sautoir lacet à nouer Tulipe Fushia - bijou Origami,TP_SAUTtulirose,Bijoux de créateurs,34,34,1,1
+542,http://www.artesa-creations.com/img/p/1/9/3/9/1939.jpg,Bibi Fleurs d'Argent,HD_bibiargent,Coiffure - Tête,52.5,52.5,1,1
+1255,http://www.artesa-creations.com/img/p/3/2/8/7/3287.jpg,Bouquet Paradis plumes et papillons blancs,HD_BOUQparadis,Blanc Argent,64.6,64.6,1,1
+799,http://www.artesa-creations.com/img/p/2/4/0/6/2406.jpg,Barrette Pompon Satin Blanc,HD_barSat,Accessoires de mode,13,13,1,1
+644,http://www.artesa-creations.com/img/p/2/0/5/8/2058.jpg,Livre d'or Coeur Noir et Blanc,CC-LOcoeurNOIR,Album - Livre d'or,36.5,36.5,1,1
+1282,http://www.artesa-creations.com/img/p/3/3/6/8/3368.jpg,Serre Tête Plume et Voilette,HC_SERREplume,Mariage,46,46,1,1
+1430,http://www.artesa-creations.com/img/p/3/6/3/4/3634.jpg,Boucles D'oreilles Perle et Cristal de Roche plaqué Or,MAN_BOperle,Catégories,28.9,28.9,1,1
+1062,http://www.artesa-creations.com/img/p/2/9/6/2/2962.jpg,Jarretière Dentelle Ivoire Noeud Chocolat,CB_JARnoeudChoc,Mariage,19.55,19.55,1,1
+539,http://www.artesa-creations.com/img/p/1/7/9/1/1791.jpg,Collier Camée Gris Bleu,HD_COLcamegris,Bijoux de créateurs,34,34,1,1
+1279,http://www.artesa-creations.com/img/p/3/3/3/9/3339.jpg,Urne Piano Jazz Noir Pailleté et Argent,CB_BTpianoNoirPai,Urne - boîte à dons,73,73,1,1
+141,http://www.artesa-creations.com/img/p/4/8/6/486.jpg,Cadre photo Star,CC-CBB-02,Créations Enfants,36,36,1,1
+730,http://www.artesa-creations.com/img/p/2/2/7/6/2276.jpg,Bracelet Fleurs de Cerisier et Corail,SB_BRAcerise,Bijoux de créateurs,23,23,1,1
+1347,http://www.artesa-creations.com/img/p/3/4/7/8/3478.jpg,Livre d'or Anis Noeud Chocolat,DA_LOanis,Livre d'or,51,51,1,1
+1427,http://www.artesa-creations.com/img/p/3/6/4/7/3647.jpg,Boucles D'oreilles Etoiles Dorées Plaquées Or & Nacre,MAN_BOetoile,Mariage,25.5,25.5,1,1
+433,http://www.artesa-creations.com/img/p/1/4/9/7/1497.jpg,Coussin Chocolat Papillon Turquoise,CB_coupaptur,Mariage,37.5,37.5,1,1
+1149,http://www.artesa-creations.com/img/p/3/1/1/6/3116.jpg,Coussin d'alliances Plumes et perles satin blanc,CB_COUplum,Mariage,30,30,1,1
+1276,http://www.artesa-creations.com/img/p/3/3/3/3/3333.jpg,Kit de Voyage Etoile Argentée,BD_KITetoileArg,Accessoires de mode,59,59,1,1
+1344,http://www.artesa-creations.com/img/p/3/5/2/5/3525.jpg,Rond de Serviette Macaron,HD_RondMaca,Mariage,8.5,8.5,1,1
+1246,http://www.artesa-creations.com/img/p/3/2/7/9/3279.jpg,Boucles d'oreilles cookies chocolat,VZ_BOcook,Bijoux de créateurs,17,17,1,1
+1341,http://www.artesa-creations.com/img/p/3/4/5/1/3451.jpg,Pochette Grise daim Pois Cuivrés,BD_POCHpois,Accessoires de mode,34,34,1,1
+786,http://www.artesa-creations.com/img/p/2/3/7/5/2375.jpg,Livre d'Or Versailles - Noir et Argent,CC_LOversNOIRarg,Mariage,40.5,40.5,1,1
+630,http://www.artesa-creations.com/img/p/2/2/1/1/2211.jpg,Album bébé / Livre Princesse naissance,CC_LPAprinc,Créations Enfants,39.95,39.95,1,1
+49,http://www.artesa-creations.com/img/p/2/0/1/201.jpg,Boucles d'oreilles Pacifique,BE003,Be! Créations,19,19,1,1
+857,http://www.artesa-creations.com/img/p/2/5/6/2/2562.jpg,Jarretière Crochet Anis et Chocolat,CC_JARanis,Jarretière de mariée,34,34,1,1
+1338,http://www.artesa-creations.com/img/p/3/4/3/9/3439.jpg,Jarretière Etoile Filante,CB_JARetoile,Jarretière de mariée,16.15,16.15,1,1
+360,http://www.artesa-creations.com/img/p/1/2/5/9/1259.jpg,Coussin d'alliances Coeur Rose Nacré,CB_coeurRosnacr,Mariage,49,49,1,1
+950,http://www.artesa-creations.com/img/p/2/7/3/7/2737.jpg,Livre d'or Chocolat Orange & Nacre,CC_LOchocOran,Mariage,39.5,39.5,1,1
+1418,http://www.artesa-creations.com/img/p/3/6/1/0/3610.jpg,Urne Passion Plume Bordeaux et ivoire,CC_BTpassion,Urne - boîte à dons,54.4,54.4,1,1
+1239,http://www.artesa-creations.com/img/p/3/2/7/4/3274.jpg,Marque place macaron framboise,,Mariage,4.45,4.45,1,1
+717,http://www.artesa-creations.com/img/p/2/2/2/3/2223.jpg,Jarretière dentelle Ivoire Fleur Anis Chocolat,CB_JARveloursanis,Jarretière de mariée,19.55,19.55,1,1
+355,http://www.artesa-creations.com/img/p/1/2/3/2/1232.jpg,Jarretière Fleurs Cuivrées,CB_JARorange,Jarretière de mariée,18.7,18.7,1,1
+1415,http://www.artesa-creations.com/img/p/3/5/9/9/3599.jpg,Coussin Glamour Noeud Rouge porte-alliances,CB_COUnoeudrouge,Mariage,32.3,32.3,1,1
+1013,http://www.artesa-creations.com/img/p/2/8/5/8/2858.jpg,Bandeau Orchidée Blanche coiffure,HD_BANorchi,Accessoires de mode,16.5,16.5,1,1
+1137,http://www.artesa-creations.com/img/p/3/0/9/7/3097.jpg,Bouquet Lumineux Roses Noir et Argent Disco,HD_BOUQdisco,Mariage,71.4,71.4,1,1
+510,http://www.artesa-creations.com/img/p/1/7/1/7/1717.jpg,Jarretière Dentelle Ivoire et Fleurs Dorées,CB_JARivOR,Jarretière de mariée,20.4,20.4,1,1
+352,http://www.artesa-creations.com/img/p/1/2/1/9/1219.jpg,Coussin d'alliances Fleur d'Argent,CB_ArgOrg,Mariage,41.65,41.65,1,1
+944,http://www.artesa-creations.com/img/p/2/7/1/8/2718.jpg,Mini bouquet Etoile dorée Plume rouge - marque place porte étiquette,HD_PORTetoile,Mariage,24,24,1,1
+1226,http://www.artesa-creations.com/img/p/3/2/5/3/3253.jpg,Boutons de Manchette Rock n'Roll Pistolet & Guitare,HD_BOUTONrock,Mariage,17,17,1,1
+706,http://www.artesa-creations.com/img/p/2/2/0/5/2205.jpg,Coussin d'alliances Chocolat orchidée Orange,CB_COUchoORC,Mariage,34,34,1,1
+1329,http://www.artesa-creations.com/img/p/3/4/2/4/3424.jpg,Boucles d'oreilles Nénuphare Améthyste,WAM_BOnenuAM,Boucles d'oreilles,13.5,13.5,1,1
+349,http://www.artesa-creations.com/img/p/1/2/0/5/1205.jpg,Album Coeur de Pois chocolat,CC-ApoisC,Mariage,42,42,1,1
+1407,http://www.artesa-creations.com/img/p/3/5/8/3/3583.jpg,Bourse Arabesques Turquoise et Argent Satin blanc,CB_BOUtur,Chantal B,59,59,1,1
+1474,http://www.artesa-creations.com/img/p/3/7/2/1/3721.jpg,Livre d'or Romantique Arabesques & Roses,AC_LOaraGRIS,Mariage,39.9,39.9,1,1
+1120,http://www.artesa-creations.com/img/p/3/0/7/2/3072.jpg,Mini Bourse à Dragée satin Blanc et Violet,CB_dragVIO,Mariage,7.9,7.9,1,1
+1223,http://www.artesa-creations.com/img/p/3/2/5/0/3250.jpg,Boutonnière Macaron Chocolat Fushia,HD_BOUTmacaron,Mariage,18.5,18.5,1,1
+934,http://www.artesa-creations.com/img/p/2/6/9/8/2698.jpg,Rond de Serviette Chocolat Turquoise Plume et perle,HD_rondTUR,Hélène Delacour,3.5,3.5,1,1
+1404,http://www.artesa-creations.com/img/p/3/5/7/8/3578.jpg,Urne Casino Machine à sous Argent et noir,CB_BTcasinoARG,Urne - boîte à dons,59,59,1,1
+1004,http://www.artesa-creations.com/img/p/2/8/4/5/2845.jpg,Bouquet Orchidées Blanches et anis,HD_BOUQorch,Mariage,54.4,54.4,1,1
+614,http://www.artesa-creations.com/img/p/1/9/8/1/1981.jpg,Livre d'or Coeur Précieux Bordeaux,CCLO-25,Mariage,36.5,36.5,1,1
+843,http://www.artesa-creations.com/img/p/2/4/9/0/2490.jpg,Boîte CD souvenirs Papillon Turquoise,CC_BTCDpapTUR,Mariage,32,32,1,1
+931,http://www.artesa-creations.com/img/p/2/6/9/4/2694.jpg,Mini bouquet de table - porte-nom déco,HD_DECOrouge,Mariage,24,24,1,1
+1001,http://www.artesa-creations.com/img/p/2/8/3/5/2835.jpg,Urne Clap de Cinema,CB_BTclap,Urne - boîte à dons,45,45,1,1
+1111,http://www.artesa-creations.com/img/p/3/1/1/2/3112.jpg,Urne Piano Jazz boîte à dons blanc irisé et argent,CB_BTpianoBL,Urne - boîte à dons,73,73,1,1
+487,http://www.artesa-creations.com/img/p/1/6/4/9/1649.jpg,Livre d'Or Orchidée Blanche,CC_LOorchiBL,Mariage,39,39,1,1
+1539,http://www.artesa-creations.com/img/p/3/8/3/8/3838.jpg,Collier Sphère d'argent et organza bijou à parfumer,SY_COLorganza,Bijoux en Argent,39.5,39.5,1,1
+1200,http://www.artesa-creations.com/img/p/3/3/7/2/3372.jpg,Serre Tête Petites Fleurs et Voilette,TB_BAN,Accessoires de mode,37,37,1,1
+611,http://www.artesa-creations.com/img/p/1/9/7/2/1972.jpg,Coussin d'alliances Arabesques Turquoise,CB_couARAtur,Mariage,39.1,39.1,1,1
+326,http://www.artesa-creations.com/img/p/2/8/4/7/2847.jpg,Collier Petite Fleur,HD_COLfleur,Bijoux de créateurs,50,50,1,1
+1536,http://www.artesa-creations.com/img/p/3/8/3/3/3833.jpg,Collier Perle Noire plaqué Or,MAN_COLperleNOIRE,Catégories,32.3,32.3,1,1
+1196,http://www.artesa-creations.com/img/p/3/4/4/5/3445.jpg,Collier Papillon chocolat et Doré,,Bijoux de mariée,34,34,1,1
+837,http://www.artesa-creations.com/img/p/2/4/7/8/2478.jpg,Porte-Monnaie Moïra - accessoire rétro,TP_SACmoira,Accessoires de mode,24,24,1,1
+692,http://www.artesa-creations.com/img/p/2/1/7/9/2179.jpg,Livre d'or Harmonie Chocolat Orange,CC-LOmoussChoc,Album - Livre d'or,39.95,39.95,1,1
+429,http://www.artesa-creations.com/img/p/1/4/8/4/1484.jpg,Coussin d'alliances Papillon Dentellé,CB_COUpapDent,Mariage,49.3,49.3,1,1
+481,http://www.artesa-creations.com/img/p/1/6/3/7/1637.jpg,Coussin d'alliances Arabesques Bordeaux et plume,CB_couARAbord,Mariage,37.4,37.4,1,1
+1533,http://www.artesa-creations.com/img/p/3/8/2/5/3825.jpg,Journal Intime Partition & clé de sol,CC_JImusique,Papeterie,39.95,39.95,1,1
+1193,http://www.artesa-creations.com/img/p/3/2/0/2/3202.jpg,Sac à main Vert reversible,BD_Sac,Accessoires de mode,30,30,1,1
+604,http://www.artesa-creations.com/img/p/1/9/4/5/1945.jpg,Collier Fleurs Noires,CB_Colnoir,Bijoux de créateurs,25,25,1,1
+834,http://www.artesa-creations.com/img/p/2/4/7/2/2472.jpg,Sautoir lacet à nouer Tulipe Argent - bijou Origami,TP_SAUTtuliarg,Bijoux de créateurs,34,34,1,1
+1391,http://www.artesa-creations.com/img/p/3/5/6/1/3561.jpg,Livre d'or Papillon Fushia,GA_LOpapFush,Mariage,44,44,1,1
+1530,http://www.artesa-creations.com/img/p/3/8/1/8/3818.jpg,Urne Flocon Etoile de Neige,CB_BTflocon,Urne - boîte à dons,59.5,59.5,1,1
+1311,http://www.artesa-creations.com/img/p/3/3/8/7/3387.jpg,Serre Tête Tulle Plumetis Ivoire et perles,LD_SERREivoire,Accessoires de mode,32,32,1,1
+916,http://www.artesa-creations.com/img/p/2/6/6/4/2664.jpg,Mitaine Rose d'Hiver - laine ivoire crochetée,CC_MITlaine,Mariage,37,37,1,1
+777,http://www.artesa-creations.com/img/p/2/7/3/3/2733.jpg,Collier ras de cou Empire en Dentelle et Perles,Sabe_RASdentp,Bijoux de créateurs,25,25,1,1
+1388,http://www.artesa-creations.com/img/p/3/5/5/2/3552.jpg,Livre d'or Pois Rouges et Gris,GA_LOpoisrouge,Mariage,44,44,1,1
+1099,http://www.artesa-creations.com/img/p/3/0/3/5/3035.jpg,Bouquet Roses Noir et Blanc Rouge boule suspendue,HD_BOUQboule,Mariage,86.7,86.7,1,1
+1527,http://www.artesa-creations.com/img/p/3/8/0/7/3807.jpg,Urne Porte Orientale 1001 nuits,CB_BTorient,Catégories,65,65,1,1
+1186,http://www.artesa-creations.com/img/p/3/1/9/2/3192.jpg,Livre d'or Bordeaux Noeud Bleu A4,CB_LOnoeud,Mariage,42,42,1,1
+590,http://www.artesa-creations.com/img/p/1/8/9/0/1890.jpg,Foulard Boréale - mousseline de soie peinte,CB_FOUbore,Accessoires de mode,54.5,54.5,1,1
+828,http://www.artesa-creations.com/img/p/2/4/5/4/2454.jpg,Sac Baguette pochette rétro beige fleurie,TP_SACbag,Accessoires de mode,48,48,1,1
+1308,http://www.artesa-creations.com/img/p/3/3/8/0/3380.jpg,Boucles d'oreilles Macaron Café,HD_BOmacaCafé,Boucles d'oreilles,12,12,1,1
+913,http://www.artesa-creations.com/img/p/2/6/6/0/2660.jpg,Boucles d'oreilles Perle et Or,LO_BOperle,Bijoux de créateurs,29,29,1,1
+1385,http://www.artesa-creations.com/img/p/3/5/4/7/3547.jpg,Album géant Anis et Chocolat,GA_ALvertchoc,Mariage,62,62,1,1
+1182,http://www.artesa-creations.com/img/p/3/1/8/3/3183.jpg,Bouquet Fleur Chocolat paillettée,HD_BOUQfleurChoc,Bouquet de mariée,37.5,37.5,1,1
+577,http://www.artesa-creations.com/img/p/1/8/7/7/1877.jpg,Livre d'Or Fleur Dorée,CC_LOsoieOR,Mariage,37,37,1,1
+678,http://www.artesa-creations.com/img/p/2/1/4/6/2146.jpg,Coussin d'alliances blanc Papillon Anis,CB_COUpapanis,Mariage,37.4,37.4,1,1
+1382,http://www.artesa-creations.com/img/p/3/5/3/9/3539.jpg,Jarretière Bijou Ivoire et Bordeaux,CB_JARbijBOR,Jarretière de mariée,22,22,1,1
+412,http://www.artesa-creations.com/img/p/1/4/3/1/1431.jpg,Collier Marguerite,TMV_COL04,Bijoux de créateurs,49,49,1,1
+986,http://www.artesa-creations.com/img/p/2/8/0/3/2803.jpg,Coussin d'alliances Bordeaux dentelle Noire et Or,CB_COUborOR,Mariage,25.5,25.5,1,1
+1093,http://www.artesa-creations.com/img/p/3/0/1/8/3018.jpg,Boucles d'oreilles Etoiles Noir et Or pendantes,TP_BOetoilepend,Bijoux de créateurs,15,15,1,1
+673,http://www.artesa-creations.com/img/p/2/1/3/6/2136.jpg,Livre d'Or Léopard Mordoré,CC_LOleo,Mariage,38,38,1,1
+1090,http://www.artesa-creations.com/img/p/3/0/0/9/3009.jpg,Sac Roses Rouges pochette rétro,TP_SACbijou,Accessoires de mode,49,49,1,1
+817,http://www.artesa-creations.com/img/p/2/4/3/9/2439.jpg,Bandeau Fleurs Violine Heaband dentelle et perles,AC_BANvioDent,Accessoires de mode,19,19,1,1
+1299,http://www.artesa-creations.com/img/p/3/3/6/2/3362.jpg,Collier ras de cou Dentelle ivoire,HC_COLdent,Bijoux de créateurs,39.5,39.5,1,1
+215,http://www.artesa-creations.com/img/p/8/0/7/807.jpg,Bonnet 'Tamis',IN&V_bonnet,Catégories,29,29,1,1
+761,http://www.artesa-creations.com/img/p/2/3/2/9/2329.jpg,Mini Bourse à Dragée satin Blanc et Bordeaux,CB_dragBLbor,Chantal B,7.9,7.9,1,1
+980,http://www.artesa-creations.com/img/p/2/7/8/8/2788.jpg,Collier Fleur de Nacre et Cristal Ivoire,PM_COLblanc,Bijoux de créateurs,46,46,1,1
+1086,http://www.artesa-creations.com/img/p/3/0/2/4/3024.jpg,Jarretière Arum et rubans chocolat anis,CB_JARarum,Jarretière de mariée,22.1,22.1,1,1
+460,http://www.artesa-creations.com/img/p/2/2/9/0/2290.jpg,Livre d'or Coeur Léger,CC-LOcoeurV1,Album - Livre d'or,36.5,36.5,1,1
+814,http://www.artesa-creations.com/img/p/2/4/2/3/2423.jpg,Livre d'Or Etoile de Mer thème des Iles,CC_LOmer,Mariage,39,39,1,1
+659,http://www.artesa-creations.com/img/p/2/0/9/3/2093.jpg,Collier Sortilège Bordeaux - ras de cou,ELE_COLsorti,Bijoux de créateurs,38,38,1,1
+1296,http://www.artesa-creations.com/img/p/3/3/6/0/3360.jpg,Livre d'or Papillon Chocolat Doré,CC-LOpapChocV2,Album - Livre d'or,35.7,35.7,1,1
+756,http://www.artesa-creations.com/img/p/2/3/3/4/2334.jpg,Livre d'or Coeur Bordeaux points argent,CC-LOcoeurBORV2,Album - Livre d'or,36.5,36.5,1,1
+1363,http://www.artesa-creations.com/img/p/3/5/0/4/3504.jpg,Coussin d'alliances Baroque Chocolat Turquoise,CB_COUchocAratur,Mariage,42.5,42.5,1,1
+1082,http://www.artesa-creations.com/img/p/3/0/0/2/3002.jpg,Livre d'or Coeur de Cristal Bleu,CC_LOcristalB,Album - Livre d'or,35,35,1,1
+454,http://www.artesa-creations.com/img/p/1/5/5/3/1553.jpg,Jarretière Velours Fushia,CB_JARveloursRose,Jarretière de mariée,17.85,17.85,1,1
+1169,http://www.artesa-creations.com/img/p/3/1/5/3/3153.jpg,Ras de Cou Dentelle et Fleurs Bordeaux,CB_COLflBOR,Colliers,27,27,1,1
+560,http://www.artesa-creations.com/img/p/1/8/2/3/1823.jpg,Bourse Cuivrée reversible Ivoire Fleurs Dorées,CB_BOUrouille,Accessoires de mode,63,63,1,1
+811,http://www.artesa-creations.com/img/p/2/4/2/4/2424.jpg,Coussin d'alliances Arabesques Noires et plume,CB_couARANB,Mariage,37.4,37.4,1,1
+1292,http://www.artesa-creations.com/img/p/3/3/5/2/3352.jpg,Centre de Table Chocolat Turquoise porte nom,HD_DECOchocTur,Mariage,32,32,1,1
+893,http://www.artesa-creations.com/img/p/2/6/0/3/2603.jpg,Faire-part naissance / carte Coeur Rose petite fille,CC_CARTEcoeur,Créations Enfants,4.75,4.75,1,1
+1166,http://www.artesa-creations.com/img/p/3/1/4/5/3145.jpg,Broche Rock Dentelle Noire et Chaînes,AC_BROrock,Bijoux de créateurs,15,15,1,1
+1289,http://www.artesa-creations.com/img/p/3/3/5/0/3350.jpg,Décoration Voiture Couronne Papillons & Fleurs Baroque,HD_Voiture,Mariage,195,195,1,1
+889,http://www.artesa-creations.com/img/p/2/5/9/5/2595.jpg,Boucles d'oreilles Fleur de Lotus Noir & perles,TP_BOLOTnoirC,Bijoux de créateurs,17,17,1,1
+1357,http://www.artesa-creations.com/img/p/3/5/7/1/3571.jpg,Pic à Chignon Fleur de Cristal,HD_PICflcris,Tiares - Diadèmes,6.8,6.8,1,1
+969,http://www.artesa-creations.com/img/p/2/7/6/7/2767.jpg,Collier Fleur de Nacre et Cristal Lilas,PM_COLlilas,Bijoux de créateurs,46,46,1,1
+1437,http://www.artesa-creations.com/img/p/3/6/4/1/3641.jpg,Mitaines fantaisie Organza et dentelle blanche,CB_MITblancOrg,Pour ELLE,20.4,20.4,1,1
+1072,http://www.artesa-creations.com/img/p/2/9/7/9/2979.jpg,Pochette Feuilles Vertes - Deirdre sac rétro,TP_SACdeirdre,Accessoires de mode,39,39,1,1
+1506,http://www.artesa-creations.com/img/p/3/7/8/0/3780.jpg,Collier perles Framboise,HD_COLceramrose,Colliers,39,39,1,1
+1162,http://www.artesa-creations.com/img/p/3/1/3/3/3133.jpg,Coussin d'alliances Notes de Musique,CB_COUmusique,Mariage,32.3,32.3,1,1
+547,http://www.artesa-creations.com/img/p/1/7/9/6/1796.jpg,Jarretière Dentelle Blanche Fleurs Rouges,CB_JARflrouge,Jarretière de mariée,18.7,18.7,1,1
+1259,http://www.artesa-creations.com/img/p/3/3/1/9/3319.jpg,Bracelet Vert Anis ruban chocolat,HD_BRAvert,Bijoux de créateurs,17,17,1,1
+648,http://www.artesa-creations.com/img/p/2/0/7/1/2071.jpg,Bourse Satin Plume d'Anis,CB_BOUvert,Chantal B,55,55,1,1
+1286,http://www.artesa-creations.com/img/p/3/3/4/8/3348.jpg,Pochette Etoiles Argentées,BD_POCHstars,Accessoires de mode,34,34,1,1
+886,http://www.artesa-creations.com/img/p/2/5/9/0/2590.jpg,Ras de Cou Cubes Rouges lation et perles - collier Origami,TP_RASoona,Bijoux de créateurs,24,24,1,1
+739,http://www.artesa-creations.com/img/p/2/2/8/5/2285.jpg,Jarretière Orchidée Rose Dentelle Blanche,CB_JARorchi,Jarretière de mariée,20.4,20.4,1,1
+1354,http://www.artesa-creations.com/img/p/3/4/8/9/3489.jpg,Marque place invité Violine et perles,DO_MPvio,Mariage,1.3,1.3,1,1
+1502,http://www.artesa-creations.com/img/p/3/7/7/8/3778.jpg,Porte Chéquier Bordeaux Fleurs Beige,TP_portBOR,Accessoires de mode,20.5,20.5,1,1
+440,http://www.artesa-creations.com/img/p/2/3/0/8/2308.jpg,Jarretière Dentelle & Fleurs Fushia,CB_JARfush,Jarretière de mariée,17,17,1,1
+800,http://www.artesa-creations.com/img/p/2/4/0/8/2408.jpg,Boutonnière Etoile & Feuille Ivoire et Chocolat,HD_BROetoi,Mariage,8.5,8.5,0,1
+1283,http://www.artesa-creations.com/img/p/3/4/1/8/3418.jpg,Boutonnière Rose Ivoire broche,HD_BOUTroseIV,Boutonnière - broche,16,16,0,1
+1351,http://www.artesa-creations.com/img/p/3/4/8/2/3482.jpg,Livre d'or Violet et Perles,DA_LOvio,Livre d'or,51,51,0,1
+1253,http://www.artesa-creations.com/img/p/3/2/8/3/3283.jpg,Coussin d'alliances Etoile blanc et argent,CB_COUetoile,Coussin d'alliance,39.1,39.1,0,1
+377,http://www.artesa-creations.com/img/p/1/3/1/6/1316.jpg,Carnet de Voyage Coeur Léger,CC_voyageArg,Papeterie,34,34,0,1
+434,http://www.artesa-creations.com/img/p/1/5/0/1/1501.jpg,Coussin d'alliances Lumineux Satin Blanc,CB_coulum,Mariage,42.5,42.5,0,1
+1425,http://www.artesa-creations.com/img/p/3/6/2/8/3628.jpg,Tour de Cou Sphère de Cristal à parfumer,SY_COLras,Bijoux en Argent,59.5,59.5,0,1
+431,http://www.artesa-creations.com/img/p/1/5/1/6/1516.jpg,Epingle à cheveux Coeur Précieux,CC_pinCP,Mariage,12,12,0,1
+634,http://www.artesa-creations.com/img/p/2/0/3/6/2036.jpg,Collier Fleur de Cristal,CC_COLcristal,C' Créations,39,39,0,1
+725,http://www.artesa-creations.com/img/p/2/2/8/3/2283.jpg,Bourse Satin Ivoire Plume Bordeaux,CB_BOUplBor,Sacs - Pochettes,55,55,0,1
+954,http://www.artesa-creations.com/img/p/2/8/1/9/2819.jpg,Urne Casino Machine à Sous - boite à dons mariage,CB_BTcasino,Urne - boîte à dons,59,59,0,1
+1422,http://www.artesa-creations.com/img/p/3/6/2/1/3621.jpg,Jarretière Baroque Rouge et Noire,CB_JARrougenoir,Jarretière de mariée,18.7,18.7,0,1
+526,http://www.artesa-creations.com/img/p/1/7/6/1/1761.jpg,Boîte à dons Orchidée Anis,CC_BTorchiANIS,Mariage,57.8,57.8,0,1
+631,http://www.artesa-creations.com/img/p/2/0/2/8/2028.jpg,Stylo fantaisie Doré,CC_STYLor,Papeterie,5.9,5.9,0,1
+64,http://www.artesa-creations.com/img/p/1/5/7/157.jpg,Foulard Calliopée Mauve/Anis,CB001b,Foulards - Etoles,56,56,0,1
+1487,http://www.artesa-creations.com/img/p/3/7/5/1/3751.jpg,Etui à lunettes Eventails Dorés,TP_etuiVent,Accessoires de mode,28.9,28.9,0,1
+1141,http://www.artesa-creations.com/img/p/3/1/0/6/3106.jpg,Bouquet Noir Fushia Papillon et plumes mariage baroque,HD_BOUQnoirFush,Mariage,63.75,63.75,0,1
+356,http://www.artesa-creations.com/img/p/1/2/3/6/1236.jpg,Coussin d'alliances Fleurs de Cristal Cuivrées,CB_COUfcuivre,Mariage,34.85,34.85,0,1
+945,http://www.artesa-creations.com/img/p/2/7/2/1/2721.jpg,Centre de Table Roses Noire et Blanche - porte nom de table,HD_DECOnb,Mariage,32,32,0,1
+1413,http://www.artesa-creations.com/img/p/3/5/9/7/3597.jpg,Bracelet Fleurs du Printemps,HD_BRAfleurrose,Bracelets,23.8,23.8,0,1
+1011,http://www.artesa-creations.com/img/p/2/8/5/7/2857.jpg,Coussin d'alliances Chocolat Dentelle Or,CB_COUchocDENTor,Mariage,25.5,25.5,0,1
+1476,http://www.artesa-creations.com/img/p/3/7/2/6/3726.jpg,Stylo Turquoise Verre filé,GRE_styTur,Catégories,34.51,34.51,0,1
+496,http://www.artesa-creations.com/img/p/1/6/7/3/1673.jpg,Livre d'or Coeur de Papillon Rose Fushia,CC-LOpapF,Album - Livre d'or,36.5,36.5,0,1
+935,http://www.artesa-creations.com/img/p/2/7/0/2/2702.jpg,Rond de Serviette Fleur Rose et noir,HD_rondfush,Hélène Delacour,5,5,0,1
+1005,http://www.artesa-creations.com/img/p/2/8/5/2/2852.jpg,Bouquet Demoiselle d'honneur Roses Chocolat Turquoise,HD_BOUQdhchocTur,Mariage,39,39,0,1
+1116,http://www.artesa-creations.com/img/p/3/0/6/4/3064.jpg,Boucles d'oreilles Fleur Noire Perles,TP_BOfushiaNoir,Bijoux de créateurs,18,18,0,1
+347,http://www.artesa-creations.com/img/p/1/1/9/5/1195.jpg,Coussin d'alliances Fleurs fushia,CB_fleurfush,Mariage,32.3,32.3,0,1
+1002,http://www.artesa-creations.com/img/p/2/8/3/7/2837.jpg,Boutonnière Papillon Blanc Plume Chocolat,HD_BOUTpapchoco,Mariage,12,12,0,1
+1543,http://www.artesa-creations.com/img/p/0.jpg,test greg4,,Catégories,0,0,0,0
+1324,http://www.artesa-creations.com/img/p/3/4/1/2/3412.jpg,Urne Casino Machine à sous Noire et OR,CB_BTcasinoNor,Urne - boîte à dons,59,59,0,1
+1466,http://www.artesa-creations.com/img/p/3/7/0/9/3709.jpg,Mini coussins d'alliances Coeurs Chocolat,CB_COUduoCHOCO,Chantal B,45.9,45.9,0,1
+1109,http://www.artesa-creations.com/img/p/3/0/5/1/3051.jpg,Bouquet Anis et Fushia Papillons et Plumes,HD_BOUQnb,Mariage,53,53,0,1
+485,http://www.artesa-creations.com/img/p/1/9/9/1/1991.jpg,Jarretière Dentelle Noire & Fleurs Blanches,CB_JARnoire,Jarretière de mariée,17,17,0,1
+430,http://www.artesa-creations.com/img/p/1/4/8/8/1488.jpg,Livre d'or Perles & Passion Prune,CC-LOprune,Mariage,34,34,0,1
+1106,http://www.artesa-creations.com/img/p/3/0/4/2/3042.jpg,Boucles d'oreilles Etoile Origami Noir et Or,TP_BOetoile,Bijoux de créateurs,12,12,0,1
+1194,http://www.artesa-creations.com/img/p/3/2/0/7/3207.jpg,Porte Chéquier Cuir Orange peint,BD_chequeORAN,Accessoires de mode,20,20,0,1
+473,http://www.artesa-creations.com/img/p/1/6/0/9/1609.jpg,Collier Orchidée & Cristal,CC-COLorchi,Bijoux de créateurs,33,33,0,1
+1187,http://www.artesa-creations.com/img/p/3/1/9/3/3193.jpg,Livre d'or Fleur Anis Chocolat A4,CB_LOflAnis,Mariage,39,39,0,1
+682,http://www.artesa-creations.com/img/p/2/2/7/2/2272.jpg,Coussin d'alliances Satin Chocolat et Fleurs Anis,CB_COUsatChocAnis,Mariage,33.15,33.15,0,1
+262,http://www.artesa-creations.com/img/p/9/4/4/944.jpg,Carnet de Voyage 'Safari',CC_voyage_cuir,Papeterie,29,29,0,1
+775,http://www.artesa-creations.com/img/p/2/3/5/3/2353.jpg,Bouquet Fleurs et Plumes Noires Papillon Blancs,HD_BOUQnoir,Mariage,55.9,55.9,0,1
+414,http://www.artesa-creations.com/img/p/1/4/3/4/1434.jpg,Coussin Fleurs Rose & Chocolat,CB_COUchocrose,Mariage,33.15,33.15,0,1
+987,http://www.artesa-creations.com/img/p/2/8/0/6/2806.jpg,Coussin d'alliances Violet Arabesques Or,CB_COUvioOr,Mariage,28.9,28.9,0,1
+1454,http://www.artesa-creations.com/img/p/3/6/8/7/3687.jpg,Pochette Cuir Gris Souris et Pompon Rose Poudre,UN_pochgris,Accessoires de mode,39.8,39.8,0,1
+1097,http://www.artesa-creations.com/img/p/3/0/2/5/3025.jpg,Bracelet Etoiles Noir et Or - Origami,TP_BOetoilepend,Bijoux de créateurs,15,15,0,1
+984,http://www.artesa-creations.com/img/p/2/7/9/9/2799.jpg,Coussin mariage theme cinema Bobine de Film ,CB_COUbobine,Coussin d'alliance,54.5,54.5,0,1
+465,http://www.artesa-creations.com/img/p/1/5/8/5/1585.jpg,Livre d'or Amour de Nacre Bordeaux,CC_LONacreBor,Mariage,37,37,0,1
+405,http://www.artesa-creations.com/img/p/1/3/9/7/1397.jpg,"Boutonnière 'Oui, je le Veux !'",CC_boutOUI,Mariage,13.5,13.5,0,1
+981,http://www.artesa-creations.com/img/p/2/7/9/8/2798.jpg,Livre d'or Clap Cinema Noir et Blanc,CC_LOclap,Album - Livre d'or,48,48,0,1
+561,http://www.artesa-creations.com/img/p/2/1/6/1/2161.jpg,Bourse Marron Glacée Reversible Ivoire,CB_BOUmarr,Accessoires de mode,63,63,0,1
+812,http://www.artesa-creations.com/img/p/2/6/5/9/2659.jpg,Coussin d'alliances Bouquet de Fleurs Dorées,CB_COUflOR,Mariage,30.6,30.6,0,1
+657,http://www.artesa-creations.com/img/p/2/0/9/0/2090.jpg,Boucles d'oreilles Sortilège Bordeaux,ELE_BOsorti,Bijoux de créateurs,11,11,0,1
+200,http://www.artesa-creations.com/img/p/7/3/0/730.jpg,Bague Cubique Shadow,BE_bagshadow,Bijoux de créateurs,15,15,0,1
+975,http://www.artesa-creations.com/img/p/2/7/8/3/2783.jpg,Boutonnière Rose Ivoire Plume choco Anis,HD_BOUTRchocAnis,Boutonnière - broche,14.5,14.5,0,1
+1510,http://www.artesa-creations.com/img/p/3/7/8/8/3788.jpg,Livre d'or Corset Noir Fushia,GA_LOcorset,Mariage,45,45,0,1
+1290,http://www.artesa-creations.com/img/p/3/4/0/5/3405.jpg,Urne Orchidée ivoire Nature,CB_BTorchi,Anis,52.7,52.7,0,1
+548,http://www.artesa-creations.com/img/p/1/7/9/8/1798.jpg,Urne chocolat Fleur de soie Anis,CC_BTsoieAnis,Mariage,57.8,57.8,0,1
+805,http://www.artesa-creations.com/img/p/2/4/1/1/2411.jpg,Mini coussins d'alliances Coeurs Dorés,CB_COUduoOR,Chantal B,45.9,45.9,0,1
+649,http://www.artesa-creations.com/img/p/2/0/7/4/2074.jpg,Jarretière Fleur Orange et Chocolat dentelle ivoire,CB_JARchocORAN,Jarretière de mariée,17.85,17.85,0,1
+1287,http://www.artesa-creations.com/img/p/3/4/2/0/3420.jpg,Urne Coffret Ivoire & Or,CB_BTcoffrePT,Urne - boîte à dons,69,69,0,1
+887,http://www.artesa-creations.com/img/p/2/5/9/2/2592.jpg,Boucles d'oreilles Cube & perle rouge,TP_BOoona,Bijoux de créateurs,14,14,0,1
+545,http://www.artesa-creations.com/img/p/1/7/9/3/1793.jpg,Collier Fleurs Bordeaux,CB_Colbordx,Bijoux de créateurs,27,27,0,1
+876,http://www.artesa-creations.com/img/p/2/5/7/2/2572.jpg,Coussin d'alliances Arabesques Dorées et Strass,CB_COUaraORstrass,Mariage,37.4,37.4,0,1
+1349,http://www.artesa-creations.com/img/p/3/4/6/6/3466.jpg,Journal intime et Stylo Liberty,CC_JIliberty,Papeterie,48,48,0,1
+378,http://www.artesa-creations.com/img/p/1/3/2/1/1321.jpg,Album Photo Coeur Léger,CC_ALcoeurAG,Mariage,53,53,0,1
+795,http://www.artesa-creations.com/img/p/2/3/9/3/2393.jpg,Livre d'Or Romance Noir et Vert Anis,CC_LOromAnis,Mariage,39,39,0,1
+729,http://www.artesa-creations.com/img/p/2/3/8/1/2381.jpg,Coussin d'alliances Satin Blanc & Fleurs Chocolat,CB_COUsoieChoc,Mariage,43.35,43.35,0,1
+1346,http://www.artesa-creations.com/img/p/3/4/6/0/3460.jpg,Boucles d'oreilles Goutte Cristal Noir,HD_BOgoutteNoir,Bijoux de créateurs,15,15,0,1
+1494,http://www.artesa-creations.com/img/p/3/7/6/3/3763.jpg,Bouquet Baroque Fleurs Noires & Argent,HD_BOUQgoth,Bouquet de mariée,76,76,0,1
+432,http://www.artesa-creations.com/img/p/1/4/9/2/1492.jpg,Boîte à dons Perles & Passion Prune,CC-BTprune,Mariage,54.4,54.4,0,1
+635,http://www.artesa-creations.com/img/p/2/1/7/1/2171.jpg,Boucles d'oreilles Goutte de Cristal,CC_BOcristal,C' Créations,9,9,0,1
+955,http://www.artesa-creations.com/img/p/2/7/4/5/2745.jpg,Urne Versailles Ivoire et Or,CC_BTvers,Urne - boîte à dons,59.5,59.5,0,1
+1032,http://www.artesa-creations.com/img/p/2/9/0/7/2907.jpg,Bandeau Noeud Bleu Pétrole et laiton,AC_BANnoeudTUR,Accessoires de mode,23,23,0,1
+1145,http://www.artesa-creations.com/img/p/3/1/1/4/3114.jpg,Jarretière Dentelle Blanche & Fleurs Noires,CB_JARnb,Jarretière de mariée,18.7,18.7,0,1
+1245,http://www.artesa-creations.com/img/p/3/2/9/8/3298.jpg,Bague Macaron Rose Fushia,HD_BAGmacarose,Bagues,15,15,0,1
+789,http://www.artesa-creations.com/img/p/2/3/9/8/2398.jpg,Centre de table Fleurs Noir et Plume - Suspension,HD_centreNoir,Mariage,69,69,0,1
+632,http://www.artesa-creations.com/img/p/2/0/3/1/2031.jpg,Stylo fantaisie Turquoise,CC_STYLtur,Stylo & Marque-Page,5.9,5.9,0,1
+366,http://www.artesa-creations.com/img/p/1/2/7/5/1275.jpg,Collier Fleur Chocolat,CB_COLchocturq,Bijoux de créateurs,29,29,0,1
+1488,http://www.artesa-creations.com/img/p/3/7/5/2/3752.jpg,Etui à lunette Cerise Rétro,TP_etuicerise,Accessoires de mode,28.9,28.9,0,1
+1142,http://www.artesa-creations.com/img/p/3/1/0/9/3109.jpg,Bouquet Baroque Rouge Noir & Blanc,HD_BOUQrougenoir,Mariage,79,79,0,1
+785,http://www.artesa-creations.com/img/p/2/3/7/3/2373.jpg,Livre d'Or Versailles - Rouge et Or,CC_LOversORbor,Mariage,40.5,40.5,0,1
+41,http://www.artesa-creations.com/img/p/1/5/3/153.jpg,Foulard Calliopée Rubis/Orange,CB001,Chantal B,56,56,0,1
+1417,http://www.artesa-creations.com/img/p/3/6/0/6/3606.jpg,Collier Bohème Turquoise Laiton,AC_COLturqoise,Catégories,39,39,0,1
+512,http://www.artesa-creations.com/img/p/1/7/2/3/1723.jpg,Jarretière Anis et Fleur Chocolat,CB_JARVertChoc,Jarretière de mariée,20,20,0,1
+1238,http://www.artesa-creations.com/img/p/3/2/7/3/3273.jpg,Bouquet Chocolat Anis fleurs et plumes,HD_BOUQchocAnis,Mariage,61.2,61.2,0,1
+1265,http://www.artesa-creations.com/img/p/3/3/0/5/3305.jpg,Bracelet Bague Papillon et Cristal Prune,WAM_BRAbagpapPrune,Bijoux de créateurs,34,34,0,1
+716,http://www.artesa-creations.com/img/p/2/2/7/1/2271.jpg,Coussin d'alliances Ivoire papillon chocolat Anis,CB_COUpapchocanis,Mariage,47.6,47.6,0,1
+1235,http://www.artesa-creations.com/img/p/3/2/6/7/3267.jpg,Ras de Cou dentelle et noeud - Eternité,VZ_COL,Bijoux de créateurs,35,35,0,1
+943,http://www.artesa-creations.com/img/p/2/7/1/9/2719.jpg,Journal intime Rose et Vert pailletté,CC_JIrose,Papeterie,39.95,39.95,0,1
+1009,http://www.artesa-creations.com/img/p/3/1/4/2/3142.jpg,Coussin d'alliances Plume turquoise Arabesques chocolat,CB_COUplumTur,Mariage,37.4,37.4,0,1
+1478,http://www.artesa-creations.com/img/p/3/7/3/1/3731.jpg,Livre d'or satin Turquoise plissé,CC-LOharmTUR,Album - Livre d'or,39.95,39.95,0,1
+1225,http://www.artesa-creations.com/img/p/3/2/5/2/3252.jpg,Boutonnière Rock n'Roll Pistolet,HD_BOUTrock,Mariage,16,16,0,1
+1006,http://www.artesa-creations.com/img/p/2/8/5/5/2855.jpg,Bouquet Demoiselle d'honneur Roses Noir et Blanc,HD_BOUQdhNB,Mariage,40.8,40.8,0,1
+1220,http://www.artesa-creations.com/img/p/3/2/4/5/3245.jpg,Bouton de manchette macarons Prune,HD_BOUTmacapru,Boutonnière - broche,15,15,0,1
+616,http://www.artesa-creations.com/img/p/1/9/9/0/1990.jpg,Coussin d'alliances Fleurs Lilas Parme,CB_COUorgLilas,Mariage,40.8,40.8,0,1
+1114,http://www.artesa-creations.com/img/p/3/0/6/1/3061.jpg,Collier Fleur Noire - ras de cou dentelle et plume,AC_COLnoir,Colliers,25,25,0,1
+489,http://www.artesa-creations.com/img/p/1/6/5/3/1653.jpg,Album photo Fleur d'Amour,CC_APamour,Mariage,45.9,45.9,0,1
+1211,http://www.artesa-creations.com/img/p/3/2/4/2/3242.jpg,Bouquet Macaron Rose Chocolat,HD_BOUmacaron,Bouquet de mariée,66.5,66.5,0,1
+842,http://www.artesa-creations.com/img/p/2/4/8/8/2488.jpg,Boîte CD souvenirs Perles & Passion Bordeaux,CC_BTCDppBOR,Mariage,32,32,0,1
+1325,http://www.artesa-creations.com/img/p/3/4/1/6/3416.jpg,Jarretière dentelle Chocolat Fleur Fushia,CB_JARchocFush,Jarretière de mariée,18.7,18.7,0,1
+1400,http://www.artesa-creations.com/img/p/3/5/7/3/3573.jpg,Coussin d'alliances Fleurs Rose Saumon Dentelle blanche,CB_COUsaumon,Mariage,35.7,35.7,0,1
+1000,http://www.artesa-creations.com/img/p/2/8/3/9/2839.jpg,Tiare Perles Turquoise et Chaines Argentées,WAM_Tiartur,Bijoux de créateurs,65,65,0,1
+1110,http://www.artesa-creations.com/img/p/3/0/5/4/3054.jpg,Bouquet Coeur Rouge Noir & Blanc,HD_BOUQcoeur,Mariage,89,89,0,1
+486,http://www.artesa-creations.com/img/p/1/6/4/6/1646.jpg,Livre d'Or Orchidée et coton Vert Anis,CC_LOorchiAnis,Mariage,39,39,0,1
+1107,http://www.artesa-creations.com/img/p/3/0/5/6/3056.jpg,Boîte à dons Cinema Camera Blanche et Argent,CB_BTcameraBL,Urne - boîte à dons,64,64,0,1
+483,http://www.artesa-creations.com/img/p/1/6/6/5/1665.jpg,Livre d'or Duo de Coeurs Dorés,CC-LOduoCoeur,Album - Livre d'or,34,34,0,1
+1393,http://www.artesa-creations.com/img/p/3/5/6/6/3566.jpg,Gants Satin Noir et Dentelle mitaines,CB_GANTnoir,Accessoires de mode,37.4,37.4,0,1
+1192,http://www.artesa-creations.com/img/p/3/2/0/6/3206.jpg,Porte Monnaie Hibou cuir,BD_hibou,Sacs - Pochettes,17,17,0,1
+1313,http://www.artesa-creations.com/img/p/3/3/9/0/3390.jpg,Coussin d'alliances Etoile de mer et Coquillage,CB_COUmer,Mariage,37.4,37.4,0,1
+779,http://www.artesa-creations.com/img/p/2/3/6/1/2361.jpg,Centre de table Fleurs Noir et Blanc,HD_centreNB,Mariage,63,63,0,1
+1101,http://www.artesa-creations.com/img/p/3/0/4/4/3044.jpg,Urne Casino Blanche Machine à Sous,CB_BTcasinoBL,Urne - boîte à dons,59,59,0,1
+1529,http://www.artesa-creations.com/img/p/3/8/1/1/3811.jpg,Urne Macaron Gourmande,CB_BTmaca,Urne - boîte à dons,55,55,0,1
+598,http://www.artesa-creations.com/img/p/1/9/1/9/1919.jpg,Collier Fleurs Violines,CB_Colvio,Bijoux de créateurs,25,25,0,1
+683,http://www.artesa-creations.com/img/p/2/1/5/5/2155.jpg,Livre d'Or Versailles - Ivoire et Doré,CC_LOversOR,Mariage,40.5,40.5,0,1
+263,http://www.artesa-creations.com/img/p/9/4/7/947.jpg,Carnet de Voyage 'Zanzibar',CC_voyage_pois,Papeterie,29,29,0,1
+776,http://www.artesa-creations.com/img/p/2/3/5/6/2356.jpg,Bouquet de Fleurs et Perles Noir et Blanc,HD_BOUQperlesNB,Mariage,71.4,71.4,0,1
+1387,http://www.artesa-creations.com/img/p/3/5/4/9/3549.jpg,Livre d'or Papillon Orange,GA_LOpapORAN,Mariage,50,50,0,1
+1526,http://www.artesa-creations.com/img/p/3/8/0/6/3806.jpg,Foulard Noir Fushia,CB_FOUAlizeRose,Chantal B,52.7,52.7,0,1
+585,http://www.artesa-creations.com/img/p/1/9/3/7/1937.jpg,Collier Fleurs Cuivrées,CB_Colcuivre,Bijoux de créateurs,32,32,0,1
+680,http://www.artesa-creations.com/img/p/2/1/5/0/2150.jpg,Epingle à cheveux Perles & Passion Lilas,CC_pinPPlilas,Mariage,11,11,0,1
+1307,http://www.artesa-creations.com/img/p/3/3/7/8/3378.jpg,Boucles d'oreilles Macaron Fushia,HD_BOmacaFush,Boucles d'oreilles,12,12,0,1
+1384,http://www.artesa-creations.com/img/p/3/5/4/5/3545.jpg,Livre d'or Guirlandes Anis et Chocolat,GA_LOboulesVC,Mariage,44,44,0,1
+988,http://www.artesa-creations.com/img/p/3/1/0/5/3105.jpg,Coussin d'alliances Satin gris Perle Dentelle Blanche,CB_COUgrisDent,Mariage,25.5,25.5,0,1
+1181,http://www.artesa-creations.com/img/p/3/1/8/0/3180.jpg,Bouquet de Fleurs de Cristal et Cascade Argentée,HD_BOUQcristal,Bouquet de mariée,90.95,90.95,0,1
+675,http://www.artesa-creations.com/img/p/2/1/4/1/2141.jpg,Livre d'or Ivoire Papillon Bordeaux - A4,CC-LOpapA4,Album - Livre d'or,55,55,0,1
+409,http://www.artesa-creations.com/img/p/1/4/0/6/1406.jpg,Coussin d'alliances Coeur bordeaux,CB_coeurBOR,Mariage,57.8,57.8,0,1
+1089,http://www.artesa-creations.com/img/p/3/0/2/2/3022.jpg,Coussin d'alliances Romantique Rose et Noir,CB_COUrom,Mariage,34,34,0,1
+1298,http://www.artesa-creations.com/img/p/3/3/5/6/3356.jpg,Coffre bois urne mariage trésor,CC_BTbois,Urne - boîte à dons,59,59,0,1
+760,http://www.artesa-creations.com/img/p/2/3/2/8/2328.jpg,Bouquet de Roses Blanches Plumes en Blanc et Argent,HD_BOUQpapARG,Mariage,63,63,0,1
+403,http://www.artesa-creations.com/img/p/1/3/9/5/1395.jpg,Boutonnière Orchidée,CC_boutORC,Mariage,21,21,0,1
+979,http://www.artesa-creations.com/img/p/2/7/8/7/2787.jpg,Boutonnière Rose Blanche Plume Noire,HD_BOUTblancpetale,Mariage,15,15,0,1
+563,http://www.artesa-creations.com/img/p/2/2/9/2/2292.jpg,Coussin d'alliances Ivoire Fleurs dorées,CB_RECdore,Mariage,47.6,47.6,0,1
+1295,http://www.artesa-creations.com/img/p/3/3/9/5/3395.jpg,Urne Papillon Baroque Noir et Blanc,HD_BTpap,Mariage,45,45,0,1
+1362,http://www.artesa-creations.com/img/p/3/5/0/3/3503.jpg,Livre d'Or Fleurs Cuivrées Automne,CC_LOflOran,Mariage,34,34,0,1
+400,http://www.artesa-creations.com/img/p/1/3/8/1/1381.jpg,Bourse Fleurs d'argent en satin blanc,CB_BOUfARG,Mariage,45,45,0,1
+559,http://www.artesa-creations.com/img/p/1/8/2/1/1821.jpg,Journal intime Japon,CC_Jjap,Papeterie,39.95,39.95,0,1
+892,http://www.artesa-creations.com/img/p/2/6/0/0/2600.jpg,Fibule Fleur de Lotus - Mordoré,TP_BObohBeige,Bijoux de créateurs,14,14,0,1
+1439,http://www.artesa-creations.com/img/p/3/6/5/1/3651.jpg,Décoration Voiture Coeur Baroque,HD_Voiturecoeur,Mariage,129,129,0,1
+448,http://www.artesa-creations.com/img/p/1/8/9/4/1894.jpg,Foulard en soie Rosie,CB_CarreRose,Catégories,55,55,0,1
+1164,http://www.artesa-creations.com/img/p/3/1/8/8/3188.jpg,Livre d'or A4 Orchidée Ivoire et Anis,AC_LOorchi,Mariage,42,42,0,1
+549,http://www.artesa-creations.com/img/p/1/8/0/2/1802.jpg,Foulard Baroque Violine,CB_FbarVIO,Accessoires de mode,55,55,0,1
+888,http://www.artesa-creations.com/img/p/2/5/9/4/2594.jpg,Boucles d'oreilles Fleur de Lotus Rouge & perles,TP_BOLOTrougeC,Bijoux de créateurs,17,17,0,1
+1356,http://www.artesa-creations.com/img/p/3/4/9/4/3494.jpg,Bouquet Automne Nature,HD_BOUQpin,Mariage,49.5,49.5,0,1
+1436,http://www.artesa-creations.com/img/p/3/6/4/0/3640.jpg,Mitaines Dentelle Blanche et organza,CB_MITblanc,Mariage,18,18,0,1
+1285,http://www.artesa-creations.com/img/p/3/3/4/7/3347.jpg,Urne Cage Nature Fleurs Rose,HD_BTcageF,Urne - boîte à dons,73,73,0,1
+177,http://www.artesa-creations.com/img/p/6/2/8/628.jpg,Livre d'or Amour de Nacre,CC_LOnacre,Mariage,37,37,0,1
+1501,http://www.artesa-creations.com/img/p/3/7/7/4/3774.jpg,Porte Chéquier Bleu et Or,TP_portbleuOR,Accessoires de mode,20.5,20.5,0,1
+1157,http://www.artesa-creations.com/img/p/3/1/2/4/3124.jpg,Tiare Cristal Rouge et Laiton,AC_tiareROUGE,Mariage,29,29,0,1
+872,http://www.artesa-creations.com/img/p/2/5/6/4/2564.jpg,Pochette Grise & Noire - sac baguette soie sauvage peinte,CB_SACgris,Accessoires de mode,39,39,0,1
+733,http://www.artesa-creations.com/img/p/2/2/4/8/2248.jpg,Mini Bourse à Dragée Ivoire et Rose,CB_dragIVOR,Chantal B,12,12,0,1
+1350,http://www.artesa-creations.com/img/p/3/4/6/9/3469.jpg,Boutonnière Papillon d'Argent,HD_BOUTpapARG,Mariage,12,12,0,1
+379,http://www.artesa-creations.com/img/p/1/3/0/7/1307.jpg,Coffret & coussin d'Alliances Coeur Léger,CC_BTAcoeur,Mariage,42.5,42.5,0,1
+436,http://www.artesa-creations.com/img/p/1/5/1/0/1510.jpg,Epingle à cheveux Perles & Passion,CC_pinPP,Mariage,11,11,0,1
+1252,http://www.artesa-creations.com/img/p/3/2/8/2/3282.jpg,Livre d'Or Etoile Dorée,CC_LOetoile,Mariage,39.5,39.5,0,1
+1495,http://www.artesa-creations.com/img/p/3/7/6/2/3762.jpg,Jarretière Cinema Pellicule & Bobine,CB_JARpelliBobine,Jarretière de mariée,22.95,22.95,0,1
+535,http://www.artesa-creations.com/img/p/1/8/1/9/1819.jpg,Livre d'or Papillon Turquoise,CC-LOpapTur,Album - Livre d'or,35.7,35.7,0,1
+793,http://www.artesa-creations.com/img/p/2/3/8/8/2388.jpg,Peigne doré Fleur Anis et Perles,CB_PEIanis,Coiffure - Tête,15,15,0,1
+636,http://www.artesa-creations.com/img/p/2/0/3/7/2037.jpg,Bourse satin ivoire et Bordeaux,CB_BOUbor,Chantal B,59,59,0,1
+956,http://www.artesa-creations.com/img/p/2/7/6/5/2765.jpg,Coussin d'alliances Fleurs Noires et Blanches,CB_COUorgNB,Mariage,42.5,42.5,0,1
+1424,http://www.artesa-creations.com/img/p/3/6/2/4/3624.jpg,Collier Coeurs Dorés à parfumer Plaqué OR et Argent,SY_COLor,Bijoux en Argent,55,55,0,1
+1146,http://www.artesa-creations.com/img/p/3/1/1/7/3117.jpg,Urne Bobine Cinema noir et blanc,CB_BTbobineBL,Urne - boîte à dons,60,60,0,1
+530,http://www.artesa-creations.com/img/p/1/7/6/7/1767.jpg,Collier Fleurs Cuivrées,HD_COLcuivre,Bijoux de créateurs,34,34,0,1
+790,http://www.artesa-creations.com/img/p/2/3/8/4/2384.jpg,Coffret d'Alliances Versailles Ivoire et Or,CC_BTAversOR,Mariage,42,42,0,1
+633,http://www.artesa-creations.com/img/p/2/0/3/3/2033.jpg,Stylo fantaisie Prune,CC_STYLprun,Bleu Turquoise Marine,5.9,5.9,0,1
+1273,http://www.artesa-creations.com/img/p/3/3/2/4/3324.jpg,Kit de Voyage Etoile Dorée,BD_KITetoileOR,Accessoires de mode,51,51,0,1
+724,http://www.artesa-creations.com/img/p/2/2/8/8/2288.jpg,Boucles d'oreilles Rose de Nacre,HD_BOstrassnacre,Bijoux de créateurs,16,16,0,1
+953,http://www.artesa-creations.com/img/p/2/7/3/5/2735.jpg,Support à dragées Etagère - deco de mariage,CB_DECOeta,Mariage,49,49,0,1
+1421,http://www.artesa-creations.com/img/p/3/6/1/3/3613.jpg,Journal intime Petites Fleurs Bleues,CC_JIblue,Papeterie,39.1,39.1,0,1
+721,http://www.artesa-creations.com/img/p/2/2/2/8/2228.jpg,Album Photo Perles et Passion Prune,CC_ALcoeurAG,Mariage,59.5,59.5,0,1
+1486,http://www.artesa-creations.com/img/p/3/7/4/9/3749.jpg,Etui à lunette Bleu ethnique,TP_etuiethn,Accessoires de mode,28.9,28.9,0,1
+1140,http://www.artesa-creations.com/img/p/3/1/0/4/3104.jpg,Livre d'or Romantique Dentelle noire satin rose,CC-LOharmArg,Album - Livre d'or,39.5,39.5,0,1
+516,http://www.artesa-creations.com/img/p/1/7/3/7/1737.jpg,Coussin d'alliances Anis & Fushia,CB_couAnisfush,Mariage,40.8,40.8,0,1
+626,http://www.artesa-creations.com/img/p/2/0/6/3/2063.jpg,Sautoir Coeurs noirs,HD_SAUTcoeurN,Bijoux de créateurs,32,32,0,1
+852,http://www.artesa-creations.com/img/p/2/6/4/3/2643.jpg,Bouquet Fleurs Rouges et Noires,HD_BOUQrn,Mariage,64.6,64.6,0,1
+1236,http://www.artesa-creations.com/img/p/3/2/6/8/3268.jpg,Collier Fleur de Nacre et Dentelle - Bianca,MAX_COL,Bijoux de créateurs,29,29,0,1
+1010,http://www.artesa-creations.com/img/p/2/8/5/6/2856.jpg,Bouquet Brun Turquoise Roses et plumes,HD_BOUQchocTurV2,Mariage,57.8,57.8,0,1
+1479,http://www.artesa-creations.com/img/p/3/7/3/2/3732.jpg,Stylo Blanc Argent verre filé,GRE_styBL,Album - Livre d'or,34.51,34.51,0,1
+1007,http://www.artesa-creations.com/img/p/2/8/4/6/2846.jpg,Boutonnière Orchidée Blanche et Feuilles Vertes,HD_BOUTorch,Boutonnière - broche,13,13,0,1
+617,http://www.artesa-creations.com/img/p/1/9/9/2/1992.jpg,Bourse Satin Ivoire Feuilles de Lierre,CB_BOUlierre,Mariage,56.1,56.1,0,1
+846,http://www.artesa-creations.com/img/p/2/4/9/9/2499.jpg,Journal intime Rose Coeur Bleu,CC_Jlib,Papeterie,39.95,39.95,0,1
+490,http://www.artesa-creations.com/img/p/1/6/5/9/1659.jpg,Urne Coeur de Papillon Rose Fushia,CC_BTpapF,Mariage,57.8,57.8,0,1
+1218,http://www.artesa-creations.com/img/p/3/2/4/1/3241.jpg,Bouquet Poker theme Las Vegas,HD_BOUpoker,Bouquet de mariée,93.5,93.5,0,1
+699,http://www.artesa-creations.com/img/p/2/1/9/5/2195.jpg,Livre d'or Harmonie Ivoire et Chocolat,CC_LOmoussChoc,Album - Livre d'or,39.95,39.95,0,1
+1401,http://www.artesa-creations.com/img/p/3/5/7/4/3574.jpg,Boîte à dons Ferme western style,CB_BTferme,Urne - boîte à dons,79,79,0,1
+927,http://www.artesa-creations.com/img/p/2/7/3/4/2734.jpg,Présentoir à dragées Charrette - deco de mariage,CB_DECOchar,Mariage,135,135,0,1
+1108,http://www.artesa-creations.com/img/p/3/0/4/8/3048.jpg,Bouquet Rose Rouge et Blanche,HD_BOUQroseG,Mariage,69.7,69.7,0,1
+288,http://www.artesa-creations.com/img/p/1/0/1/2/1012.jpg,Foulard Vahiné,CB_foulardVAHINE,Chantal B,49,49,0,1
+689,http://www.artesa-creations.com/img/p/2/1/7/2/2172.jpg,Bouquet Noir et Blanc Papillons et Plumes,HD_BOUQnb,Mariage,61.2,61.2,0,1
+780,http://www.artesa-creations.com/img/p/2/3/6/2/2362.jpg,Bourse Satin Blanc Plume Noire,CB_BOUplNB,Accessoires de mode,55,55,0,1
+425,http://www.artesa-creations.com/img/p/1/4/7/7/1477.jpg,"Boîte à dons Coffre 'Oui, je le veux !'",CC_BToui,Mariage,56.1,56.1,0,1
+1102,http://www.artesa-creations.com/img/p/3/0/3/9/3039.jpg,Coussin d'alliances Plissé Orange Fleurs Chocolat,CB_COUmousOran,Mariage,44.2,44.2,0,1
+1189,http://www.artesa-creations.com/img/p/3/1/9/8/3198.jpg,Collier 'Oui' plumes et perles,HD_COLoui,Mariage,22,22,0,1
+684,http://www.artesa-creations.com/img/p/2/1/5/8/2158.jpg,Livre d'Or Dentelle Noire et Fleurs Dorées,CC_LOdentNoir,Mariage,34.55,34.55,0,1
+420,http://www.artesa-creations.com/img/p/1/4/5/9/1459.jpg,Bourse Ivoire Fleurs Dorées,CB_BOUor,Mariage,45,45,0,1
+992,http://www.artesa-creations.com/img/p/2/8/2/3/2823.jpg,Boutonnière Perle Rouge et Plume Noire,HD_BOUTbouRN,Mariage,12,12,0,1
+470,http://www.artesa-creations.com/img/p/2/2/5/6/2256.jpg,Bourse Fleurs Noires,CB_bouNoir,Chantal B,45,45,0,1
+681,http://www.artesa-creations.com/img/p/2/1/5/1/2151.jpg,Epingle à cheveux Perles & Passion Blanche,CC_pinPPblanc,Mariage,11,11,0,1
+416,http://www.artesa-creations.com/img/p/1/4/3/6/1436.jpg,Coussin d'alliances Papillon Doré,CB_COUpapOR,Mariage,39.1,39.1,0,1
+1096,http://www.artesa-creations.com/img/p/3/0/3/2/3032.jpg,Urne Mas Provençal - boite à dons mariage,CB_BTmas,Urne - boîte à dons,69,69,0,1
+467,http://www.artesa-creations.com/img/p/1/5/9/1/1591.jpg,Livre d'or Satin Blanc noeud Rouge Bordeaux,CC-LOsatBOR,Album - Livre d'or,36.21,36.21,0,1
+771,http://www.artesa-creations.com/img/p/2/3/4/8/2348.jpg,Jarretière Dentelle Chocolat Cuivrée,CB_JARchocCui,Mariage,18.7,18.7,0,1
+1179,http://www.artesa-creations.com/img/p/3/1/7/4/3174.jpg,Urne Coffre Géant Ivoire Anis,CB_BTcoffre,Urne - boîte à dons,115,115,0,1
+768,http://www.artesa-creations.com/img/p/2/3/4/0/2340.jpg,Livre d'or Harmonie Blanc et Argent,CC-LOharmArg,Album - Livre d'or,39.95,39.95,0,1
+1375,http://www.artesa-creations.com/img/p/3/7/6/1/3761.jpg,Centre de table Baroque Noir Fushia,HD_centreNF,Mariage,76,76,0,1
+983,http://www.artesa-creations.com/img/p/2/7/9/5/2795.jpg,Urne mariage Ivoire et chocolat,CC_BTsatchoc,Mariage,56.1,56.1,0,1
+464,http://www.artesa-creations.com/img/p/1/5/8/1/1581.jpg,Livre d'or Amour de Nacre Chocolat,CC_LONacrechoco,Mariage,37,37,0,1
+902,http://www.artesa-creations.com/img/p/2/6/5/7/2657.jpg,Epingle Fleur Anis et Perles,CB_PINanis,Coiffure - Tête,6,6,0,1
+404,http://www.artesa-creations.com/img/p/1/3/9/6/1396.jpg,Epingle à cheveux Orchidée,CC_pincORC,Mariage,13,13,0,1
+1515,http://www.artesa-creations.com/img/p/3/7/9/5/3795.jpg,Boucles d'Oreilles Pendantes Noir et Or,AC_BOchOR,Bijoux de créateurs,18,18,0,1
+1176,http://www.artesa-creations.com/img/p/3/1/6/8/3168.jpg,Bouquet Baroque Blanc Argent,HD_BOUQraphGRIS,Mariage,79,79,0,1
+564,http://www.artesa-creations.com/img/p/1/8/3/2/1832.jpg,Coussin d'alliances Fleur Rose Fushia,CB_couFfushia,Mariage,39.1,39.1,0,1
+896,http://www.artesa-creations.com/img/p/2/6/1/4/2614.jpg,Foulard Camaïeu de Vert - mousseline de soie,CB_FOUvert,Accessoires de mode,48,48,0,1
+401,http://www.artesa-creations.com/img/p/1/3/9/0/1390.jpg,"Livre d'or 'Oui, Je le veux' blanc et or",CC-LOoui,Album - Livre d'or,35,35,0,1
+977,http://www.artesa-creations.com/img/p/2/7/8/5/2785.jpg,Boutonnière Fleur Fushia Plume Noire,HD_BOUTrosePnoir,Mariage,14.5,14.5,0,1
+753,http://www.artesa-creations.com/img/p/2/3/1/1/2311.jpg,Stylo fantaisie Blanc Point Argent 'Coeur Léger',CC_STYptArg,Papeterie,5.9,5.9,0,1
+449,http://www.artesa-creations.com/img/p/1/6/1/5/1615.jpg,Foulard Baroque Rouge & Noir,CB_FouBarR,Accessoires de mode,55,55,0,1
+552,http://www.artesa-creations.com/img/p/1/8/0/8/1808.jpg,Peigne doré Fleur Turquoise,CB_PEItur,Coiffure - Tête,12,9.6,0,1
+1262,http://www.artesa-creations.com/img/p/3/3/0/1/3301.jpg,Bague Macaron Prune Violet,HD_BAGmacaVio,Bagues,15,15,0,1
+808,http://www.artesa-creations.com/img/p/2/5/1/8/2518.jpg,Bouquet Romantique Fleurs Blanches,,Mariage,51,51,0,1
+444,http://www.artesa-creations.com/img/p/1/5/2/7/1527.jpg,Mini coussin d'alliances Duo Coeurs Turquoise,CB_duoTurq,Bleu Turquoise Marine,45.9,45.9,0,1
+966,http://www.artesa-creations.com/img/p/2/7/9/1/2791.jpg,Boîte à dons Cinema Camera Noire et Argent,CB_BTcamera,Urne - boîte à dons,64,64,0,1
+1158,http://www.artesa-creations.com/img/p/3/1/2/5/3125.jpg,Headband Chaine Laiton et Perles Nacrées,AC_tiarePerle,Mariage,25,25,0,1
+605,http://www.artesa-creations.com/img/p/1/9/4/7/1947.jpg,Jarretière Dentelle Blanche Fleurs Lilas,CB_JARlilas,Jarretière de mariée,18.7,18.7,-1,1
+1390,http://www.artesa-creations.com/img/p/3/5/5/8/3558.jpg,Livre d'or Cinema Pellicule noir et blanc,GA_LOcinema,Mariage,44,44,-1,1
+1251,http://www.artesa-creations.com/img/p/3/2/8/1/3281.jpg,Urne de mariage Etoile Dorée,CC_BTetoileOR,Urne - boîte à dons,79.9,79.9,-4,1
+1343,http://www.artesa-creations.com/img/p/3/4/5/4/3454.jpg,Rond de Serviette Pompon Argent et plume,BD_RONDarg,Mariage,5,5,-89,1
+736,http://www.artesa-creations.com/img/p/2/2/7/8/2278.jpg,Bracelet Bague Pierre Rouge et Argent,WAM_BRAbagRou,Bijoux de créateurs,30,30,,0
+384,http://www.artesa-creations.com/img/p/1/3/3/3/1333.jpg,Boucles d'oreilles Turquoise,strata_BOturq,Bijoux de créateurs,33,33,,0
+163,http://www.artesa-creations.com/img/p/5/8/5/585.jpg,Boucles d'oreilles Camée Noir,HD_cameeBO,Bijoux de créateurs,15,15,,0
+960,http://www.artesa-creations.com/img/p/2/7/5/3/2753.jpg,Coussin d'alliances Dentelle blanche et perles,CB_COUdentB,Mariage,25,25,,0
+1051,http://www.artesa-creations.com/img/p/2/9/3/3/2933.jpg,Ras de cou dentelle noire,CA_COL,Bijoux de créateurs,17,17,,0
+1250,http://www.artesa-creations.com/img/p/0.jpg,Faire-part Arabesque chocolat Anis,AC_FPnature,Faire-Part & Cartes,0,0,,0
+130,http://www.artesa-creations.com/img/p/4/7/1/471.jpg,Bandeau Natur'Elle,INCR02,Coiffure - Tête,29,29,,0
+373,http://www.artesa-creations.com/img/p/1/2/9/9/1299.jpg,Boucles Libellule Noire,HD_BOlibnoir,Bijoux de créateurs,18,18,,0
+531,http://www.artesa-creations.com/img/p/1/7/7/0/1770.jpg,Livre d'or 'Oui! Je le veux' blanc et or,CC-LOoui,Album - Livre d'or,32,32,,0
+369,http://www.artesa-creations.com/img/p/1/2/9/0/1290.jpg,Collier Papillon de nuit,HD_COLpapnoir,Bijoux de créateurs,30,30,,0
+858,http://www.artesa-creations.com/img/p/2/5/3/1/2531.jpg,Headband Dentelle ivoire et fleur bronze,AC_BANbronze,Accessoires de mode,25,25,,0
+722,http://www.artesa-creations.com/img/p/2/2/3/0/2230.jpg,Album Photo Perles & Passion,CC_APpassion,Mariage,53,53,,0
+363,http://www.artesa-creations.com/img/p/1/2/7/1/1271.jpg,Collier Perle de Soie,CB_COLfleurperl,Bijoux de créateurs,25,25,,0
+718,http://www.artesa-creations.com/img/p/2/2/3/4/2234.jpg,Bibi serre tête Plume noire et perles d'argent,HD_bibinoir,Coiffure - Tête,47,47,,0
+511,http://www.artesa-creations.com/img/p/1/7/1/9/1719.jpg,Jarretière Chantilly et Fleurs Dorées,CB_JARmouss,Jarretière de mariée,21.1,21.1,,0
+624,http://www.artesa-creations.com/img/p/2/0/1/0/2010.jpg,Boucles d'oreilles Etoiles Argentées,HD_BOetoile,Bijoux de créateurs,18,18,,0
+1333,http://www.artesa-creations.com/img/p/0.jpg,Boucles d'oreilles Mutlicolor Argent,TP_BOboheMulti,Bijoux de créateurs,16,16,,0
+353,http://www.artesa-creations.com/img/p/1/2/2/3/1223.jpg,Coussin d'alliances Fleurs Roses,CB_FlroseOR,Mariage,39,39,,0
+623,http://www.artesa-creations.com/img/p/2/0/0/6/2006.jpg,Bouquet de Fleurs Bordeaux et Or,HD_BOUQborOR,Mariage,81,81,,0
+1122,http://www.artesa-creations.com/img/p/3/2/7/1/3271.jpg,Urne Cage romantique Roses et papillon ,HD_BTcageGD,Urne - boîte à dons,73,73,,0
+620,http://www.artesa-creations.com/img/p/2/0/0/1/2001.jpg,Boucles d'oreilles Coeur Bleu,HD_BOcoeurbleu,Bijoux de créateurs,14,14,,0
+702,http://www.artesa-creations.com/img/p/2/1/9/7/2197.jpg,Serre-Tête Papillon Blanc,HC_coifpapBlanc,Accessoires de mode,24,24,,0
+1203,http://www.artesa-creations.com/img/p/3/2/2/0/3220.jpg,Bague Echec Damier noir & blanc Argent925,FM_BAG,Bijoux de créateurs,47,47,,0
+341,http://www.artesa-creations.com/img/p/1/1/6/5/1165.jpg,Livre d'or Coeur de Pois chocolat Anis,CC-LOpoisV,Mariage,32,32,,0
+1399,http://www.artesa-creations.com/img/p/0.jpg,Pack Cortège Témoins,AC_packcortege,Mariage,80,80,,0
+1197,http://www.artesa-creations.com/img/p/3/2/1/1/3211.jpg,Peigne Papillon chocolat et Doré,TB_PEIpapChoco,Coiffure - Tête,17,17,,0
+693,http://www.artesa-creations.com/img/p/2/1/8/1/2181.jpg,Bouquet Roses Eternelles et plumes,HD_BOUQrose,Mariage,62,62,,0
+289,http://www.artesa-creations.com/img/p/1/0/1/4/1014.jpg,Collier Vahiné - ras de cou en soie,,Bijoux de créateurs,15,15,,0
+924,http://www.artesa-creations.com/img/p/2/6/9/0/2690.jpg,Bougie Rouge et Blanc - grand modèle,SO_BOUrouGD,Mariage,23,23,,0
+1396,http://www.artesa-creations.com/img/p/0.jpg,Pack Décoration de salle,PACKsalle,Packs Mariage,350,350,,0
+482,http://www.artesa-creations.com/img/p/1/6/3/8/1638.jpg,Livre d'or Coeur de Cristal,CC_LOcoeurCRI,Album - Livre d'or,33.5,33.5,,0
+690,http://www.artesa-creations.com/img/p/2/2/6/9/2269.jpg,Bouquet Chocolat Turquoise fleurs et plumes,HD_BOUQchocTur,Mariage,61.2,61.2,,0
+279,http://www.artesa-creations.com/img/p/9/9/3/993.jpg,Boucles d'oreilles Noir Gothique,strata_BOnoirgothique,Bijoux de créateurs,36,36,,0
+1531,http://www.artesa-creations.com/img/p/0.jpg,Minis Coussins Papillon Argent,CB_DUOpap,Mariage,0,0,,0
+1191,http://www.artesa-creations.com/img/p/3/2/0/1/3201.jpg,Etuis à Lunette Papillon Bleu,BD_etuisPAP,Catégories,0,0,,0
+601,http://www.artesa-creations.com/img/p/1/9/3/0/1930.jpg,Bracelet Bague Fleur Emeraude,WAM_BRAbagVert,Bijoux de créateurs,29,29,,0
+271,http://www.artesa-creations.com/img/p/9/7/7/977.jpg,Pendentif Nacre,strata_nacre,Bijoux de créateurs,38,38,,0
+417,http://www.artesa-creations.com/img/p/1/4/3/9/1439.jpg,Pochette Arabesques Bronze,CB_pochARA,Catégories,29,29,,0
+468,http://www.artesa-creations.com/img/p/1/5/9/4/1594.jpg,Livre d'or Harmonie Turquoise satin blanc,CC-LOmoussTUR,Album - Livre d'or,39.95,39.95,,0
+1383,http://www.artesa-creations.com/img/p/0.jpg,Faire-part Chocolat turquoise personnalisé,AC_FPchoctur,Catégories,1.9,1.9,,0
+408,http://www.artesa-creations.com/img/p/1/4/2/3/1423.jpg,Etole Paradis de Soie Blanc,Betti_BL,Foulards - Etoles,69,69,,0
+1519,http://www.artesa-creations.com/img/p/0.jpg,Sautoir Noir et Or multirang,AC_SAUTornoir,Bijoux de créateurs,35,35,,0
+903,http://www.artesa-creations.com/img/p/2/6/3/7/2637.jpg,Boucles d'Oreilles Cristal Vert Anis,AC_BOvertes,Catégories,10,10,,0
+765,http://www.artesa-creations.com/img/p/0.jpg,Collier Papillon Dentelé - ras de cou et papillon en soie sauvage,CB_Colpap,Bijoux de créateurs,25,25,,0
+461,http://www.artesa-creations.com/img/p/1/5/6/7/1567.jpg,Livre d'or Coeur Anis,CC-LOcoeurAnis,Album - Livre d'or,34,34,,0
+1445,http://www.artesa-creations.com/img/p/0.jpg,Parure Fleur Chocolat et Doré,CB_PARchoco,Catégories,29,29,,0
+553,http://www.artesa-creations.com/img/p/1/9/1/8/1918.jpg,Sautoir Camée Noir,HD_SAUTcam,Bijoux de créateurs,49,49,,0
+396,http://www.artesa-creations.com/img/p/1/3/7/0/1370.jpg,Pochette Cerise Noire,CB_pochrouge,Accessoires de mode,29,29,,0
+445,http://www.artesa-creations.com/img/p/1/5/2/8/1528.jpg,Coussin d'alliances Fleurs Violines,CB_couFvioli,Catégories,37,37,,0
+186,http://www.artesa-creations.com/img/p/7/7/3/773.jpg,Clé USB 'Dans ma salle de bain',soon_SDB,Accessoires de mode,35,35,,0
+391,http://www.artesa-creations.com/img/p/1/3/5/4/1354.jpg,Sac Caliente Liberty,Sy_CALlib,Accessoires de mode,44,44,,0
+646,http://www.artesa-creations.com/img/p/2/0/6/5/2065.jpg,Sautoir Coeurs Bleus,HD_SAUTcoeurB,Bijoux de créateurs,32,32,,0
+388,http://www.artesa-creations.com/img/p/1/3/4/0/1340.jpg,Sac Caliente Mediterranée,Sy_CAmed,Accessoires de mode,44,44,,0
+541,http://www.artesa-creations.com/img/p/1/9/6/1/1961.jpg,Tiare Médaillon Hématite,WAM_Tcabo,Bijoux de créateurs,59,59,,0
+643,http://www.artesa-creations.com/img/p/2/0/5/5/2055.jpg,Livre d'or Coeur Léger 2,CC-LOcoeurARG2,Album - Livre d'or,33,33,,0
+165,http://www.artesa-creations.com/img/p/5/9/1/591.jpg,Sautoir Camée Noir,HD_cameeSAUT,Bijoux de créateurs,49,49,,0
+435,http://www.artesa-creations.com/img/p/1/5/0/6/1506.jpg,Coussin d'alliances Arabesques Argentées,CB_couAraArg,Mariage,39,39,,0
+1151,http://www.artesa-creations.com/img/p/0.jpg,Livre d'or Cinema Pellicule gris pailleté - 160 pages,FO_LOcine,Mariage,49,49,,0
+538,http://www.artesa-creations.com/img/p/1/9/4/2/1942.jpg,Tiare Papillon d'argent,WAM_Tiarpap,Bijoux de créateurs,90,90,,0
+1148,http://www.artesa-creations.com/img/p/3/1/4/8/3148.jpg,Coussin d'alliances Rectangle Satin blanc dentelle et perles,CB_COUdentB,Mariage,32,32,,0
+1248,http://www.artesa-creations.com/img/p/0.jpg,Faire-part Macarons,AC_FPmacaron,Faire-Part & Cartes,0,0,,0
+65,http://www.artesa-creations.com/img/p/1/5/8/158.jpg,Foulard Chamade Orangée,CB002,Foulards - Etoles,45,45,,0
+629,http://www.artesa-creations.com/img/p/2/0/2/2/2022.jpg,Bouquet Papillon d'Argent,HD_BOUQarg,Mariage,81,81,,0
+357,http://www.artesa-creations.com/img/p/1/2/6/3/1263.jpg,Jarretière Fleurs Bordeaux,CB_JARbrdx,Jarretière de mariée,17,17,,0
+851,http://www.artesa-creations.com/img/p/2/5/2/2/2522.jpg,Bouquet Chocolat Turquoise Roses Blanches,HD_BOUQRosechoTur,Mariage,59.5,59.5,,0
+354,http://www.artesa-creations.com/img/p/1/9/8/3/1983.jpg,Jarretière Fleurs Turquoise,CB_JARtur,Jarretière de mariée,17,17,,0
+946,http://www.artesa-creations.com/img/p/2/7/2/3/2723.jpg,Collier Noeud Rouge et Bleu - laiton,AC_COLnoeudRB,Tenue de Soirée,22,22,,0
+351,http://www.artesa-creations.com/img/p/1/2/1/8/1218.jpg,Coussin d'alliances Arabesque Bronze,CB_araBze,Mariage,39,39,,0
+621,http://www.artesa-creations.com/img/p/2/0/0/3/2003.jpg,Boucles d'oreilles Coeur Noir,HD_BOcoeurnoir,Bijoux de créateurs,14,14,,0
+1473,http://www.artesa-creations.com/img/p/0.jpg,Collier ras de cou Petites Fleurs Bleues,,Bijoux de mariée,0,0,,0
+705,http://www.artesa-creations.com/img/p/2/2/0/3/2203.jpg,Livre d'or Chocolat Orange & Nacre,CC_LOchocOran,Mariage,39,39,,0
+697,http://www.artesa-creations.com/img/p/2/1/9/0/2190.jpg,Livre d'or Chocolat Framboise,CC_LOchocFram,Mariage,38,38,,0
+342,http://www.artesa-creations.com/img/p/1/1/6/9/1169.jpg,Livre d'or Coeur de Pois,CC-LOpoisT,Mariage,29,29,,0
+321,http://www.artesa-creations.com/img/p/1/1/0/8/1108.jpg,Carnet de Voyage Perles & Passion,CC_voyageperles,Papeterie,29,29,,0
+925,http://www.artesa-creations.com/img/p/2/6/9/1/2691.jpg,Bougie Bleue et Blanche - grand modèle,SO_BOUbleu,Mariage,23,23,,0
+997,http://www.artesa-creations.com/img/p/2/8/3/0/2830.jpg,Bracelet Bague Cristal Bleu et Plaqué Argent,WAM_BRAbagbleu,Bijoux de créateurs,32,32,,0
+1195,http://www.artesa-creations.com/img/p/3/2/0/9/3209.jpg,Porte Chéquier Cuir Marine peint,BD_chequeBleu,Accessoires de mode,20,20,,0
+606,http://www.artesa-creations.com/img/p/1/9/4/9/1949.jpg,Collier bijou d'épaule,WAM_Epau,Bijoux de créateurs,60,60,,0
+836,http://www.artesa-creations.com/img/p/2/4/7/6/2476.jpg,Pochette Moïra - sac rétro motif végétal,TP_SACmoira,Accessoires de mode,48,48,,0
+428,http://www.artesa-creations.com/img/p/1/9/8/6/1986.jpg,Jarretière Fleurs bronze,CB_JARbronze,Jarretière de mariée,19,19,,0
+1397,http://www.artesa-creations.com/img/p/0.jpg,Rubans personnalisés,AC_ruban,Packs Mariage,2.35,2.35,,0
+272,http://www.artesa-creations.com/img/p/9/7/9/979.jpg,Pendentif Black Donut,strata_blackdonut,Bijoux de créateurs,52,52,,0
+918,http://www.artesa-creations.com/img/p/2/6/8/2/2682.jpg,Bougie Blanche - petite,SO_BOUblPT,Mariage,8,8,,0
+1188,http://www.artesa-creations.com/img/p/3/1/9/4/3194.jpg,Livre d'or Vert Anis petites fleurs,CB_LOanis,Mariage,39.5,39.5,,0
+1310,http://www.artesa-creations.com/img/p/3/3/8/2/3382.jpg,Bracelet Bague Papillon et Cristal Argent,WAM_BRAbagPAP,Bijoux de créateurs,34,34,,0
+418,http://www.artesa-creations.com/img/p/1/4/4/6/1446.jpg,Pochette Nuit Noire,CB_pochgris,Accessoires de mode,29,29,,0
+827,http://www.artesa-creations.com/img/p/2/4/6/9/2469.jpg,Tiare Cristal Anis et Laiton,,Mariage,29,29,,0
+912,http://www.artesa-creations.com/img/p/2/6/6/7/2667.jpg,Boucles d'oreilles Square pierre de lune et OR,LO_BOsq,Bijoux de créateurs,34,34,,0
+415,http://www.artesa-creations.com/img/p/1/4/5/5/1455.jpg,Coussin d'alliances Coeur de Neige,CB_coeurNEIGE,Mariage,49,49,,0
+576,http://www.artesa-creations.com/img/p/1/8/6/7/1867.jpg,Livre d'or Rouge et Noir,CC_LOnoir,Mariage,38,38,,0
+909,http://www.artesa-creations.com/img/p/0.jpg,Boucles d'oreilles Pompon Blanc et Strass,AC_BOpom,Bijoux de créateurs,22,22,,0
+466,http://www.artesa-creations.com/img/p/1/5/8/9/1589.jpg,Livre d'or Satin Blanc & Gris Perle,CC-LOsatgris,Album - Livre d'or,35,35,,0
+462,http://www.artesa-creations.com/img/p/1/5/7/1/1571.jpg,Livre d'or Coeur Bordeaux,CC-LOcoeurBOR,Album - Livre d'or,33,33,,0
+662,http://www.artesa-creations.com/img/p/2/1/0/7/2107.jpg,Collier Papillon Doré - ras de cou,LO_papOR,Bijoux de créateurs,35,35,,0
+214,http://www.artesa-creations.com/img/p/8/0/3/803.jpg,Mitaines Anthracite - mérinos,in&v_mitaines,Accessoires de mode,33,33,,0
+1081,http://www.artesa-creations.com/img/p/3/0/0/1/3001.jpg,Urne Etoile personnalisable,CC_BTetoile,Urne - boîte à dons,72,72,,0
+1511,http://www.artesa-creations.com/img/p/0.jpg,Boucles d'oreilles Feuille d'Or verre filé,GRE_BOorBL,Bijoux de créateurs,0,0,,0
+1291,http://www.artesa-creations.com/img/p/0.jpg,Urne Coffret Anis,CB_BTpetitCoffre,Mariage,55,55,,0
+752,http://www.artesa-creations.com/img/p/2/3/0/6/2306.jpg,Jarretière Fleur Chocolat Turquoise dentelle blanche,CB_JARchocTur,Jarretière de mariée,16,16,,0
+187,http://www.artesa-creations.com/img/p/6/8/0/680.jpg,Clé USB 'Zaza',,Accessoires de mode,35,35,,0
+393,http://www.artesa-creations.com/img/p/1/3/6/3/1363.jpg,Sac Caraïbes,Sy_FLOcar,Accessoires de mode,54,54,,0
+1505,http://www.artesa-creations.com/img/p/0.jpg,Pack Bouquet + Boutonnière,AC_PACKbouqBout,Mariage,90,90,,0
+802,http://www.artesa-creations.com/img/p/2/4/1/4/2414.jpg,Headband Dentelle blanche & Fleur,AC_BANdentFL,Accessoires de mode,18,18,,0
+389,http://www.artesa-creations.com/img/p/1/3/4/4/1344.jpg,Sac Caliente Printemps,Sy_CAprint,Accessoires de mode,44,44,,0
+965,http://www.artesa-creations.com/img/p/2/7/6/3/2763.jpg,Epingle Orchidée Rose Fushia,CB_PINorchi,Coiffure - Tête,8.5,8.5,,0
+796,http://www.artesa-creations.com/img/p/2/3/9/5/2395.jpg,Centre de table Roses blanches et Chocolat - suspension,HD_centreRchoc,Mariage,57,57,,0
+1249,http://www.artesa-creations.com/img/p/0.jpg,Faire-part Roses Noires,AC_FProses,Faire-Part & Cartes,0,0,,0
+129,http://www.artesa-creations.com/img/p/4/7/0/470.jpg,Bandeau Passion,INCR01,Coiffure - Tête,29,29,,0
+863,http://www.artesa-creations.com/img/p/0.jpg,Sautoir Médaillon Vintage perles noires,HD_Sautmed,Bijoux de créateurs,39,39,,0
+727,http://www.artesa-creations.com/img/p/2/2/4/0/2240.jpg,Collier Lacet Noeud et Fleur de Cerisier,SB_SAUTcerise,Bijoux de créateurs,38,38,,0
+372,http://www.artesa-creations.com/img/p/1/5/3/4/1534.jpg,Collier Libellules Noires,HD_COLlibnoir,Bijoux de créateurs,36,34,,0
+109,http://www.artesa-creations.com/img/p/1/4/2/9/1429.jpg,Collier Reflet de Nacre,STRATA-nacre,Colliers,52,52,,0
+368,http://www.artesa-creations.com/img/p/1/2/8/9/1289.jpg,Bague Papillon de Nuit,HD_BAGpap,Bijoux de créateurs,15,15,,0
+524,http://www.artesa-creations.com/img/p/1/7/5/7/1757.jpg,Boîte à dons Papillon Turquoise,CC-BTpapTUR,Mariage,46,46,,0
+1016,http://www.artesa-creations.com/img/p/2/8/7/3/2873.jpg,Urne Cage romantique Roses et papillon ,HD_BTcagept,Urne - boîte à dons,64,64,,0
+947,http://www.artesa-creations.com/img/p/2/7/2/4/2724.jpg,Collier Romantique Petit Noeud ,AC_COLnoeudRom,Catégories,25,25,,0
+1131,http://www.artesa-creations.com/img/p/3/0/8/7/3087.jpg,Sautoir Fleur Bordeaux mousseline et perles,AC_SAUTmouss,Colliers,0,0,,0
+498,http://www.artesa-creations.com/img/p/1/6/7/7/1677.jpg,Livre d'or Fleur Lilas,CC-LOlilas,Album - Livre d'or,36.5,36.5,,0
+622,http://www.artesa-creations.com/img/p/2/0/0/5/2005.jpg,Boucles d'oreilles Coeur Argent,HD_BOcoeurArg,Bijoux de créateurs,14,14,,0
+938,http://www.artesa-creations.com/img/p/2/7/1/0/2710.jpg,Bracelet Square pierre de lune et OR,LO_BRAsq,Bijoux de créateurs,25,25,,0
+495,http://www.artesa-creations.com/img/p/1/6/7/0/1670.jpg,Urne Coeur de Cristal,CC-BTcristal,Mariage,46.5,46.5,,0
+346,http://www.artesa-creations.com/img/p/1/1/9/0/1190.jpg,Coussin Fleurs chocolat anis,CB_chocofleuranis,Mariage,39,39,,0
+1398,http://www.artesa-creations.com/img/p/3/5/7/2/3572.jpg,Pack Décoration de Voiture,AC_PACKvoiture,Packs Mariage,160,160,,0
+484,http://www.artesa-creations.com/img/p/1/6/4/2/1642.jpg,Livre d'or Papillon Chocolat,CC-LOpap,Album - Livre d'or,33,33,,0
+1320,http://www.artesa-creations.com/img/p/3/4/0/7/3407.jpg,Serre Tête Dentelle et Plume asymétrique,HC_asymetrique,Mariage,55,55,,0
+923,http://www.artesa-creations.com/img/p/2/6/8/8/2688.jpg,Bougie Vert Anis - petit modèle,SO_BOUvertPT,Mariage,8,8,,0
+783,http://www.artesa-creations.com/img/p/2/3/6/9/2369.jpg,Urne camera theme mariage cinema,CC_BTcine,Mariage,75,75,,0
+1395,http://www.artesa-creations.com/img/p/0.jpg,Pack Prestataire,PACKpresta,Mariage,100,100,,0
+1314,http://www.artesa-creations.com/img/p/3/3/9/7/3397.jpg,Urne Cage à Oiseaux Fleurs d'Argent,HD_BTcageArg,Urne - boîte à dons,89,89,,0
+278,http://www.artesa-creations.com/img/p/9/9/1/991.jpg,Boucles d'oreilles Black Donut,strata_BOdonutonyx,Bijoux de créateurs,33,33,,0
+920,http://www.artesa-creations.com/img/p/0.jpg,Sac cabat Rouge & Noir,CB_SACrouge,Accessoires de mode,45,45,,0
+477,http://www.artesa-creations.com/img/p/1/6/2/6/1626.jpg,Boîte à dons Papillon Chocolat,CC-BTpapchoco,Mariage,46,46,,0
+831,http://www.artesa-creations.com/img/p/2/4/6/0/2460.jpg,Pochette porte monnaie Fiona - caramel et bleu,TP_SACfio,Accessoires de mode,45,45,,0
+270,http://www.artesa-creations.com/img/p/9/7/5/975.jpg,Pendentif Perle,strata_perle,Bijoux de créateurs,33,33,,0
+258,http://www.artesa-creations.com/img/p/1/5/1/3/1513.jpg,Coffret coussin d'alliances Coeur de Prune,CC_BTcouprune,Mariage,40,40,,0
+1305,http://www.artesa-creations.com/img/p/3/3/7/5/3375.jpg,Bracelet Chaîne Bleu Electrique,AC_BRAchaineBLEU,Bijoux de créateurs,8,8,,0
+239,http://www.artesa-creations.com/img/p/9/1/5/915.jpg,Bague Fleur Noire,HD_fleurNoire_BAG,Bijoux de créateurs,19,19,,0
+567,http://www.artesa-creations.com/img/p/1/8/4/4/1844.jpg,Coussin d'alliances Feuilles de Lierre,CB_COUFlierre,Mariage,49,49,,0
+822,http://www.artesa-creations.com/img/p/2/4/4/5/2445.jpg,Etole Chantilly Rose - feutre de laine,Betti_chantilly,Foulards - Etoles,69,69,,0
+1302,http://www.artesa-creations.com/img/p/3/3/6/7/3367.jpg,Livre d'or Amour de Nacre Bordeaux irisé,CC_LONacreBorV2,Mariage,34,34,,0
+407,http://www.artesa-creations.com/img/p/1/4/2/5/1425.jpg,Etole Aube de Soie,Betti_Aube,Foulards - Etoles,63,63,,0
+1518,http://www.artesa-creations.com/img/p/0.jpg,Sautoir Noir et Or multirang,AC_SAUTornoir,Bijoux de créateurs,35,35,,0
+1521,http://www.artesa-creations.com/img/p/0.jpg,Epingle Fleur Noire et plume,AC_PINflNoir,Catégories,12,12,,0
+663,http://www.artesa-creations.com/img/p/2/1/1/0/2110.jpg,Collier multirangs dorés,LO_multi,Bijoux de créateurs,38,38,,0
+398,http://www.artesa-creations.com/img/p/1/3/7/8/1378.jpg,Jarretière Dentelle & Fleurs dorées,CB_JARor,Jarretière de mariée,15,15,,0
+1509,http://www.artesa-creations.com/img/p/0.jpg,Headband Cuir Framboise et Cristal,AC_BANcuirBor,Catégories,27,27,,0
+651,http://www.artesa-creations.com/img/p/2/0/7/8/2078.jpg,Boucles d'oreilles Fraises Bleu Turquoise,ELE_BObleu,Bijoux de créateurs,15,15,,0
+394,http://www.artesa-creations.com/img/p/1/3/6/5/1365.jpg,Sac Florenze Farniente,Sy_FLOfar,Accessoires de mode,54,54,,0
+803,http://www.artesa-creations.com/img/p/2/4/3/3/2433.jpg,Etole Blanche Fils d'Argent - Soie et Feutre,Betti_Arg,Foulards - Etoles,69,69,,0
+178,http://www.artesa-creations.com/img/p/6/3/4/634.jpg,Album photo Amour de Nacre,CCAP-04,Mariage,42,42,,0
+390,http://www.artesa-creations.com/img/p/1/3/4/9/1349.jpg,Sac Caliente Farniente,Sy_CALfar,Accessoires de mode,44,44,,0

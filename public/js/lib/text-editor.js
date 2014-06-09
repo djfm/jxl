@@ -1,5 +1,6 @@
 function TextEditor(element) {
 	var activeSelector;
+	var active;
 
 	this.clear = function() {
 		element.innerHTML = '<span class="virtual char cursor">&nbsp;</span>';
@@ -44,7 +45,8 @@ function TextEditor(element) {
 	};
 
 	this.activate = function(setActiveSelector) {
-		this._previousContent = this.innerHTML;
+		active = true;
+		this._previousContent = element.innerHTML;
 		var $element = $(element);
 		if (setActiveSelector) {
 			activeSelector = setActiveSelector;
@@ -60,9 +62,14 @@ function TextEditor(element) {
 		});
 	};
 
+	this.restore = function() {
+		element.innerHTML = this._previousContent;
+	};
+
 	this.deactivate = function(restore) {
+		active = false;
 		if (restore) {
-			element.innerHTML = this._previousContent;
+			this.restore();
 		}
 		if (activeSelector) {
 			$(element).closest(activeSelector).removeClass('active');
@@ -71,6 +78,10 @@ function TextEditor(element) {
 			$(element).removeClass('active');
 		}
 		$(element).off('click.text-editor-internal');
+	};
+
+	this.isActive = function() {
+		return active;
 	};
 
 	this.backspace = function() {
