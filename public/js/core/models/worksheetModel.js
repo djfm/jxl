@@ -61,7 +61,7 @@ function WorksheetModel(data) {
 		var cell = cells[row][col];
 		var $cell = $(cell);
 		if (value) {
-			cell.textEditor = new TextEditor($cell.find('div.inner').get(0));
+			cell.textEditor = new CellTextEditor(cell);
 			cell.textEditor.init(value);
 		}
 	};
@@ -110,7 +110,7 @@ function WorksheetModel(data) {
 		focusedCellCol = col;
 		var fc = focusedCell.get(0);
 		if (!fc.textEditor) {
-			fc.textEditor = new TextEditor(focusedCell.find('div.inner').get(0));
+			fc.textEditor = new CellTextEditor(focusedCell.get(0));
 			fc.textEditor.init();
 		}
 		if (!formulaCell) {
@@ -140,7 +140,7 @@ function WorksheetModel(data) {
 	};
 
 	this.canStartSelectionAt = function(row, col) {
-		return true; //row != focusedCellRow || col != focusedCellCol || formulaCell;
+		return cells[row][col].textEditor ? !cells[row][col].textEditor.isActive() : true;
 	};
 
 	this.commitSelection = function(topRow, topCol, bottomRow, bottomCol) {

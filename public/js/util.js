@@ -17,10 +17,15 @@ var render = (function(){
 		}
 
 		if (cb) {
-			if (cache[template]) {
+			if (typeof cache[template] === 'string') {
 				handleTemplate(cache[template]);
+			} else if (typeof cache[template] === 'object') {
+				cache[template].then(function(resp) {
+					handleTemplate(resp);
+				});
 			} else {
-				$.get('/' + template + '.ejs').then(function(resp) {
+				cache[template] = $.get('/' + template + '.ejs');
+				cache[template].then(function(resp) {
 					cache[template] = resp;
 					handleTemplate(resp);
 				});

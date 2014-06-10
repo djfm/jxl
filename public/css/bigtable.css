@@ -78,6 +78,7 @@ div.bigtable-col-handle div.resizer:hover, div.bigtable-col-handle.resizing div.
 	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	cursor: ew-resize;
+	overflow: hidden;
 }
 
 div.bigtable-row-handle div.resizer {
@@ -105,7 +106,6 @@ div.bigtable-cell {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	height: 100%;
-	overflow: hidden;
 	background-color: white;
 
 	-moz-user-select: -moz-none;

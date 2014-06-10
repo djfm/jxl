@@ -3,14 +3,11 @@ function TextEditor(element) {
 	var active;
 
 	this.clear = function() {
-		element.innerHTML = '<span class="virtual char cursor">&nbsp;</span>';
+		element.innerHTML = '';
 	};
 
 	this.init = function(text) {
-		this.clear();
-		if (text) {
-			this.insert(text, true);
-		}
+		element.innerHTML = text || '';
 	};
 
 	this.changed = function() {
@@ -47,6 +44,15 @@ function TextEditor(element) {
 	this.activate = function(setActiveSelector) {
 		active = true;
 		this._previousContent = element.innerHTML;
+		var text = element.textContent;
+
+		var html = '';
+		for (var i = 0; i < text.length; i++) {
+			html += '<span class="char">' + text[i] + '</span>';
+		}
+		html += '<span class="virtual char cursor">&nbsp;&nbsp;</span>';
+		element.innerHTML = html;
+
 		var $element = $(element);
 		if (setActiveSelector) {
 			activeSelector = setActiveSelector;
@@ -70,6 +76,8 @@ function TextEditor(element) {
 		active = false;
 		if (restore) {
 			this.restore();
+		} else {
+			element.innerHTML = this.getText();
 		}
 		if (activeSelector) {
 			$(element).closest(activeSelector).removeClass('active');

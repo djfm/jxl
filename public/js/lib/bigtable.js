@@ -116,8 +116,6 @@ function BigTable(tableRoot) {
 			}
 		}
 
-		/*renderedRows[row].css('height', newHeight);
-		renderedRowHandles[row].css('height', newHeight);*/
 		for (var i in renderedRows) {
 			if (parseInt(i) > parseInt(row)) {
 				var top = parseInt(renderedRows[i].css('top'), 10) + deltaHeight;
@@ -312,10 +310,6 @@ function BigTable(tableRoot) {
 		var start = relativeCellCoords(startCell);
 		var end = start;
 
-		if(this.onCellClicked) {
-			this.onCellClicked(event, startRow, startCol);
-		}
-
 		if (!selecting && (!this.canStartSelectionAt || this.canStartSelectionAt(startRow, startCol))) {
 			selecting = true;
 
@@ -372,6 +366,15 @@ function BigTable(tableRoot) {
 		}
 	};
 
+	this.clickOnCell = function(event) {
+		var startCell = $(event.target).closest('div.bigtable-cell');
+		var startCol = parseInt(startCell.attr('data-col-number'));
+		var startRow = parseInt(startCell.closest('div.bigtable-row').attr('data-row-number'));
+		if(this.onCellClicked) {
+			this.onCellClicked(event, startRow, startCol);
+		}
+	};
+
 	this.init = function() {
 		this.willUpdateDisplay();
 		gridContainer = $(tableRoot).find('div.bigtable-cells-container');
@@ -382,6 +385,7 @@ function BigTable(tableRoot) {
 		$(tableRoot).on('mousedown', '.bigtable-col-handle .resizer', this.startColResize.bind(this));
 
 		$(tableRoot).on('mousedown', 'div.bigtable-cell', this.mousedownOnCell.bind(this));
+		$(tableRoot).on('click', 'div.bigtable-cell', this.clickOnCell.bind(this));
 	};
 
 	this.scroll = function(event) {
