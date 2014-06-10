@@ -164,7 +164,7 @@ function WorksheetModel(data) {
 		}
 
 		if (!cancel) {
-			jxl.commit('cellValue', workbookModel.getName(), worksheetId, row, col, cell.get(0).textEditor.getText());
+			jxl.commit(formulaCell ? 'cellFormula' : 'cellValue', workbookModel.getName(), worksheetId, row, col, cell.get(0).textEditor.getText());
 		}
 	};
 

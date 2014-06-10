@@ -304,6 +304,11 @@ function BigTable(tableRoot) {
 
 	var selecting = false;
 	this.mousedownOnCell = function(event) {
+
+		if (event.button !== 0) {
+			return;
+		}
+
 		var startCell = $(event.target).closest('div.bigtable-cell');
 		var startCol = parseInt(startCell.attr('data-col-number'));
 		var startRow = parseInt(startCell.closest('div.bigtable-row').attr('data-row-number'));

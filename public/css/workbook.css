@@ -44,10 +44,15 @@ div.bigtable-cell.active {
 	background-color: #efe;
 }
 
+div.bigtable-cell div.inner {
+	height: 100%;
+	overflow: hidden;
+	padding-top: 3px;
+}
+
 div.bigtable-cell.active div.inner {
 	position: absolute;
 	background-color: #efe;
-	height: 100%;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -56,5 +61,5 @@ div.bigtable-cell div.inner > span.char {
 }
 
 div.bigtable-cell.active div.inner > span.cursor {
-	border-left: 1px solid #ccc;
+	border-left: 1px solid blue;
 }
