@@ -7,7 +7,45 @@ function TextEditor(element) {
 	};
 
 	this.init = function(text) {
-		element.innerHTML = text || '';
+		element.innerHTML = this.highlight(text || '');
+	};
+
+	this.highlighter = function(text) {
+		return text;
+	};
+
+	this.highlight = function(text) {
+
+		var parts = this.highlighter(text);
+
+		if (typeof parts === 'string') {
+			parts = [parts];
+		}
+
+		var html = '';
+		for(var i = 0; i < parts.length; i++) {
+			var string;
+			var klass;
+			if (typeof parts[i] === 'string') {
+				string = parts[i];
+			} else {
+				string = parts[i].string;
+				klass = parts[i].klass;
+			}
+			if (klass) {
+				html += '<span class="highlight ' + klass + '">';
+			}
+
+			for (var j = 0; j < string.length; j++) {
+				html += '<span class="char">' + string[j] + '</span>';
+			}
+
+			if (klass) {
+				html += '</span>';
+			}
+		}
+
+		return html;
 	};
 
 	this.changed = function() {
@@ -23,6 +61,10 @@ function TextEditor(element) {
 		if (!dontEmitChange) {
 			this.changed();
 		}
+	};
+
+	this.insertCompletion = function(text) {
+		console.log(text);
 	};
 
 	this.getText = function() {
@@ -44,13 +86,11 @@ function TextEditor(element) {
 	this.activate = function(setActiveSelector) {
 		active = true;
 		this._previousContent = element.innerHTML;
-		var text = element.textContent;
 
-		var html = '';
-		for (var i = 0; i < text.length; i++) {
-			html += '<span class="char">' + text[i] + '</span>';
+		var html = element.innerHTML;
+		if ($(html).find('span.virtual.char.cursor').length === 0) {
+			html += '<span class="virtual char cursor">&nbsp;&nbsp;</span>';
 		}
-		html += '<span class="virtual char cursor">&nbsp;&nbsp;</span>';
 		element.innerHTML = html;
 
 		var $element = $(element);
@@ -77,7 +117,7 @@ function TextEditor(element) {
 		if (restore) {
 			this.restore();
 		} else {
-			element.innerHTML = this.getText();
+			element.innerHTML = this.highlight(this.getText());
 		}
 		if (activeSelector) {
 			$(element).closest(activeSelector).removeClass('active');

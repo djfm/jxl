@@ -90,7 +90,7 @@ function WorksheetModel(data) {
 		if (focusedCell) {
 			if (focusedCell.get(0) === cells[row][col]) {
 				var te = focusedCell.get(0).textEditor;
-				if (te && !te.isActive()) {
+				if (te && !te.isActive() && !formulaCell) {
 					te.activate('div.bigtable-cell');
 					this.checkForFormula();
 				}
@@ -146,7 +146,19 @@ function WorksheetModel(data) {
 	this.commitSelection = function(topRow, topCol, bottomRow, bottomCol) {
 	};
 
+	this.coordsToReference = function(row, col) {
+		return table.getColName(col) + row;
+	};
+
 	this.preselect = function(topRow, topCol, bottomRow, bottomCol) {
+		var tl = this.coordsToReference(topRow, topCol);
+		var br = this.coordsToReference(bottomRow, bottomCol);
+		var ref = tl === br ? tl : tl + ':' + br;
+		if (formulaCell) {
+			if (formulaCell.get(0).textEditor.canCompleteRange()) {
+				formulaCell.get(0).textEditor.insertCompletion(ref);
+			}
+		}
 	};
 
 	this.deactivateCell = function(cancel) {

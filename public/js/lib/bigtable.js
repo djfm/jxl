@@ -352,7 +352,7 @@ function BigTable(tableRoot) {
 
 			$(tableRoot).on('mouseover.selecting', 'div.bigtable-cell', function(e) {
 				var cell = $(e.target);
-				col = parseInt(cell.attr('data-col-number'));
+				col = parseInt(cell.closest('div.bigtable-cell').attr('data-col-number'));
 				row = parseInt(cell.closest('div.bigtable-row').attr('data-row-number'));
 				if (my.onPreselect) {
 					my.onPreselect(Math.min(startRow, row), Math.min(startCol, col), Math.max(startRow, row), Math.max(startCol, col));
