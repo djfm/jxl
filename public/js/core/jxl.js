@@ -21,6 +21,7 @@ var jxl;
 		};
 
 		this.commit = function() {
+			console.log(arguments);
 			if (arguments[0] === 'cellValue') {
 				var book = arguments[1];
 				var sheet = arguments[2];
@@ -28,6 +29,13 @@ var jxl;
 				var col = arguments[4];
 				var value = arguments[5];
 				workbooks[book].getWorksheet(sheet).getCellModel(row, col).setValue(value);
+			} else if (arguments[0] === 'cellFormula') {
+				var book = arguments[1];
+				var sheet = arguments[2];
+				var row = arguments[3];
+				var col = arguments[4];
+				var value = arguments[5];
+				workbooks[book].getWorksheet(sheet).getCellModel(row, col).setFormula(value);
 			}
 		};
 	}

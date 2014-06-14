@@ -18,7 +18,7 @@ function TextEditor(element) {
 
 		var parts = this.highlighter(text);
 
-		if (typeof parts === 'string') {
+		if (Object.prototype.toString.call(parts) !== '[object Array]') {
 			parts = [parts];
 		}
 
@@ -83,13 +83,14 @@ function TextEditor(element) {
 		$('<span class="char">'+char+'</span>').insertBefore($(element).find('span.cursor'));
 	};
 
-	this.activate = function(setActiveSelector) {
+	this.activate = function(setActiveSelector, value) {
 		active = true;
 		this._previousContent = element.innerHTML;
 
-		var html = element.innerHTML;
-		if ($(html).find('span.virtual.char.cursor').length === 0) {
-			html += '<span class="virtual char cursor">&nbsp;&nbsp;</span>';
+		var html = value === undefined ? element.innerHTML : this.highlight(value);
+		var root = '<div>' + html + '</div>';
+		if ($(root).find('span.virtual.char.cursor').length === 0) {
+			html = html + '<span class="virtual char cursor">&nbsp;&nbsp;</span>';
 		}
 		element.innerHTML = html;
 
@@ -132,20 +133,68 @@ function TextEditor(element) {
 		return active;
 	};
 
+	this.charBeforeCursor = function() {
+		var cursor = $(element).find('span.cursor');
+		var p = cursor.prev();
+
+		if (p.length === 0) {
+			p = cursor.closest('span.highlight').prev();
+		}
+
+		if (p.hasClass('char')) {
+			return p;
+		} else if (p.hasClass('highlight')) {
+			var maybe = p.find('span.char:last');
+			if (maybe.length === 1) {
+				return maybe;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
+	};
+
+	this.charAfterCursor = function() {
+		var cursor = $(element).find('span.cursor');
+		var p = cursor.next();
+
+		if (p.length === 0) {
+			p = cursor.closest('span.highlight').next();
+		}
+
+		if (p.hasClass('char')) {
+			return p;
+		} else if (p.hasClass('highlight')) {
+			var maybe = p.find('span.char:first');
+			if (maybe.length === 1) {
+				return maybe;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
+	};
+
 	this.backspace = function() {
 		$(element).find('span.cursor').prev('span.char').remove();
 		this.changed();
 	};
 
 	this.moveLeft = function() {
-		var cursor = $(element).find('span.cursor');
-		cursor.removeClass('cursor');
-		cursor.prev('span.char').addClass('cursor');
+		var c = this.charBeforeCursor();
+		if (c) {
+			$(element).find('span.cursor').removeClass('cursor');
+			c.addClass('cursor');
+		}
 	};
 
 	this.moveRight = function() {
-		var cursor = $(element).find('span.cursor');
-		cursor.removeClass('cursor');
-		cursor.next('span.char').addClass('cursor');
+		var c = this.charAfterCursor();
+		if (c) {
+			$(element).find('span.cursor').removeClass('cursor');
+			c.addClass('cursor');
+		}
 	};
 }

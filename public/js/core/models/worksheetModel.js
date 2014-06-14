@@ -1,10 +1,10 @@
 function WorksheetModel(data) {
 	var table;
-	var workbookModel;
-	var cells = {};
 	var worksheetId;
-	var focusedCell, focusedCellRow, focusedCellCol;
-	var formulaCell, formulaCellRow, formulaCellCol;
+	var workbookModel;
+	var cells = {}, specialCells = {};
+
+
 
 	this.activate = function() {
 		table.willUpdateDisplay();
@@ -39,19 +39,19 @@ function WorksheetModel(data) {
 		for (var col = 0; col < cellElements.length; col++) {
 			cells[row][col] = cellElements[col];
 
-			if (row != focusedCellRow || row != formulaCellRow || col != formulaCellCol || col || focusedCellCol ) {
+			var update = true;
+			for (var c in specialCells) {
+				var cell = specialCells[c];
+				if (row == cell.row && col == cell.col)
+				{
+					update = false;
+					$(cells[row][col]).replaceWith(cell);
+					cells[row][col] = cell;
+				}
+			}
+			if (update) {
 				this.updateCellFromModel(row, col);
 			}
-		}
-
-		if (focusedCell && row == focusedCellRow) {
-			$(cells[row][focusedCellCol]).replaceWith(focusedCell);
-			cells[row][focusedCellCol] = focusedCell.get(0);
-		}
-
-		if (formulaCell && row == formulaCellRow) {
-			$(cells[row][formulaCellCol]).replaceWith(formulaCell);
-			cells[row][formulaCellCol] = formulaCell.get(0);
 		}
 	};
 
@@ -66,12 +66,22 @@ function WorksheetModel(data) {
 		}
 	};
 
+	this.getCellModel = function(row, col) {
+		if (!data.cells[row]) {
+			data.cells[row] = {};
+		}
+		if (!data.cells[row][col]) {
+			data.cells[row][col] = {};
+		}
+		return new CellModel(data.cells[row][col]);
+	};
+
 	this.rowDisappeared = function(row, cells) {
 		delete cells[row];
 	};
 
 	this.cellClicked = function(event, row, col) {
-		this.focusCell(row, col);
+		this.userInterestedByCell(row, col);
 	};
 
 	this.lock = function(prop, value) {
@@ -86,154 +96,227 @@ function WorksheetModel(data) {
 		return workbookModel.owns(worksheetId, prop);
 	};
 
-	this.focusCell = function(row, col) {
-		if (focusedCell) {
-			if (focusedCell.get(0) === cells[row][col]) {
-				var te = focusedCell.get(0).textEditor;
-				if (te && !te.isActive() && !formulaCell) {
-					te.activate('div.bigtable-cell');
-					this.checkForFormula();
-				}
-				return;
-			}
-
-			if (focusedCell.get(0).textEditor && !formulaCell) {
-				focusedCell.get(0).textEditor.deactivate();
-			}
-			focusedCell.removeClass('focused');
-		}
-
-
-		focusedCell = $(cells[row][col]);
-		focusedCell.addClass('focused');
-		focusedCellRow = row;
-		focusedCellCol = col;
-		var fc = focusedCell.get(0);
-		if (!fc.textEditor) {
-			fc.textEditor = new CellTextEditor(focusedCell.get(0));
-			fc.textEditor.init();
-		}
-		if (!formulaCell) {
-			fc.textEditor.activate('div.bigtable-cell');
-			fc.textEditor.onchange = this.inputCellChanged.bind(this);
-			this.checkForFormula();
-		}
-	};
-
-	this.checkForFormula = function() {
-		var cell = formulaCell || focusedCell;
-
-		var text = cell.get(0).textEditor.getText();
-		if (text[0] === '=' && !formulaCell) {
-			this.lock('keyboard');
-			formulaCell = focusedCell;
-			formulaCellRow = focusedCellRow;
-			formulaCellCol = focusedCellCol;
-		} else if (text[0] !== '=' && formulaCell) {
-			this.unlock('keyboard');
-			formulaCell = formulaCellRow = formulaCellCol = null;
-		}
-	};
-
-	this.inputCellChanged = function(editor) {
-		this.checkForFormula();
-	};
-
 	this.canStartSelectionAt = function(row, col) {
-		return cells[row][col].textEditor ? !cells[row][col].textEditor.isActive() : true;
+		return !this.isSpecialCell(row, col, 'active');
 	};
 
 	this.commitSelection = function(topRow, topCol, bottomRow, bottomCol) {
-	};
-
-	this.coordsToReference = function(row, col) {
-		return table.getColName(col) + row;
 	};
 
 	this.preselect = function(topRow, topCol, bottomRow, bottomCol) {
 		var tl = this.coordsToReference(topRow, topCol);
 		var br = this.coordsToReference(bottomRow, bottomCol);
 		var ref = tl === br ? tl : tl + ':' + br;
-		if (formulaCell) {
+		/*if (formulaCell) {
 			if (formulaCell.get(0).textEditor.canCompleteRange()) {
 				formulaCell.get(0).textEditor.insertCompletion(ref);
 			}
+		}*/
+	};
+
+	this.coordsToReference = function(row, col) {
+		return table.getColName(col) + row;
+	};
+
+	this.isSpecialCell = function(row, col, what) {
+		if (what) {
+			if (specialCells[what] && specialCells[what].row == row && specialCells[what].col == col) {
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			for (var c in specialCells) {
+				var cell = specialCells[c];
+				if (cell.row == row && cell.col == col) {
+					return c;
+				}
+			}
+			return false;
 		}
 	};
 
-	this.deactivateCell = function(cancel) {
-		var cell = formulaCell || focusedCell;
+	this.setCellSpecial = function(row, col, what) {
+		specialCells[what] = cells[row][col];
+		specialCells[what].row = row;
+		specialCells[what].col = col;
+		return this;
+	};
 
-		cell.get(0).textEditor.deactivate(cancel);
-
-		var row = formulaCell ? formulaCellRow : focusedCellRow;
-		var col = formulaCell ? formulaCellCol : focusedCellCol;
-
-		if (formulaCell) {
-			formulaCell = formulaCellRow = focusedCellCol = 0;
+	this.userInterestedByCell = function(row, col) {
+		if (this.isSpecialCell(row, col, 'focused')) {
+			this.userWantsToActivateCell(row, col);
 		} else {
+			this.focusCell(row, col);
+		}
+	};
 
+	this.userWantsToActivateCell = function(row, col) {
+		if (this.isSpecialCell(row, col, 'active')) {
+			// nothing to do
+		} else if (specialCells.formula) {
+			// nothing to do, formula cell has grabbed focus
+		} else if (!this.owns('keyboard')) {
+			// it is pointless to activate a cell if it cannot be written to
+		} else {
+			if (specialCells.active) {
+				this.deactivateActiveCell(true);
+			}
+			this.activateCell(row, col);
+		}
+	};
+
+	this.deactivateActiveCell = function(commit) {
+		var text = specialCells.active.textEditor.getText();
+		var row = specialCells.active.row, col = specialCells.active.col;
+
+		specialCells.active.textEditor.deactivate(!commit);
+		delete specialCells.active;
+
+		if (commit) {
+			jxl.commit(specialCells.formula ? 'cellFormula' : 'cellValue',
+				workbookModel.getName(),
+				worksheetId, row, col, text
+			);
 		}
 
-		if (!cancel) {
-			jxl.commit(formulaCell ? 'cellFormula' : 'cellValue', workbookModel.getName(), worksheetId, row, col, cell.get(0).textEditor.getText());
+		if (specialCells.formula) {
+
+			this.updateCellFromModel(row, col);
+
+			this.unlock('keyboard');
+			delete specialCells.formula;
+		}
+	};
+
+	this.activateCell = function(row, col, initialText) {
+		var cell = cells[row][col];
+		if (!cell.textEditor) {
+			cell.textEditor = new CellTextEditor(cell);
+		}
+
+		var cm = this.getCellModel(row, col);
+		var f = cm.getFormula();
+
+		if (f) {
+			initialText = "=" + f;
+		}
+
+		cell.textEditor.activate(initialText);
+		cell.textEditor.onchange = this.inputCellChanged.bind(this);
+		this.setCellSpecial(row, col, 'active');
+
+		if (f) {
+			this.lock('keyboard');
+			this.setCellSpecial(row, col, 'formula');
+		} else {
+			this.checkForFormula();
+		}
+
+		return true;
+	};
+
+	this.unfocusFocusedCell = function() {
+		if (specialCells.focused) {
+			$(specialCells.focused).removeClass('focused');
+			delete specialCells.focused;
+		}
+	};
+
+	this.focusCell = function(row, col) {
+		if (specialCells.focused && (specialCells.focused.row != row || specialCells.focused.col != col)) {
+			this.unfocusFocusedCell();
+		}
+
+		if (!specialCells.focused || specialCells.focused.row != row || specialCells.focused.col != col) {
+			$(cells[row][col]).addClass('focused');
+			this.setCellSpecial(row, col, 'focused');
+		}
+	};
+
+	this.inputCellChanged = function(te) {
+		this.checkForFormula();
+	};
+
+	this.checkForFormula = function() {
+		var inputCell = specialCells.active;
+		var text = inputCell.textEditor.getText();
+		if (text[0] === '=') {
+			if (!specialCells.formula) {
+				this.lock('keyboard');
+				this.setCellSpecial(inputCell.row, inputCell.col, 'formula');
+			}
+		} else {
+			if (specialCells.formula) {
+				this.unlock('keyboard');
+				delete specialCells.formula;
+			}
 		}
 	};
 
 	this.keyboardEvent = function(eventType, e) {
-		var textEditor;
+		var inputCell = specialCells.active;
 
-		if (formulaCell) {
-			textEditor = formulaCell.get(0).textEditor;
-		} else if (focusedCell) {
-			textEditor = focusedCell.get(0).textEditor;
+		if (eventType === 'keydown') {
+			if (e.keyCode === 27) { // escape
+				if (specialCells.active) {
+					this.deactivateActiveCell(false);
+					e.preventDefault();
+				}
+			} else if (e.keyCode === 13) { // return
+				if (specialCells.active) {
+					this.deactivateActiveCell(true);
+					e.preventDefault();
+				} else if (specialCells.focused) {
+					this.userInterestedByCell(specialCells.focused.row, specialCells.focused.col);
+					e.preventDefault();
+				}
+			} else if (e.keyCode === 8) { // backspace
+				if (inputCell) {
+					inputCell.textEditor.backspace();
+					e.preventDefault();
+				}
+			} else if (e.keyCode === 37) { // left
+				if (inputCell) {
+					inputCell.textEditor.moveLeft();
+					e.preventDefault();
+				} else if (specialCells.focused) {
+					if (specialCells.focused.col > 0) {
+						this.userInterestedByCell(specialCells.focused.row, specialCells.focused.col - 1);
+						e.preventDefault();
+					}
+				}
+			} else if (e.keyCode === 39) { // right
+				if (inputCell) {
+					inputCell.textEditor.moveRight();
+					e.preventDefault();
+				}else if (specialCells.focused) {
+					this.userInterestedByCell(specialCells.focused.row, specialCells.focused.col + 1);
+					e.preventDefault();
+				}
+			} else if (e.keyCode === 38) { // up
+				if (specialCells.focused.row > 0) {
+					this.userInterestedByCell(specialCells.focused.row - 1, specialCells.focused.col);
+					e.preventDefault();
+				}
+			} else if (e.keyCode === 40) { // down
+				this.userInterestedByCell(specialCells.focused.row + 1, specialCells.focused.col);
+				e.preventDefault();
+			}
 		}
+		else if (eventType === 'keypress') {
+			if (!inputCell && specialCells.focused) {
+				if (this.activateCell(specialCells.focused.row, specialCells.focused.col, '')) {
+					inputCell = specialCells.active;
+				}
+			}
 
-		if (!textEditor.isActive()) {
-			textEditor.activate('div.bigtable-cell');
-		}
-
-		if (textEditor) {
-			if (eventType === 'keydown') {
-				if (e.keyCode === 8) { // backspace
-					textEditor.backspace();
-					e.preventDefault();
-				} else if (e.keyCode === 27) { // escape
-					this.deactivateCell(true);
-					e.preventDefault();
-				} else if (e.keyCode === 13) { // return
-					this.deactivateCell(false);
-					e.preventDefault();
-				}
-				else if (e.keyCode === 32) { // space
-					textEditor.insertChar('&nbsp;');
-					e.preventDefault();
-				}
-				else if (e.keyCode === 37) { // left
-					textEditor.moveLeft();
-					e.preventDefault();
-				}
-				else if (e.keyCode === 39) { // right
-					textEditor.moveRight();
-					e.preventDefault();
-				}
-			} else if (eventType === 'keypress') {
+			if (inputCell) {
 				if (e.which !== 0) {
 					var text = String.fromCharCode(e.which);
-					textEditor.insert(text);
+					inputCell.textEditor.insert(text);
 				}
 			}
 		}
 	};
-
-	this.getCellModel = function(row, col) {
-		if (!data.cells[row]) {
-			data.cells[row] = {};
-		}
-		if (!data.cells[row][col]) {
-			data.cells[row][col] = {};
-		}
-		return new CellModel(data.cells[row][col]);
-	};
-
 }

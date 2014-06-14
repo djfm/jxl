@@ -56,10 +56,15 @@ div.bigtable-cell.active div.inner {
 	border-bottom: 1px solid #ccc;
 }
 
-div.bigtable-cell div.inner > span.char {
+div.bigtable-cell div.inner span.char {
 	border-left: 1px solid rgba(0,0,0,0);
 }
 
-div.bigtable-cell.active div.inner > span.cursor {
+div.bigtable-cell.active div.inner span.cursor {
 	border-left: 1px solid blue;
+}
+
+span.highlight.number {
+	color: #005;
+	font-style: italic;
 }
