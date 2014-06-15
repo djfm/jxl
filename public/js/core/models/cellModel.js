@@ -5,6 +5,7 @@ function CellModel(data) {
 
 	this.setValue = function(value) {
 		data.value = value;
+		delete data.formula;
 		return this;
 	};
 

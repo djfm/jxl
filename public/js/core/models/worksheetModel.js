@@ -195,8 +195,11 @@ function WorksheetModel(data) {
 			cell.textEditor = new CellTextEditor(cell);
 		}
 
-		var cm = this.getCellModel(row, col);
-		var f = cm.getFormula();
+		var f;
+
+		if (initialText === undefined) {
+			f = this.getCellModel(row, col).getFormula();
+		}
 
 		if (f) {
 			initialText = "=" + f;
