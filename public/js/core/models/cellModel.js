@@ -1,4 +1,4 @@
-function CellModel(data) {
+function CellModel(workbookName, worksheetId, row, col, data) {
 	this.getValue = function() {
 		return data.value;
 	};
@@ -12,7 +12,7 @@ function CellModel(data) {
 	this.setFormula = function(value) {
 		var f = value.substring(1);
 		data.formula = f;
-		data.value = 'NIY';
+		data.value = jxl.evaluate(workbookName, worksheetId, row, col, f);
 	};
 
 	this.getFormula = function() {

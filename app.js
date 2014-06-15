@@ -4,8 +4,7 @@ var app = express();
 var csv = require('csv');
 var CSVParse = csv.parse;
 
-var test = require('./test/formula-parser.js');
-console.log(test);
+require('./test/formula-parser.js');
 
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');

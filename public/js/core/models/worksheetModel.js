@@ -4,8 +4,6 @@ function WorksheetModel(data) {
 	var workbookModel;
 	var cells = {}, specialCells = {};
 
-
-
 	this.activate = function() {
 		table.willUpdateDisplay();
 	};
@@ -29,6 +27,26 @@ function WorksheetModel(data) {
 	this.setWorksheetId = function(id) {
 		worksheetId = id;
 		return this;
+	};
+
+	this.colNameToNumber = function(col) {
+		var base = 1;
+		var n = 0;
+		for (var i = 0; i < col.length; i++) {
+			var d = col[col.length - 1 - i].charCodeAt(0) - 'A'.charCodeAt(0);
+			n += base * d;
+			base *= 26;
+		}
+		return n;
+	};
+
+	this.getValueForReference = function(ref) {
+		var bits = ref.replace(/\$/g, '').match(/([A-Z]+)(\d*)(?::([A-Z]+)(\d*))?/);
+
+		var topRow = parseInt(bits[2]);
+		var topCol = this.colNameToNumber(bits[1]);
+
+		return data.cells[topRow][topCol].value;
 	};
 
 	this.rowRendered = function(row, cellElements) {
@@ -61,8 +79,10 @@ function WorksheetModel(data) {
 		var cell = cells[row][col];
 		var $cell = $(cell);
 		if (value) {
-			cell.textEditor = new CellTextEditor(cell);
-			cell.textEditor.init(value);
+			if (!cell.textEditor) {
+				cell.textEditor = new CellTextEditor(cell);
+			}
+			cell.textEditor.init(value.toString());
 		}
 	};
 
@@ -73,7 +93,7 @@ function WorksheetModel(data) {
 		if (!data.cells[row][col]) {
 			data.cells[row][col] = {};
 		}
-		return new CellModel(data.cells[row][col]);
+		return new CellModel(workbookModel.getName(), worksheetId, row, col, data.cells[row][col]);
 	};
 
 	this.rowDisappeared = function(row, cells) {
@@ -107,11 +127,9 @@ function WorksheetModel(data) {
 		var tl = this.coordsToReference(topRow, topCol);
 		var br = this.coordsToReference(bottomRow, bottomCol);
 		var ref = tl === br ? tl : tl + ':' + br;
-		/*if (formulaCell) {
-			if (formulaCell.get(0).textEditor.canCompleteRange()) {
-				formulaCell.get(0).textEditor.insertCompletion(ref);
-			}
-		}*/
+		if (specialCells.formula) {
+			specialCells.formula.textEditor.insertCompletion(ref);
+		}
 	};
 
 	this.coordsToReference = function(row, col) {

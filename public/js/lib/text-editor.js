@@ -49,6 +49,7 @@ function TextEditor(element) {
 	};
 
 	this.changed = function() {
+		$(element).find('span.completion').removeClass('completion');
 		if (this.onchange) {
 			this.onchange(this);
 		}
@@ -64,7 +65,15 @@ function TextEditor(element) {
 	};
 
 	this.insertCompletion = function(text) {
-		console.log(text);
+		var cursor = $(element).find('span.cursor');
+		if (cursor.closest('span.highlight').length === 0) {
+			$(element).find('span.completion').remove();
+			var hl = this.highlight({
+				klass: 'completion',
+				string: text
+			});
+			$(hl).insertBefore(cursor);
+		}
 	};
 
 	this.getText = function() {
@@ -178,7 +187,10 @@ function TextEditor(element) {
 	};
 
 	this.backspace = function() {
-		$(element).find('span.cursor').prev('span.char').remove();
+		cbc = this.charBeforeCursor();
+		if (cbc) {
+			cbc.remove();
+		}
 		this.changed();
 	};
 

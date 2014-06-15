@@ -61,15 +61,15 @@ var ok = true;
 
 try {
 	for (var t in tokenizerTests) {
-		assert.deepEqual(fp.tokenize(t), tokenizerTests[t], 'tokenizer fails on: ' + t);
+		assert.deepEqual(fp.tokenize(t), tokenizerTests[t], 'formula tokenizer fails on: ' + t);
 	}
 
 	for (var p in parserTests) {
-		assert.deepEqual(fp.parse(p), parserTests[p], 'parser fails on: ' + p);
+		assert.deepEqual(fp.parse(p), parserTests[p], 'formula parser fails on: ' + p);
 	}
 } catch (e) {
-	console.log(e);
 	ok = false;
+	throw e;
 }
 
 module.exports = ok;
