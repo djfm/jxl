@@ -32,7 +32,7 @@ div.worksheet-handle:not(:first-child) {
 }
 
 div.bigtable-cell.focused {
-	background-color: rgba(0,0,255,0.04);
+	background-color: rgba(0,0,255,0.12);
 	overflow: visible;
 	white-space: nowrap;
 }

@@ -100,4 +100,26 @@ $(document).ready(function(){
 	jxl.registerFunction('/', 2, function(a, b) {
 		return parseFloat(a) / parseFloat(b);
 	});
+
+	function sum(v) {
+		if (typeof v === 'number') {
+			return v;
+		} else if (typeof v === 'undefined') {
+			return 0;
+		} else if (v === null) {
+			return 0;
+		} else if (Object.prototype.toString.call(v) === '[object Array]' || Object.prototype.toString.call(v) === '[object Arguments]') {
+			var s = 0;
+			for (var i = 0; i < v.length; i++) {
+				s += sum(v[i]);
+			}
+			return s;
+		} else {
+			return parseFloat(v);
+		}
+	}
+
+	jxl.registerFunction('sum', null, function() {
+		return sum(arguments);
+	});
 });

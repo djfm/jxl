@@ -46,7 +46,28 @@ function WorksheetModel(data) {
 		var topRow = parseInt(bits[2]);
 		var topCol = this.colNameToNumber(bits[1]);
 
-		return data.cells[topRow][topCol].value;
+		if (bits[3] && bits[4]) {
+			var bottomRow = parseInt(bits[4]);
+			var bottomCol = this.colNameToNumber(bits[3]);
+
+			var rows = [];
+
+			for (var r = topRow; r <= bottomRow; r++) {
+				var range = [];
+				for (var c = topCol; c <= bottomCol; c++) {
+					if (data.cells[r]) {
+						range.push(data.cells[r][c].value);
+					} else {
+						range.push(null);
+					}
+				}
+				rows.push(range);
+			}
+
+			return rows;
+		} else {
+			return data.cells[topRow][topCol].value;
+		}
 	};
 
 	this.rowRendered = function(row, cellElements) {
